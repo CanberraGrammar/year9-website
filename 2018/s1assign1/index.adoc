@@ -108,8 +108,6 @@ INSIDE AMAZON GO IMAGE 2[6]
 
 INSIDE AMAZON GO IMAGE 3[7]
 
-INSIDE AMAZON GO IMAGE 4[8]
-
 References (Heading Two)
 This page has used material from:
 
@@ -118,7 +116,7 @@ https://en.wikipedia.org/wiki/Amazon_Go
 https://www.pocket-lint.com/phones/news/amazon/139650-what-is-amazon-go-where-is-it-and-how-does-it-work
 https://www.youtube.com/watch?v=NrmMk1Myrxc
 
-That's the end of the page (well, almost). Don't forget: this page must validate as XHTML 1.0 Strict[9].
+That's the end of the page (well, almost). Don't forget: this page must validate as XHTML 1.0 Strict[8].
 
 Copyright [copyright symbol] 2018. My Website Rules Pty Ltd.
 
@@ -129,8 +127,7 @@ Copyright [copyright symbol] 2018. My Website Rules Pty Ltd.
 [5] Image source: https://raw.githubusercontent.com/CanberraGrammar/year9-website/master/2018/s1assign1/inside-amazon-go-1.jpg
 [6] Image source: https://raw.githubusercontent.com/CanberraGrammar/year9-website/master/2018/s1assign1/inside-amazon-go-2.jpg
 [7] Image source: https://raw.githubusercontent.com/CanberraGrammar/year9-website/master/2018/s1assign1/inside-amazon-go-3.jpg
-[8] Image source: https://raw.githubusercontent.com/CanberraGrammar/year9-website/master/2018/s1assign1/inside-amazon-go-4.jpg
-[9] Text link: http://validator.w3.org
+[8] Text link: http://validator.w3.org
 ....
 
 [#_getting_started]
