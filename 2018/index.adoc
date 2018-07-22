@@ -24,6 +24,10 @@ emma-jane.nagy@cgs.act.edu.au
 * http://cgs.ist/0902[IT0902 Google Doc^]
 * http://cgs.ist/0903[IT0903 Google Doc^]
 
+==== Activities (Semester Two) ====
+
+* <<s2activities/loop_activities/index.adoc#, Loop Activities>>
+
 ==== Activities (Semester One) ====
 
 * <<s1activities/activity1/index.adoc#, Activity 1: Shakespeare's Sonnet>>
@@ -34,34 +38,6 @@ emma-jane.nagy@cgs.act.edu.au
 * <<s1activities/challenge/index.adoc#, Challenge Activities>>
 
 ==== Assessment Tasks
-
-===== Semester One
-
-[cols="5,4,5,1"]
-|===
-
-^|*Task*
-^|*Published*
-^|*Due*
-^|*Weight*
-
-{set:cellbgcolor:white}
-.^|*<<s1assign1/index.adoc#, Assignment: HTML Page Coding>>*
-.^|Monday 19 February 2018 (Week 3)
-.^|Tuesday 3 April 2018 (Week 9) by 8:45am
-^.^|25%
-
-.^|*<<s1assign2/index.adoc#, Assignment: Website Group Project>>*
-.^|Monday 2 April 2018 (Week 9)
-.^|Thursday 24 May 2018 (Week 14) by 8:45am
-^.^|40%
-
-.^|*<<s1commontest/index.adoc#, Common Test: HTML and CSS Common Test>>*
-.^|Tuesday 8 May 2018 (Week 12)
-.^|Wednesday 13 June 2018 (Week 17)
-^.^|35%
-
-|===
 
 ===== Semester Two
 
@@ -94,5 +70,33 @@ emma-jane.nagy@cgs.act.edu.au
 .^|Monday 17 September 2018 (Week 9)
 .^|Monday 5 November 2018 (Week 14) by 8:45am
 ^.^|50%
+
+|===
+
+===== Semester One
+
+[cols="5,4,5,1"]
+|===
+
+^|*Task*
+^|*Published*
+^|*Due*
+^|*Weight*
+
+{set:cellbgcolor:white}
+.^|*<<s1assign1/index.adoc#, Assignment: HTML Page Coding>>*
+.^|Monday 19 February 2018 (Week 3)
+.^|Tuesday 3 April 2018 (Week 9) by 8:45am
+^.^|25%
+
+.^|*<<s1assign2/index.adoc#, Assignment: Website Group Project>>*
+.^|Monday 2 April 2018 (Week 9)
+.^|Thursday 24 May 2018 (Week 14) by 8:45am
+^.^|40%
+
+.^|*<<s1commontest/index.adoc#, Common Test: HTML and CSS Common Test>>*
+.^|Tuesday 8 May 2018 (Week 12)
+.^|Wednesday 13 June 2018 (Week 17)
+^.^|35%
 
 |===
