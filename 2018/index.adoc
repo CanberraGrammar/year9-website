@@ -28,6 +28,7 @@ emma-jane.nagy@cgs.act.edu.au
 
 * <<s2activities/loop_activities/index.adoc#, Loop Activities>>
 * <<s2activities/if_activities/index.adoc#, If Activities>>
+* <<s2activities/basic_programming_activities/index.adoc#, Basic Programming Activities>>
 
 ==== Activities (Semester One) ====
 
