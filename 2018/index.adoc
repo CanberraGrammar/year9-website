@@ -24,6 +24,11 @@ emma-jane.nagy@cgs.act.edu.au
 * http://cgs.ist/0902[IT0902 Google Doc^]
 * http://cgs.ist/0903[IT0903 Google Doc^]
 
+==== Tutorial Sessions
+
+* Monday 3:30pm to 5pm, SC304
+* Wednesday Lunchtime, SC303
+
 ==== Activities (Semester Two) ====
 
 * <<s2activities/loop_activities/index.adoc#, Loop Activities>>
