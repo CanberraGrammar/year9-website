@@ -1,0 +1,45 @@
+:page-layout: standard
+:page-title: Year 9 IST - Array Activities
+:icons: font
+
+= Year 9 IST - Array Activities =
+
+== Instructions ==
+
+All these tasks should be completed in separate HTML files in your `Array Activities` ED STEM workspace. Name each file `activityX.html` (e.g. activity1.html, activity2.html, etc.).
+
+== Task One (a) ==
+
+Create a program that stores the following numbers in an array: 5, 8, 12, 25, 30, 36, 40, 45, 50.
+
+Loop through the array and display if each number is even or odd.
+
+It should look like:
+
+5 is odd.
+
+8 is even.
+
+etc.
+
+== Task One (b) ==
+
+Copy and modify the above program so that it displays odd and even numbers, using one line for each.
+
+It should look like:
+
+Odd numbers: 5, 25, 45
+
+Even numbers: 8, 12, 30, etc.
+
+== Task Two ==
+
+Create a program that stores 5 names in an array, and their 5 favourite foods in a second array.
+
+Display what each person's favourite food is.
+
+It should look like:
+
+Mr Pham likes to eat baked potato. (If name is "Mr Pham" and favourite food is "baked potato")
+
+etc.
