@@ -43,3 +43,29 @@ It should look like:
 Mr Pham likes to eat baked potato. (If name is "Mr Pham" and favourite food is "baked potato")
 
 etc.
+
+== Task Three (a) ==
+
+Create a program that stores an array of 6 random numbers between 1 and 10.
+
+Calculate the total of all the numbers.
+
+Prompt the user to guess the total, and compare this to your answer.
+
+Alert the user to tell them if their answer was correct or incorrect.
+
+== Task Three (b) ==
+
+Modify the program so that it also calculates the mode and the mean.
+
+For the mode:
+
+- If all numbers are different, than the correct answer for the mode should be "None".
+
+- If there is more than one mode, if the user types in any of them, it should tell them they are correct. As a bonus, you can also list the other modes.
+
+For the mean:
+
+- If the average results in a decimal number, this should be rounded off to 2 decimal places (if required).
+
+- The user needs to guess correct to 2 decimal places (if required).
