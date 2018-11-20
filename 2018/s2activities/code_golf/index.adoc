@@ -147,7 +147,7 @@ To calculate the score for Code Golf, `s` should be set to `how many words are i
 
 You should display the result in this format:
 
-"There are 7 words in this string." 7
+`There are 7 words in this string.`
 
 == Task Two ==
 
