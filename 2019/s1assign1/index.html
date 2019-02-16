@@ -652,95 +652,292 @@ table span.outcomes {
 	font-size: 11px;
 }
         </style>
-        <title>Year 9 IT - Web &amp; Mobile App Development 2019</title>
+        <title>Year 9 IST - Assignment One</title>
     </head>
-    <body>
-        <a href="https://github.com/CanberraGrammar/year9-website" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+    <body class="toc2 toc-left">
+        <div id="header">
+            <div class="toc2" id="toc">
+                <div id="toctitle">Table of Contents</div>
+                <ul class="sectlevel1">
+<li><a href="#changelog">Changelog</a></li>
+<li><a href="#task-context">Task Context</a>
+<ul class="sectlevel2">
+<li><a href="#marking-guidelines">Marking guidelines</a></li>
+<li><a href="#outcomes-assessment-criteria">Outcomes/Assessment Criteria</a></li>
+</ul>
+</li>
+<li><a href="#task-requirements">Task Requirements</a>
+<ul class="sectlevel2">
+<li><a href="#linux-commands-cheat-sheet">Linux Commands Cheat Sheet</a></li>
+<li><a href="#vim-cheat-sheet">vim Cheat Sheet</a></li>
+<li><a href="#es6-cheat-sheet">ES6 Cheat Sheet</a></li>
+</ul>
+</li>
+<li><a href="#submission-instructions">Submission Instructions</a>
+<ul class="sectlevel2">
+<li><a href="#draft-submissions">Draft submissions</a></li>
+<li><a href="#_marking_guidelines">Marking Guidelines</a></li>
+<li><a href="#all-my-own-work">All My Own Work</a></li>
+</ul>
+</li>
+</ul>
+            </div>
+        </div>
         <div id="content">
-            <h1>Year 9 IT - Web &amp; Mobile App Development 2019</h1>
-<div class="sect3">
-<h4 id="canberra-grammar-school"><a class="link" href="#canberra-grammar-school">Canberra Grammar School</a></h4>
+            <h1>Year 9 IST - Assignment One</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>Mr Matthew Purcell<br>
-<a href="mailto:matthew.purcell@cgs.act.edu.au">matthew.purcell@cgs.act.edu.au</a></p>
+<p><strong>Weight:</strong> 25%<br>
+<strong>Due:</strong> Monday 18 March 2019 (Week 7) by 8:45am</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="changelog"><a class="link" href="#changelog">Changelog</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This assignment was last updated on <strong>Saturday 16 February 2019</strong>.</p>
 </div>
 <div class="paragraph">
-<p>Mr Michael Zampogna<br>
-<a href="mailto:michael.zampogna@cgs.act.edu.au">michael.zampogna@cgs.act.edu.au</a></p>
+<p>If any changes are made to the assignment they will be itemised here for ease of identification.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="course-documents"><a class="link" href="#course-documents">Course Documents</a></h4>
+</div>
+<div class="sect1">
+<h2 id="task-context"><a class="link" href="#task-context">Task Context</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This assignment will consolidate your knowledge of the core skills needed for the IT course this year, namely: Linux command line, using the vim editor, and common ES6 JavaScript syntax.</p>
+</div>
+<div class="sect2">
+<h3 id="marking-guidelines"><a class="link" href="#marking-guidelines">Marking guidelines</a></h3>
+<div class="paragraph">
+<p>Make sure that you consult the <a href="#_marking_guidelines">marking guidelines</a> at the end of this document to ensure that your submission meets all the requirements. This specifically specifies what you need to do in order to gain every mark for this task.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="outcomes-assessment-criteria"><a class="link" href="#outcomes-assessment-criteria">Outcomes/Assessment Criteria</a></h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Need help? Visit the <a href="https://edstem.org/courses/3175/discussion" target="_blank">class forum</a> on ED STEM.</p>
+<p><strong>ACTDIK035</strong>: Analyse simple compression of data and how content data are separated from presentation.</p>
 </li>
 <li>
-<p>You can also attend IT tutorials each Monday from 3:30pm - 5:00pm in SC304.</p>
+<p><strong>ACTDIP037:</strong> Analyse and visualise data to create information and address complex problems, and model processes, entities and their relationships using structured data.</p>
 </li>
 <li>
-<p><a href="course_overview/course_overview.html">Course Outline</a></p>
+<p><strong>ACTDIP040:</strong> Design algorithms represented diagrammatically and in structured English and validate algorithms and programs through tracing and test cases.</p>
+</li>
+<li>
+<p><strong>ACTDIP041:</strong> Implement modular programs, applying selected algorithms and data structures including using an object-oriented programming language.</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="lesson-summaries"><a class="link" href="#lesson-summaries">Lesson Summaries</a></h4>
+</div>
+</div>
+<div class="sect1">
+<h2 id="task-requirements"><a class="link" href="#task-requirements">Task Requirements</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Unlike other tasks, this assignment does not require any programming. Instead, you are going to be producing three cheatsheets / reference cards for common Linux commands, vim commands, and ES6 syntax. This will enable you to have ready-made reference material when completing the more advanced work throughout the course.</p>
+</div>
+<div class="paragraph">
+<p>While this is not an exercise in graphic design, they do need to be neatly designed (more so than the Linux command summary sheets you completed in the rather bland Google Doc). Here are some examples of nicely presented cheat sheets:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="http://cgs.ist/0901" target="_blank">IT0901 Google Doc</a></p>
+<p><strong>Python 3 Syntax:</strong> <a href="https://groklearning-cdn.com/resources/cheatsheet-python-1.pdf" target="_blank">https://groklearning-cdn.com/resources/cheatsheet-python-1.pdf</a></p>
 </li>
 <li>
-<p><a href="http://cgs.ist/0902" target="_blank">IT0902 Google Doc</a></p>
+<p><strong>Excel VLOOKUP:</strong> <a href="https://download.microsoft.com/download/9/b/4/9b49c8c5-d7a9-45b1-b8b6-52067e9970a8/AF101984660_en-us_xl_qrc_vlookup%20refresher.pdf" target="_blank">https://download.microsoft.com/download/9/b/4/9b49c8c5-d7a9-45b1-b8b6-52067e9970a8/AF101984660_en-us_xl_qrc_vlookup%20refresher.pdf</a></p>
 </li>
 <li>
-<p><a href="http://cgs.ist/0903" target="_blank">IT0903 Google Doc</a></p>
+<p><strong>String Manipulation in RStudio:</strong> <a href="https://github.com/rstudio/cheatsheets/raw/master/strings.pdf" target="_blank">https://github.com/rstudio/cheatsheets/raw/master/strings.pdf</a></p>
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>You must create your cheat sheets in either Google Docs or Google Slides (whichever is easier for you to achieve the desired design). Each sheet can be no larger than a single-sided A4 page.</p>
 </div>
-<div class="sect3">
-<h4 id="assessment-schedule"><a class="link" href="#assessment-schedule">Assessment Schedule</a></h4>
-<div class="sect4">
-<h5 id="semester-one"><a class="link" href="#semester-one">Semester One</a></h5>
+<div class="paragraph">
+<p>Note, below lists the minimum requirements. if you are aiming for a mark in the highest mark range you need to go above and beyond these requirements.</p>
+</div>
+<div class="sect2">
+<h3 id="linux-commands-cheat-sheet"><a class="link" href="#linux-commands-cheat-sheet">Linux Commands Cheat Sheet</a></h3>
+<div class="paragraph">
+<p>Much of this has already been done as part of your Linux command summary sheets - but you will need to include more detail and examples. At the minimum, you should include the following commands on your cheat sheet:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>pwd
+cd
+ls
+touch
+file
+cat
+less
+more
+history
+cp
+mv
+mkdir
+rm
+find
+help
+man
+whatis
+alias
+exit
+grep
+chmod
+ssh</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Be sure to also include common flags/switches you might use on these commands. For example, the <code>-l</code> or <code>-a</code> flags on the <code>ls</code> command.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="vim-cheat-sheet"><a class="link" href="#vim-cheat-sheet">vim Cheat Sheet</a></h3>
+<div class="paragraph">
+<p>vim is arguably one of the more nebulous things for a novice to learn. Your cheat sheet should provide a summary of the different modes found in vim, how to switch between the modes, and how to operate in the modes.</p>
+</div>
+<div class="paragraph">
+<p>For example, explanation and examples of how to operate in INSERT mode in order to edit text. Likewise, explanation and examples of common commands which you may find yourself using when in NORMAL (command) mode.</p>
+</div>
+<div class="paragraph">
+<p>When you are using vim throughout this year it is expected that you have this cheat sheet beside you, so you should put whatever you feel necessary to help you on the sheet.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="es6-cheat-sheet"><a class="link" href="#es6-cheat-sheet">ES6 Cheat Sheet</a></h3>
+<div class="paragraph">
+<p>Your ES6 cheat sheet should provide a mapping from the pre-ES6 syntax you learned last year to the modern ES6 syntax - essentially allowing you to take what you already know and translate it across to ES6.</p>
+</div>
+<div class="paragraph">
+<p>At the very least, your cheat sheet needs to include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Promises</p>
+</li>
+<li>
+<p>Async/await</p>
+</li>
+<li>
+<p>Arrow functions</p>
+</li>
+<li>
+<p>Template literals (backticks)</p>
+</li>
+<li>
+<p>Destructuring assignment</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Some of the above will be difficult to do a direct mapping (e.g. promises) so in that situation you can provide an explanation and examples of usage rather than a mapping from old syntax to ES6 syntax.</p>
+</div>
+<div class="paragraph">
+<p>You are also welcome to include other syntax which you encounter as you start programming in Node.JS.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="submission-instructions"><a class="link" href="#submission-instructions">Submission Instructions</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This assignment is worth 25% of your Semester One assessment for this subject.</p>
+</div>
+<div class="paragraph">
+<p>To submit your assignment create a folder within Google Drive containing your three cheat sheet files. Then, share the folder (with edit access) to your teacher. We suggest that you do this well before the due date, so you do not forget.</p>
+</div>
+<div class="paragraph">
+<p>Be sure not to modify the files after the due date/time - we will be actively checking and any modifications made after will be disregarded.</p>
+</div>
+<div class="paragraph">
+<p><strong>Late submissions will incur penalties as per the school assessment policy:</strong> For assignments and non-test events a late work penalty of 10% of the total possible mark will be incurred for each day late if work is not submitted on the due date.  A loss of 30% is incurred if work due on a Friday is not submitted until the following Monday. After one week (7 days) the item will be awarded a mark of zero.</p>
+</div>
+<div class="sect2">
+<h3 id="draft-submissions"><a class="link" href="#draft-submissions">Draft submissions</a></h3>
+<div class="paragraph">
+<p>You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Monday 11 March 2019). To submit a draft email your teacher and let them know your files are ready to be reviewed.</p>
+</div>
+<div class="paragraph">
+<p>You are also welcome to ask your teacher as you are working on the assignment whether it&#8217;s on the right track with the correct level of detail.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_marking_guidelines"><a class="link" href="#_marking_guidelines">Marking Guidelines</a></h3>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 26.6666%;">
-<col style="width: 33.3333%;">
-<col style="width: 6.6668%;">
+<col style="width: 88.8888%;">
+<col style="width: 11.1112%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Task</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Published</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Due</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Weight</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Criteria</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Mark Range</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s1assign1/index.html">Assignment: Intro to Linux, Vim, and ES6</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 18 February 2019 (Week 3)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 18 March 2019 (Week 7) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">25%</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Submissions in this mark range will:</strong>
+</p><p class="tableblock">• include three comprehensive cheat sheets.
+</p><p class="tableblock">• all three cheat sheets cover the required material in sufficient detail.
+</p><p class="tableblock">• include additional information (such as commands, syntax, etc), beyond that required in the task specifications, based upon the student&#8217;s own experience which they would find useful.
+</p><p class="tableblock"><strong>In addition, submissions in this mark range will be:</strong>
+</p><p class="tableblock">• well-designed, with good and effective use of space available on the page.
+</p><p class="tableblock">• aesthetically pleasing, with appropriate use of graphics and layout techniques.
+</p><p class="tableblock">• readable and easily understandable.
+</p><p class="tableblock">• free of spelling and grammar errors.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">25 - 23</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Assignment: Node.JS App Development</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 25 March 2019 (Week 8)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Tuesday 20 May 2019 (Week 14) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">40%</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Submissions in this mark range will:</strong>
+</p><p class="tableblock">• include three well-written cheat sheets.
+</p><p class="tableblock">• most of the cheat sheets cover the required material in sufficient detail, with some minor exceptions.
+</p><p class="tableblock"><strong>In addition, submissions in this mark range will be:</strong>
+</p><p class="tableblock">• well-designed, with good and effective use of space available on the page.
+</p><p class="tableblock">• aesthetically pleasing, with appropriate use of graphics and layout techniques.
+</p><p class="tableblock">• readable and easily understandable.
+</p><p class="tableblock">• mostly free of spelling and grammar errors.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">22 - 15</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Common Test: Node.JS Common Test</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Tuesday 7 May 2019 (Week 12)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Wednesday 12 June 2019 (Week 17)</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">35%</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Submissions in this mark range will:</strong>
+</p><p class="tableblock">• include at least two cheat sheets.
+</p><p class="tableblock">• at least one of the cheat sheets cover the required material in sufficient detail.
+</p><p class="tableblock"><strong>In addition, submissions in this mark range will be:</strong>
+</p><p class="tableblock">• reasonably well-designed, with evidence of effective use of space available on the page.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">14 - 8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">• A non-serious attempt at the task with some reference to the requirements.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">1 - 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">• A completely non-serious attempt at the task.
+</p><p class="tableblock">OR
+</p><p class="tableblock">• A submission that is plagiarised.
+</p><p class="tableblock">OR
+</p><p class="tableblock">• A submission that uses Comic Sans MS (or variants thereof).</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">0</p></td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="sect2">
+<h3 id="all-my-own-work"><a class="link" href="#all-my-own-work">All My Own Work</a></h3>
 <div class="paragraph">
-<p><a href="semester_one_2019.html">Semester One &mdash; Full Unit Information and Assessment Schedule</a></p>
+<p>Please note that any submitted work is to be your own. There are serious consequences for submitting work which is taken from another person, even if they give it to you voluntarily. To decide if you have written the material, we may need to question you about your understanding of the topic. Please be careful when presenting ideas which are not entirely your own; reference such material thoroughly.</p>
+</div>
+<div class="paragraph">
+<p>For more specific examples, see the <a href="course_overview/course_overview.html#academic-honesty">Academic Honesty</a> section of the Course Outline.</p>
+</div>
 </div>
 </div>
 </div>
