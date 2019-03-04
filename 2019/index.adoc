@@ -26,6 +26,15 @@ michael.zampogna@cgs.act.edu.au
 * http://cgs.ist/0902[IT0902 Google Doc^]
 * http://cgs.ist/0903[IT0903 Google Doc^]
 
+==== Tutorial Sessions
+
+* Monday 3:30pm to 5pm, SC304
+* Wednesday Lunchtime, SC303
+
+==== Activities (Semester One) ====
+
+* <<s1activities/es6_activities/index.adoc#, ES6 Activities>>
+
 ==== Assessment Schedule
 
 ===== Semester One
