@@ -41,7 +41,7 @@ You need to use template literals and an arrow function.
 
 == Task Three ==
 
-Write a function which determines whether a given number, specified in an input parameter, is a even or odd number. The function should then return `true` or `false`.
+Write a function which determines whether a given number, specified in an input parameter, is a even or odd number. The function should then return `true` if the number is even, or `false` if the number is odd.
 
 You need to write this as an arrow function.
 
