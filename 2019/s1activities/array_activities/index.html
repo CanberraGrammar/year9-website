@@ -652,208 +652,101 @@ table span.outcomes {
 	font-size: 11px;
 }
         </style>
-        <title>Year 9 IST - Assignment Two</title>
+        <title>Year 9 IST - ES6 Activities</title>
     </head>
-    <body class="toc2 toc-left">
-        <div id="header">
-            <div class="toc2" id="toc">
-                <div id="toctitle">Table of Contents</div>
-                <ul class="sectlevel1">
-<li><a href="#changelog">Changelog</a></li>
-<li><a href="#task-context">Task Context</a>
-<ul class="sectlevel2">
-<li><a href="#marking-guidelines">Marking guidelines</a></li>
-<li><a href="#outcomes-assessment-criteria">Outcomes/Assessment Criteria</a></li>
-</ul>
-</li>
-<li><a href="#task-requirements">Task Requirements</a>
-<ul class="sectlevel2">
-<li><a href="#urls-to-implement">URLs to implement</a></li>
-<li><a href="#example-output">Example output</a></li>
-</ul>
-</li>
-<li><a href="#submission-instructions">Submission Instructions</a>
-<ul class="sectlevel2">
-<li><a href="#draft-submissions">Draft submissions</a></li>
-<li><a href="#_marking_guidelines">Marking Guidelines</a></li>
-<li><a href="#all-my-own-work">All My Own Work</a></li>
-</ul>
-</li>
-</ul>
-            </div>
-        </div>
+    <body>
         <div id="content">
-            <h1>Year 9 IST - Assignment Two</h1>
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p><strong>Weight:</strong> 40%<br>
-<strong>Due:</strong> Tuesday 20 May 2019 (Week 4) by 8:45am</p>
-</div>
-</div>
-</div>
+            <h1>Year 9 IST - Array Activities</h1>
 <div class="sect1">
-<h2 id="changelog"><a class="link" href="#changelog">Changelog</a></h2>
+<h2 id="instructions"><a class="link" href="#instructions">Instructions</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This assignment was last updated on <strong>Wednesday 1st May 2019</strong>.</p>
-</div>
-<div class="paragraph">
-<p><strong>No external libraries are permitted for use on the client side</strong>.</p>
-</div>
-<div class="paragraph">
-<p>If any further changes are made to the assignment they will be itemised here for ease of identification.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="task-context"><a class="link" href="#task-context">Task Context</a></h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This assignment will build upon your knowledge of Node.js. The concepts covered include Lessons 1 to 10 from the Wes Bos Learn Node course, and other tutorials introduced in class.</p>
+<p>All these tasks should be completed in separate HTML files in your <code>Array Activities</code> ED STEM workspace. Name each file <code>activityX.html</code> (e.g. activity1.html, activity2.html, etc.).</p>
 </div>
 <div class="sect2">
-<h3 id="marking-guidelines"><a class="link" href="#marking-guidelines">Marking guidelines</a></h3>
+<h3 id="task-one"><a class="link" href="#task-one">Task One</a></h3>
 <div class="paragraph">
-<p>Make sure that you consult the <a href="#_marking_guidelines">marking guidelines</a> at the end of this document to ensure that your submission meets all the requirements. This specifically specifies what you need to do in order to gain every mark for this task.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="outcomes-assessment-criteria"><a class="link" href="#outcomes-assessment-criteria">Outcomes/Assessment Criteria</a></h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>ACTDIK035</strong>: Analyse simple compression of data and how content data are separated from presentation.</p>
-</li>
-<li>
-<p><strong>ACTDIP037:</strong> Analyse and visualise data to create information and address complex problems, and model processes, entities and their relationships using structured data.</p>
-</li>
-<li>
-<p><strong>ACTDIP040:</strong> Design algorithms represented diagrammatically and in structured English and validate algorithms and programs through tracing and test cases.</p>
-</li>
-<li>
-<p><strong>ACTDIP041:</strong> Implement modular programs, applying selected algorithms and data structures including using an object-oriented programming language.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="task-requirements"><a class="link" href="#task-requirements">Task Requirements</a></h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>For this task you will be creating an implementation of a Node.js application.</p>
+<p>Write a function that takes one parameter <code>arr</code> as an array, and returns the array in the reverse order.</p>
 </div>
 <div class="paragraph">
-<p>This will involve three major components:</p>
+<p>You may <strong>not</strong> use the in-built <code>reverse</code> method.</p>
 </div>
 <div class="paragraph">
-<p><strong>Node.js Request/Response:</strong> Develop a simple API to interact with a JSON file using routes and controllers.</p>
+<p>For example, given the array:</p>
 </div>
-<div class="paragraph">
-<p><strong>Node.js Form:</strong> Create a GUI to request data from the API and format the display using HTML and JavaScript.</p>
-</div>
-<div class="paragraph">
-<p><strong>Node.js &amp; MongoDB:</strong> Configure Node.js and MongoDB to facilitate storage, retrieval, modification and removal of JSON objects.</p>
-</div>
-<div class="paragraph">
-<p>There are also a number of marks allocated to enhancement and extension activities (see: <a href="#_marking_guidelines">marking guidelines</a>).</p>
-</div>
-<div class="paragraph">
-<p>You are not permitted to use any external libraries such as jQuery or Axios on the client side - only Vanilla JavaScript is allowed on the client side. The client side in this case refers to your HTML/Pug pages that the user is interacting with and/or viewing. (This does not include Express, MongoDB, Mongoose etc. on the server side, only libraries used on the client side).</p>
-</div>
-<div class="sect2">
-<h3 id="urls-to-implement"><a class="link" href="#urls-to-implement">URLs to implement</a></h3>
-<div class="paragraph">
-<p>You need to ensure that each of the below URLs meet the required functionality (see the below video and
-<a href="test-urls-and-hints.pdf">Test URLs and Hints</a> for specific details):</p>
-</div>
-<div class="paragraph">
-<p><strong>Node.js Request/Response:</strong> /welcome, /example, /add?id=&#8230;&#8203;&amp;desc=&#8230;&#8203;, /delete.</p>
-</div>
-<div class="paragraph">
-<p><strong>Node.js Form:</strong> /form.</p>
-</div>
-<div class="paragraph">
-<p><strong>Node.js &amp; MongoDB:</strong> /tasks (GET, POST &amp; DELETE). The Postman application may be used to test this functionality.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="example-output"><a class="link" href="#example-output">Example output</a></h3>
-<div class="paragraph">
-<p>The videos below show what your output needs to look like, when accessing the test URLs:</p>
-</div>
-<div class="paragraph">
-<p><strong>Node.js Request/Response</strong></p>
-</div>
-<div class="videoblock">
+<div class="literalblock">
 <div class="content">
-<video src="./sample-api.mp4" width="380" controls>
-Your browser does not support the video tag.
-</video>
+<pre>[1, 2, 6, 3, 7]</pre>
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Node.js Form</strong></p>
+<p>Your function should return the array:</p>
 </div>
-<div class="videoblock">
+<div class="literalblock">
 <div class="content">
-<video src="./sample-form.mp4" width="380" controls>
-Your browser does not support the video tag.
-</video>
+<pre>[7, 3, 6, 2, 1]</pre>
 </div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="task-two"><a class="link" href="#task-two">Task Two</a></h3>
+<div class="paragraph">
+<p>Write a function that takes one paramater <code>arr</code> as an array, and returns the array with only unique items (all duplicates removed).</p>
 </div>
 <div class="paragraph">
-<p><strong>Node.js &amp; MongoDB</strong></p>
+<p>For example, given the array:</p>
 </div>
-<div class="videoblock">
+<div class="literalblock">
 <div class="content">
-<video src="./sample-mongodb.mp4" width="380" controls>
-Your browser does not support the video tag.
-</video>
+<pre>[1, 2, 3, 4, 1, 5, 2, 7, 4]</pre>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="submission-instructions"><a class="link" href="#submission-instructions">Submission Instructions</a></h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This assignment is worth 40% of your Semester One assessment for this subject.</p>
 </div>
 <div class="paragraph">
-<p>To submit your assignment, you will need to deploy your Node.js files to your Amazon EC2 Linux server. Details on how to do this will be provided at the beginning of Term 2.</p>
+<p>Your function should return the array:</p>
 </div>
-<div class="paragraph">
-<p>Be sure not to modify the files after the due date/time - we will be actively checking and any modifications made after will be disregarded.</p>
+<div class="literalblock">
+<div class="content">
+<pre>[1, 2, 3, 4, 5, 7]</pre>
 </div>
-<div class="paragraph">
-<p><strong>Late submissions will incur penalties as per the school assessment policy:</strong> For assignments and non-test events a late work penalty of 10% of the total possible mark will be incurred for each day late if work is not submitted on the due date.  A loss of 30% is incurred if work due on a Friday is not submitted until the following Monday. After one week (7 days) the item will be awarded a mark of zero.</p>
-</div>
-<div class="sect2">
-<h3 id="draft-submissions"><a class="link" href="#draft-submissions">Draft submissions</a></h3>
-<div class="paragraph">
-<p>You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Tuesday 13 May 2019). To submit a draft email your teacher and let them know your files are ready to be reviewed.</p>
-</div>
-<div class="paragraph">
-<p>You are also welcome to ask your teacher as you are working on the assignment whether it&#8217;s on the right track with the correct level of detail.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_marking_guidelines"><a class="link" href="#_marking_guidelines">Marking Guidelines</a></h3>
+<h3 id="task-three"><a class="link" href="#task-three">Task Three</a></h3>
 <div class="paragraph">
-<p><a href="marking-guidelines.pdf" target="_blank">Your assignment will be marked following the criteria in this PDF file.</a></p>
+<p>Write a function that takes one parameter <code>arr</code> as an array, and returns the summed values of that array.</p>
+</div>
+<div class="paragraph">
+<p>For example, given the array:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[1, 2, 3, 4, 5, 6, 100]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Your function should return <code>121</code>.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="all-my-own-work"><a class="link" href="#all-my-own-work">All My Own Work</a></h3>
+<h3 id="task-four"><a class="link" href="#task-four">Task Four</a></h3>
 <div class="paragraph">
-<p>Please note that any submitted work is to be your own. There are serious consequences for submitting work which is taken from another person, even if they give it to you voluntarily. To decide if you have written the material, we may need to question you about your understanding of the topic. Please be careful when presenting ideas which are not entirely your own; reference such material thoroughly.</p>
+<p>Write a function that takes one parameter <code>arr</code> as an array, and returns all the <strong>positive integers</strong> from that array.</p>
 </div>
 <div class="paragraph">
-<p>For more specific examples, see the <a href="course_overview/course_overview.html#academic-honesty">Academic Honesty</a> section of the Course Outline.</p>
+<p>For example, given the array:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[1, -2, 4, 0, 123, -1000000]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Your function should return the array:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[1, 4, 123]</pre>
+</div>
 </div>
 </div>
 </div>
