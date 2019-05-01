@@ -9,9 +9,9 @@
 
 == Changelog ==
 
-This assignment was last updated on *Monday 15th April 2019*.
+This assignment was last updated on *Wednesday 1st May 2019*.
 
-*No external libraries are permitted*.
+*No external libraries are permitted for use on the client side*.
 
 If any further changes are made to the assignment they will be itemised here for ease of identification.
 
@@ -44,7 +44,7 @@ This will involve three major components:
 
 There are also a number of marks allocated to enhancement and extension activities (see: <<_marking_guidelines, marking guidelines>>).
 
-You are not permitted to use any external libraries such as jQuery or Axios in your assignment - only Vanilla JavaScript is allowed.
+You are not permitted to use any external libraries such as jQuery or Axios on the client side - only Vanilla JavaScript is allowed on the client side. The client side in this case refers to your HTML/Pug pages that the user is interacting with and/or viewing. (This does not include Express, MongoDB, Mongoose etc. on the server side, only libraries used on the client side).
 
 === URLs to implement ===
 
