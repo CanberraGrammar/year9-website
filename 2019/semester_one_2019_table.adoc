@@ -14,11 +14,11 @@
 
 .^|*<<s1assign2/index.adoc#, Assignment: Node.JS App Development>>*
 .^|Monday 1 April 2019 (Week 10)
-.^|Tuesday 20 May 2019 (Week 14) by 8:45am
+.^|Tuesday 28 May 2019 (Week 15) by 8:45am
 ^.^|40%
 
 .^|*Common Test: Node.JS Common Test*
-.^|Tuesday 7 May 2019 (Week 12)
+.^|Tuesday 14 May 2019 (Week 13)
 .^|Wednesday 12 June 2019 (Week 17)
 ^.^|35%
 
