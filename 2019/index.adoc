@@ -31,11 +31,15 @@ michael.zampogna@cgs.act.edu.au
 * http://cgs.ist/0902[IT0902 Google Doc^]
 * http://cgs.ist/0903[IT0903 Google Doc^]
 
-==== Assessment Schedule
+==== Activities (Semester Two)
+
+* Coming soon...
+
+==== Assessment Schedule (Semester Two)
 
 include::semester_two_2019_table.adoc[]
 
-<<semester_one_2019.adoc#, Semester Two &mdash; Full Unit Information and Assessment Schedule>>
+<<semester_two_2019.adoc#, Semester Two &mdash; Full Unit Information and Assessment Schedule>>
 
 ==== Semester One Content
 
@@ -45,7 +49,7 @@ include::semester_one_2019_table.adoc[]
 
 <<semester_one_2019.adoc#, Semester One &mdash; Full Unit Information and Assessment Schedule>>
 
-===== Activities (Semester One) ====
+===== Activities (Semester One)
 
 * <<s1activities/es6_activities/index.adoc#, ES6 Activities>>
 
