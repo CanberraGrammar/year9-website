@@ -1,5 +1,7 @@
 # JavaScript to Swift Cheat Sheet
 
+Feel free to add or update this cheat sheet by filing a pull request! Note, this is written in [GitHub Flavoured Markdown](https://github.github.com/gfm/), not ASCIIDoctor like the rest of the site.
+
 ## Declaring variables
 
 Here are declarations for some variables in JavaScript:
@@ -40,7 +42,7 @@ var aMystery: Int?
 
 Swift is a *strongly typed* language so all variables need a specific data type, unlike JavaScript which is *weakly typed* and does not have this requirement. You might also notice the `?`. This is called an optional, and we will discuss that later.
 
-## Variables vs. Constants
+## Variables vs. constants
 
 If you declare a variable and you never change its value then you should declare it as a constant using the `let` keyword:
 
@@ -50,3 +52,46 @@ let myString = "Hello"
 ```
 
 They can be used exactly like a variable, just they cannot be changed - making your code safer and guarding against other parts of the program inadvertantly modifying data that should not be changed.
+
+## Selection (if) statements - binary selection
+
+Binary (if-else) selection in JavaScript:
+
+```javascript
+var myInteger = 5;
+
+if (myInteger < 5) {
+  console.log("My integer is less than 5");
+}
+
+else {
+  console.log("My integer is greater than, or equal to, 5");
+}
+```
+
+The equivalent in Swift:
+
+```swift
+let myInteger = 5
+
+if myInteger < 5 {
+  print("My integer is less than 5")
+}
+
+else {
+  print("My integer is greater than, or equal to, 5")
+}
+```
+
+The above has introduced a few new concepts, in addition to the if statement construct:
+
+* In Swift you do not end lines with a semicolon `;`. You actually can and it won't error, but it's unnecessary.
+
+* Do not bracket conditions on `if` statements in Swift. You only bracket conditions if there are multiple conditions, for example: `if (myInteger < 5) && (doStuff == true)`.
+
+* If you want to print something to the console in Swift you use `print`. This is only useful for your own debugging, as on an iOS device the user obviously won't have access to the console!
+
+## Selection (if) statements - multiway selection
+
+
+
