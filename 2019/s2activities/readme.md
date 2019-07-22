@@ -2,6 +2,24 @@
 
 Feel free to add or update this cheat sheet by filing a pull request! Note, this is written in [GitHub Flavoured Markdown](https://github.github.com/gfm/), not ASCIIDoctor like the rest of the site.
 
+Table of Contents
+=================
+
+   * [JavaScript to Swift Cheat Sheet](#javascript-to-swift-cheat-sheet)
+   * [Variables](#variables)
+      * [Declaring variables](#declaring-variables)
+      * [Variables vs. constants](#variables-vs-constants)
+   * [Selection (if) statements](#selection-if-statements)
+      * [Selection (if) statements - binary selection](#selection-if-statements---binary-selection)
+      * [Selection (if) statements - multiway selection](#selection-if-statements---multiway-selection)
+   * [Repetition (loop) statements](#repetition-loop-statements)
+      * [Repetition (loop) statements - for loop (less than condition)](#repetition-loop-statements---for-loop-less-than-condition)
+      * [Repetition (loop) statements - for loop (less than, or equal to, condition)](#repetition-loop-statements---for-loop-less-than-or-equal-to-condition)
+      * [Repetition (loop) statements - while loop](#repetition-loop-statements---while-loop)
+      * [Repetition (loop) statements - do while loop](#repetition-loop-statements---do-while-loop)
+
+# Variables
+
 ## Declaring variables
 
 Here are declarations for some variables in JavaScript:
@@ -52,6 +70,8 @@ let myString = "Hello"
 ```
 
 They can be used exactly like a variable, just they cannot be changed - making your code safer and guarding against other parts of the program inadvertantly modifying data that should not be changed.
+
+# Selection (if) statements
 
 ## Selection (if) statements - binary selection
 
@@ -130,6 +150,8 @@ else {
 }
 ```
 
+# Repetition (loop) statements
+
 ## Repetition (loop) statements - for loop (less than condition)
 
 `for` loop in JavaScript:
@@ -137,7 +159,7 @@ else {
 ```javascript
 var myInteger = 5;
 
-for (var i = 0; i < myInteger; i++) }
+for (var i = 0; i < myInteger; i++) {
 	console.log(i);
 }
 ```
@@ -159,7 +181,7 @@ for i in 0..<myInteger {
 ```javascript
 var myInteger = 5;
 
-for (var i = 0; i <= myInteger; i++) }
+for (var i = 0; i <= myInteger; i++) {
 	console.log(i);
 }
 ```
