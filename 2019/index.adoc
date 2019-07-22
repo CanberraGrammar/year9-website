@@ -37,7 +37,7 @@ michael.zampogna@cgs.act.edu.au
 
 ==== Reference Material
 
-* <<s2activities/readme.md#, JavaScript to Swift Cheatsheet>>
+* <<s2activities/, JavaScript to Swift Cheatsheet>>
 
 ==== Assessment Schedule (Semester Two)
 
