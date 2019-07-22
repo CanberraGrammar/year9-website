@@ -10,17 +10,19 @@ Here are declarations for some variables in JavaScript:
 var myInt = 1;
 var myString = "Hello";
 var myBool = true;
-var myArray = ["Hello", "World"]
+var myArray = ["Hello", "World"];
+var myObject = { foo: "bar", number: 42 };
 var aMystery;
 ```
 
 Here are the declarations for the same variables in Swift:
 
 ```swift
-var myInt: Int = 1;
+var myInt: Int = 1
 var myString: String = "Hello"
-var myBool: Bool = true;
+var myBool: Bool = true
 var myArray: Array<String> = ["Hello", "World"]
+var myObject: Dictionary<String, Any> = ["foo": "bar", "number": 42]
 ```
 
 In fact, similar to JavaScript, you don't need to declare the data type:
@@ -42,16 +44,18 @@ var aMystery: Int?
 
 Swift is a *strongly typed* language so all variables need a specific data type, unlike JavaScript which is *weakly typed* and does not have this requirement. You might also notice the `?`. This is called an optional, and we will discuss that later.
 
+Note that on a more professional level, what we would call *objects* in JavaScript (unordered key/value pairs) are called *dictionaries* in Swift. You can see this in the second code block above.
+
 ## Variables vs. constants
 
 If you declare a variable and you never change its value then you should declare it as a constant using the `let` keyword:
 
 ```swift
-let myInt = 1;
+let myInt = 1
 let myString = "Hello"
 ```
 
-They can be used exactly like a variable, just they cannot be changed - making your code safer and guarding against other parts of the program inadvertantly modifying data that should not be changed.
+They can be used exactly like a variable, just they cannot be changed - making your code safer and guarding against other parts of the program inadvertantly modifying data that should not be changed. Using the `var` keyword means a variable can be modified.
 
 ## Selection (if) statements - binary selection
 
@@ -61,11 +65,11 @@ Binary (if-else) selection in JavaScript:
 var myInteger = 5;
 
 if (myInteger < 5) {
-  console.log("My integer is less than 5");
+    console.log("My integer is less than 5");
 }
 
 else {
-  console.log("My integer is greater than, or equal to, 5");
+    console.log("My integer is greater than, or equal to, 5");
 }
 ```
 
@@ -75,19 +79,19 @@ The equivalent in Swift:
 let myInteger = 5
 
 if myInteger < 5 {
-  print("My integer is less than 5")
+    print("My integer is less than 5")
 }
 
 else {
-  print("My integer is greater than, or equal to, 5")
+    print("My integer is greater than, or equal to, 5")
 }
 ```
 
-The above has introduced a few new concepts, in addition to the if statement construct:
+The above has introduced a few new concepts, in addition to the `if` statement construct:
 
 * In Swift you do not end lines with a semicolon `;`. You actually can and it won't error, but it's unnecessary.
 
-* Do not bracket conditions on `if` statements in Swift. You only bracket conditions if there are multiple conditions, for example: `if (myInteger < 5) && (doStuff == true)`.
+* Do not enclose conditions with parentheses on `if` statements in Swift. You only do that to individual conditions if there are multiple conditions, for example: `if (myInteger < 5) && (doStuff == true)`.
 
 * If you want to print something to the console in Swift you use `print`. This is only useful for your own debugging, as on an iOS device the user obviously won't have access to the console!
 
@@ -99,15 +103,15 @@ Multiway selection in JavaScript:
 var myInteger = 5;
 
 if (myInteger < 5) {
-  console.log("My integer is less than 5");
+    console.log("My integer is less than 5");
 }
 
 else if (myInteger < 10) {
-	console.log("My integer is less than 10");
+    console.log("My integer is less than 10");
 }
 
 else {
-  console.log("My integer is greater than, or equal to, 5");
+    console.log("My integer is greater than, or equal to, 10");
 }
 
 ```
@@ -118,15 +122,15 @@ The equivalent in Swift:
 var myInteger = 5
         
 if myInteger < 5 {
-   print("My integer is less than 5")
+    print("My integer is less than 5")
 }
         
 else if myInteger < 10 {
-   print("My integer is less than 10")
+    print("My integer is less than 10")
 }
         
 else {
-   print("My integer is greater than 10")
+    print("My integer is greater than, or equal to, 10")
 }
 ```
 
@@ -137,8 +141,8 @@ else {
 ```javascript
 var myInteger = 5;
 
-for (var i = 0; i < myInteger; i++) }
-	console.log(i);
+for (var i = 0; i < myInteger; i++) {
+    console.log(i);
 }
 ```
 
@@ -148,7 +152,7 @@ The equivalent in Swift:
 var myInteger = 5;
 
 for i in 0..<myInteger {
-	print(i)
+    print(i)
 }
 ```
 
@@ -159,8 +163,8 @@ for i in 0..<myInteger {
 ```javascript
 var myInteger = 5;
 
-for (var i = 0; i <= myInteger; i++) }
-	console.log(i);
+for (var i = 0; i <= myInteger; i++) {
+    console.log(i);
 }
 ```
 
@@ -170,7 +174,7 @@ The equivalent in Swift:
 var myInteger = 5;
 
 for i in 0...myInteger {
-	print(i)
+    print(i)
 }
 ```
 
@@ -179,11 +183,11 @@ for i in 0...myInteger {
 `while` loop in JavaScript:
 
 ```javascript
-var myInteger = 5;
+var i = 0;
 
 while (i <= 5) {
-	print(i)
-	i++;
+    console.log(i);
+    i++;
 }
 ```
 
@@ -193,8 +197,8 @@ The equivalent in Swift:
 var i = 0
         
 while i <= 5 {
-   print(i)
-   i += 1
+    print(i)
+    i += 1
 }
 ```
 
@@ -202,23 +206,23 @@ Things to note:
 
 * Notice how we cannot use `i++` in Swift? See [SE-0004](https://github.com/apple/swift-evolution/blob/master/proposals/0004-remove-pre-post-inc-decrement.md) for more details.
 
-## Repetition (loop) statements - do while loop
+## Repetition (loop) statements - do...while loop
 
 `do while` loop in JavaScript:
 
 ```javascript
-var myInteger = 5;
+var i = 0;
 
 do {
-	print(i)
-	i = i + 1
+  console.log(i);
+  i++;
 } while (i <= 5)
 ```
 
 The equivalent in Swift:
 
 ```swift
-var myInteger = 5;
+var i = 0
         
 repeat {
    print(i)
