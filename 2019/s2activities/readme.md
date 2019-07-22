@@ -93,5 +93,136 @@ The above has introduced a few new concepts, in addition to the if statement con
 
 ## Selection (if) statements - multiway selection
 
+Multiway selection in JavaScript:
 
+```javascript
+var myInteger = 5;
 
+if (myInteger < 5) {
+  console.log("My integer is less than 5");
+}
+
+else if (myInteger < 10) {
+	console.log("My integer is less than 10");
+}
+
+else {
+  console.log("My integer is greater than, or equal to, 5");
+}
+
+```
+
+The equivalent in Swift:
+
+```swift
+var myInteger = 5
+        
+if myInteger < 5 {
+   print("My integer is less than 5")
+}
+        
+else if myInteger < 10 {
+   print("My integer is less than 10")
+}
+        
+else {
+   print("My integer is greater than 10")
+}
+```
+
+## Repetition (loop) statements - for loop (less than condition)
+
+`for` loop in JavaScript:
+
+```javascript
+var myInteger = 5;
+
+for (var i = 0; i < myInteger; i++) }
+	console.log(i);
+}
+```
+
+The equivalent in Swift:
+
+```swift
+var myInteger = 5;
+
+for i in 0..<myInteger {
+	print(i)
+}
+```
+
+## Repetition (loop) statements - for loop (less than, or equal to, condition)
+
+`for` loop in JavaScript:
+
+```javascript
+var myInteger = 5;
+
+for (var i = 0; i <= myInteger; i++) }
+	console.log(i);
+}
+```
+
+The equivalent in Swift:
+
+```swift
+var myInteger = 5;
+
+for i in 0...myInteger {
+	print(i)
+}
+```
+
+## Repetition (loop) statements - while loop
+
+`while` loop in JavaScript:
+
+```javascript
+var myInteger = 5;
+
+while (i <= 5) {
+	print(i)
+	i++;
+}
+```
+
+The equivalent in Swift:
+
+```swift
+var i = 0
+        
+while i <= 5 {
+   print(i)
+   i += 1
+}
+```
+
+Things to note:
+
+* Notice how we cannot use `i++` in Swift? See [SE-0004](https://github.com/apple/swift-evolution/blob/master/proposals/0004-remove-pre-post-inc-decrement.md) for more details.
+
+## Repetition (loop) statements - do while loop
+
+`do while` loop in JavaScript:
+
+```javascript
+var myInteger = 5;
+
+do {
+	print(i)
+	i = i + 1
+} while (i <= 5)
+```
+
+The equivalent in Swift:
+
+```swift
+var myInteger = 5;
+        
+repeat {
+   print(i)
+   i += 1
+} while i <= 5
+
+```
