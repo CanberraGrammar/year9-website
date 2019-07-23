@@ -1,9 +1,6 @@
 # JavaScript to Swift Cheat Sheet
 
-Feel free to add or update this cheat sheet by filing a pull request! Note, this is written in [GitHub Flavoured Markdown](https://github.github.com/gfm/), not ASCIIDoctor like the rest of the site.
-
-Table of Contents
-=================
+## Table of Contents
 
    * [JavaScript to Swift Cheat Sheet](#javascript-to-swift-cheat-sheet)
    * [Variables](#variables)
@@ -17,12 +14,19 @@ Table of Contents
       * [Repetition (loop) statements - for loop (less than, or equal to, condition)](#repetition-loop-statements---for-loop-less-than-or-equal-to-condition)
       * [Repetition (loop) statements - while loop](#repetition-loop-statements---while-loop)
       * [Repetition (loop) statements - do while loop](#repetition-loop-statements---do-while-loop)
+   * [String operations](#string-operations)
+      * [String concatenation](#string-concatenation)
+      * [String interpolation](#string-interpolation)
+   * [Functions](#functions)
+      * [Custom functions - no parameters or return](#custom-functions---no-parameters-or-return)
+      * [Custom functions - parameters no return](#custom-functions---parameters-no-return)
+      * [Custom functions - parameters and return](#custom-functions---parameters-and-return)
 
-# Variables
+## Variables
 
-## Declaring variables
+### Declaring variables
 
-Here are declarations for some variables in JavaScript:
+Here are declarations for some variables in **JavaScript**:
 
 ```javascript
 var myInt = 1;
@@ -32,7 +36,7 @@ var myArray = ["Hello", "World"]
 var aMystery;
 ```
 
-Here are the declarations for the same variables in Swift:
+Here are the declarations for the same variables in **Swift**:
 
 ```swift
 var myInt: Int = 1;
@@ -60,7 +64,7 @@ var aMystery: Int?
 
 Swift is a *strongly typed* language so all variables need a specific data type, unlike JavaScript which is *weakly typed* and does not have this requirement. You might also notice the `?`. This is called an optional, and we will discuss that later.
 
-## Variables vs. constants
+### Variables vs. constants
 
 If you declare a variable and you never change its value then you should declare it as a constant using the `let` keyword:
 
@@ -71,14 +75,14 @@ let myString = "Hello"
 
 They can be used exactly like a variable, just they cannot be changed - making your code safer and guarding against other parts of the program inadvertantly modifying data that should not be changed.
 
-# Selection (if) statements
+## Selection (if) statements
 
-## Selection (if) statements - binary selection
+### Selection (if) statements - binary selection
 
-Binary (if-else) selection in JavaScript:
+Binary (if-else) selection in **JavaScript**:
 
 ```javascript
-var myInteger = 5;
+var myInteger = 4;
 
 if (myInteger < 5) {
   console.log("My integer is less than 5");
@@ -89,10 +93,10 @@ else {
 }
 ```
 
-The equivalent in Swift:
+The equivalent in **Swift**:
 
 ```swift
-let myInteger = 5
+let myInteger = 4
 
 if myInteger < 5 {
   print("My integer is less than 5")
@@ -111,19 +115,19 @@ The above has introduced a few new concepts, in addition to the if statement con
 
 * If you want to print something to the console in Swift you use `print`. This is only useful for your own debugging, as on an iOS device the user obviously won't have access to the console!
 
-## Selection (if) statements - multiway selection
+### Selection (if) statements - multiway selection
 
-Multiway selection in JavaScript:
+Multiway selection in **JavaScript**:
 
 ```javascript
-var myInteger = 5;
+var myInteger = 4;
 
 if (myInteger < 5) {
   console.log("My integer is less than 5");
 }
 
 else if (myInteger < 10) {
-	console.log("My integer is less than 10");
+  console.log("My integer is less than 10");
 }
 
 else {
@@ -132,10 +136,10 @@ else {
 
 ```
 
-The equivalent in Swift:
+The equivalent in **Swift**:
 
 ```swift
-var myInteger = 5
+var myInteger = 4
         
 if myInteger < 5 {
    print("My integer is less than 5")
@@ -150,73 +154,73 @@ else {
 }
 ```
 
-# Repetition (loop) statements
+## Repetition (loop) statements
 
-## Repetition (loop) statements - for loop (less than condition)
+### Repetition (loop) statements - for loop (less than condition)
 
-`for` loop in JavaScript:
+`for` loop in **JavaScript**:
 
 ```javascript
 var myInteger = 5;
 
 for (var i = 0; i < myInteger; i++) {
-	console.log(i);
+  console.log(i);
 }
 ```
 
-The equivalent in Swift:
+The equivalent in **Swift**:
 
 ```swift
 var myInteger = 5;
 
 for i in 0..<myInteger {
-	print(i)
+  print(i)
 }
 ```
 
-## Repetition (loop) statements - for loop (less than, or equal to, condition)
+### Repetition (loop) statements - for loop (less than, or equal to, condition)
 
-`for` loop in JavaScript:
+`for` loop in **JavaScript**:
 
 ```javascript
 var myInteger = 5;
 
 for (var i = 0; i <= myInteger; i++) {
-	console.log(i);
+  console.log(i);
 }
 ```
 
-The equivalent in Swift:
+The equivalent in **Swift**:
 
 ```swift
 var myInteger = 5;
 
 for i in 0...myInteger {
-	print(i)
+  print(i)
 }
 ```
 
-## Repetition (loop) statements - while loop
+### Repetition (loop) statements - while loop
 
-`while` loop in JavaScript:
+`while` loop in **JavaScript**:
 
 ```javascript
 var myInteger = 5;
 
 while (i <= 5) {
-	print(i)
-	i++;
+  print(i)
+  i++;
 }
 ```
 
-The equivalent in Swift:
+The equivalent in **Swift**:
 
 ```swift
 var i = 0
         
 while i <= 5 {
-   print(i)
-   i += 1
+  print(i)
+  i += 1
 }
 ```
 
@@ -224,27 +228,157 @@ Things to note:
 
 * Notice how we cannot use `i++` in Swift? See [SE-0004](https://github.com/apple/swift-evolution/blob/master/proposals/0004-remove-pre-post-inc-decrement.md) for more details.
 
-## Repetition (loop) statements - do while loop
+### Repetition (loop) statements - do while loop
 
-`do while` loop in JavaScript:
+`do while` loop in **JavaScript**:
 
 ```javascript
 var myInteger = 5;
 
 do {
-	print(i)
-	i = i + 1
+  print(i)
+  i = i + 1
 } while (i <= 5)
 ```
 
-The equivalent in Swift:
+The equivalent in **Swift**:
 
 ```swift
 var myInteger = 5;
         
 repeat {
-   print(i)
-   i += 1
+  print(i)
+  i += 1
 } while i <= 5
 
+```
+
+## String Operations
+
+### String concatenation
+
+String concatenation is the act of joining strings together.
+
+An example of string concatenation in **JavaScript**:
+
+```javascript
+var name = "Lauren"
+var age = 14;
+var newString = "Hello, my name is " + name + " and my age is " + age;
+```
+
+The equivalent in **Swift**:
+
+```swift
+let name = "Lauren"
+let age = 14;
+let newString = "Hello, my name is " + name + " and my age is " + age;
+```
+
+### String interpolation
+
+String interpolation is the act of inserting a variable (or variables) into a string. This is known as *template literals* in JavaScript (ES6) but is more commonly known as *string interpolation*.
+
+String interpolation is a much better alternative to using string concatanation in many situations.
+
+An example of string interpolation in **JavaScript**:
+
+```javascript
+var name = "Lauren"
+var age = 14;
+var newString = "Hello, my name is ${name} and my age is ${age}";
+```
+
+The equivalent in **Swift**:
+
+```swift
+let name = "Lauren"
+let age = 14;
+let newString = "Hello, my name is \(name) and my age is \(age)";
+```
+
+## Functions
+
+### Custom functions - no parameters or return
+
+Custom function (with no parameters or return) in **JavaScript**:
+
+```javascript
+function myFunction() {
+  // Do stuff
+}
+```
+
+To call the function: `myFunction()`
+
+The equivalent in **Swift**:
+
+```swift
+func myFunction() {
+  // Do stuff
+}
+```
+
+To call the function: `myFunction()`
+
+### Custom functions - parameters no return
+
+Custom function (with parameters but no return value) in **JavaScript**:
+
+```javascript
+function myFunction(name, age, house, boarder) {
+  // Do stuff
+}
+```
+
+To call the function:
+
+```javascript
+myFunction("James", 14, "Edwards", false);
+```
+
+The equivalent in **Swift**:
+
+```swift
+func myFunction(name: String, age: Int, house: String, boarder: Bool) {
+  // Do stuff
+}
+```
+
+To call the function:
+
+```swift
+myFunction(name: "James", age: 14, house: "Edwards", boarder: false)
+```
+
+### Custom functions - parameters and return
+
+Custom function (with parameters and a return value) in **JavaScript**:
+
+```javascript
+function myFunction(name, age, house, boarder) {
+  // Do stuff
+  return "Hello";
+}
+```
+
+To call the function:
+
+```javascript
+var result = myFunction("James", 14, "Edwards", false);
+```
+
+The equivalent in **Swift**:
+
+```swift
+func myFunction(name: String, age: Int, house: String, boarder: Bool) -> String {
+  // Do stuff
+  return "Hello"
+}
+```
+
+To call the function:
+
+```swift
+let result = myFunction(name: "James", age: 14, house: "Edwards", boarder: false)
 ```
