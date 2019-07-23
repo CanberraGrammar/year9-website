@@ -405,6 +405,18 @@ var namesArray = [String]()
 
 Remember, Swift is a strongly-typed language so you need to specify the data type being stored in the array at the time the array is created.
 
+The above method uses Swift's type-inference engine to determine that the value is an array of strings, as we haven't specified it with the type declaration. You can do this in two ways - longhand:
+
+```swift
+var namesArray: Array<String> = []
+```
+
+Or shorthand:
+
+```swift
+var namesArray: [String] = []
+```
+
 ### Creating an array with data
 
 Creating an array with data in **JavaScript**:
@@ -432,19 +444,19 @@ namesArray.append("Lauren") // will add "Lauren" to the end of the namesArray
 To **insert** an item into an array:
 
 ```swift
-namesArray.insert("Frida", atIndex: 0) // will add "Lauren" to the array at index 0 (which, in this case, is the front of the array)
+namesArray.insert("Frida", at: 0) // will add "Lauren" to the array at index 0 (which, in this case, is the front of the array)
 ```
 
 To **remove** an item from an array, when you know the index:
 
 ```swift
-namesArray.removeAtIndex(1) // will remove the item at array index 1
+namesArray.remove(at: 1) // will remove the item at array index 1
 ```
 
 To **remove** an item from an array, when you don't know the index:
 
 ```swift
 if let indexValue = namesArray.indexOf("Jack") { // this will find the location of "Jack" in namesArray
-    namesArray.removeAtIndex(indexValue) // this will only run if "Jack" is found in namesArray, to avoid an error if it's not found
+    namesArray.remove(at: indexValue) // this will only run if "Jack" is found in namesArray, to avoid an error if it's not found
 }
 ```
