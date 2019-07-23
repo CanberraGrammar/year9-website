@@ -21,6 +21,10 @@
       * [Custom functions - no parameters or return](#custom-functions---no-parameters-or-return)
       * [Custom functions - parameters no return](#custom-functions---parameters-no-return)
       * [Custom functions - parameters and return](#custom-functions---parameters-and-return)
+   * [Arrays](#arrays)
+      * [Creating an empty array](#creating-an-empty-array)
+      * [Creating an array with data](#creating-an-array-with-data)
+      * [Common array operations in Swift](#common-array-operations-in-swift)
 
 ## Variables
 
@@ -381,4 +385,66 @@ To call the function:
 
 ```swift
 let result = myFunction(name: "James", age: 14, house: "Edwards", boarder: false)
+```
+
+## Arrays
+
+### Creating an empty array
+
+Creating an empty array in **JavaScript**:
+
+```javascript
+var namesArray = [];
+```
+
+The equivalent in **Swift**:
+
+```swift
+var namesArray = [String]()
+```
+
+Remember, Swift is a strongly-typed language so you need to specify the data type being stored in the array at the time the array is created.
+
+### Creating an array with data
+
+Creating an array with data in **JavaScript**:
+
+```javascript
+var namesArray = ["Matt", "Jack", "Angus", "James"];
+```
+
+The equivalent in **Swift**:
+
+```swift
+var namesArray = ["Matt", "Jack", "Angus", "James"]
+```
+
+There's no need to specify the data type of the array, as the type inference engine in Swift can make that determination from the inital data.
+
+### Common array operations in Swift
+
+To **add** an item to an array:
+
+```swift
+namesArray.append("Lauren") // will add "Lauren" to the end of the namesArray
+```
+
+To **insert** an item into an array:
+
+```swift
+namesArray.insert("Frida", atIndex: 0) // will add "Lauren" to the array at index 0 (which, in this case, is the front of the array)
+```
+
+To **remove** an item from an array, when you know the index:
+
+```swift
+namesArray.removeAtIndex(1) // will remove the item at array index 1
+```
+
+To **remove** an item from an array, when you don't know the index:
+
+```swift
+if let indexValue = namesArray.indexOf("Jack") { // this will find the location of "Jack" in namesArray
+    namesArray.removeAtIndex(indexValue) // this will only run if "Jack" is found in namesArray, to avoid an error if it's not found
+}
 ```
