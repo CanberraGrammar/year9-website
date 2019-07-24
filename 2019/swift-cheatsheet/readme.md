@@ -409,11 +409,9 @@ There are also two other ways you can declare an empty array of a particular dat
 ```swift
 var namesArray: Array<String> = [] // Longhand
 var namesArray: [String] = [] //Shorthand
-/** The way you choose to define an array - either with the array initializer above, 
- * or with these two methods, is purely down to personal choice - 
- * they all have the exact same result.
- */
 ```
+
+The way you choose to define an empty array is purely down to personal choice - they all have the exact same result.
 
 ### Creating an array with data
 
@@ -436,25 +434,32 @@ There's no need to specify the data type of the array, as the type inference eng
 To **add** an item to an array:
 
 ```swift
-namesArray.append("Lauren") // will add "Lauren" to the end of the namesArray
+// will add "Lauren" to the end of the namesArray
+namesArray.append("Lauren")
 ```
 
 To **insert** an item into an array:
 
 ```swift
-namesArray.insert("Frida", at: 0) // will add "Lauren" to the array at index 0 (which, in this case, is the front of the array)
+// will add "Lauren" to the array at index 0 (which, in this case, is the front of the array)
+namesArray.insert("Frida", at: 0)
 ```
 
 To **remove** an item from an array, when you know the index:
 
 ```swift
-namesArray.remove(at: 1) // will remove the item at array index 1
+// will remove the item at array index 1
+namesArray.remove(at: 1)
 ```
 
 To **remove** an item from an array, when you don't know the index:
 
 ```swift
-if let indexValue = namesArray.indexOf("Jack") { // this will find the location of "Jack" in namesArray
-    namesArray.remove(at: indexValue) // this will only run if "Jack" is found in namesArray, to avoid an error if it's not found
+// this will find the location of "Jack" in namesArray
+if let indexValue = namesArray.indexOf("Jack") {
+
+  // this will only run if "Jack" is found in namesArray, to avoid an error if it's not found
+  namesArray.remove(at: indexValue)
+
 }
 ```
