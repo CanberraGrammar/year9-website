@@ -405,16 +405,14 @@ var namesArray = [String]()
 
 Remember, Swift is a strongly-typed language so you need to specify the data type being stored in the array at the time the array is created.
 
-The above method uses Swift's type-inference engine to determine that the value is an array of strings, as we haven't specified it with the type declaration. You can do this in two ways - longhand:
-
+There are also two other ways you can declare an empty array of a particular data type in Swift:
 ```swift
-var namesArray: Array<String> = []
-```
-
-Or shorthand:
-
-```swift
-var namesArray: [String] = []
+var namesArray: Array<String> = [] // Longhand
+var namesArray: [String] = [] //Shorthand
+/** The way you choose to define an array - either with the array initializer above, 
+ * or with these two methods, is purely down to personal choice - 
+ * they all have the exact same result.
+ */
 ```
 
 ### Creating an array with data
