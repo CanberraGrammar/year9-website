@@ -408,15 +408,6 @@ To call the function:
 let result = myFunction(name: "James", age: 14, house: "Edwards", boarder: false)
 ```
 
-Note how when declaring a function in Swift, you need to specify a type for the return value using `->`. In the above example, we're returning `"Hello"` which is a string, so it's `-> String`. If the function may return different types, it's quite tricky to set it up, so it's easiest to use `Any`:
-
-```swift
-func myFunction() -> Any {
-  // Do stuff
-  return "A random variable type"
-}
-```
-
 ## Arrays
 
 ### Creating an empty array
