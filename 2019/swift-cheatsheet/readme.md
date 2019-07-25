@@ -25,6 +25,11 @@
       * [Creating an empty array](#creating-an-empty-array)
       * [Creating an array with data](#creating-an-array-with-data)
       * [Common array operations in Swift](#common-array-operations-in-swift)
+      * [Strings and arrays](#strings-and-arrays)
+   * [Dictionaries](#dictionaries)
+      * [Creating an empty dictionary](#creating-an-empty-dictionary)
+      * [Creating a dictionary with data](#creating-a-dictionary-with-data)
+      * [Common dictionary operations in Swift](#common-dictionary-operations-in-swift)
 
 ## Variables
 
@@ -429,6 +434,7 @@ Remember, Swift is a strongly-typed language so you need to specify the data typ
 There are also two other ways you can declare an empty array of a particular data type in Swift:
 ```swift
 var namesArray: Array<String> = [] // Longhand
+
 var namesArray: [String] = []      // Shorthand
 ```
 
@@ -451,6 +457,14 @@ var namesArray = ["Matt", "Jack", "Angus", "James"]
 There's no need to specify the data type of the array, as the type inference engine in Swift can make that determination from the inital data.
 
 ### Common array operations in Swift
+
+To **access** an item in an array:
+
+```swift
+let namesArray = ["Matt", "Jack", "Angus", "James"]
+
+print(namesArray[1]) // this will print "Jack" to the console
+```
 
 To **add** an item to an array:
 
@@ -484,3 +498,125 @@ if let indexValue = namesArray.firstIndex(of: "Jack") {
 
 }
 ```
+
+To **loop or iterate** through every item in an array:
+
+``` swift
+let namesArray = ["Matt", "Jack", "Angus", "James"]
+
+for i in 0..< namesArray.count {
+  let item = namesArray[i]
+  print(item)
+}
+```
+
+...or an alternative way to **loop or iterate** through every item in an array when you don't require access to the index of the item:
+
+```swift
+let namesArray = ["Matt", "Jack", "Angus", "James"]
+
+for item in namesArray {
+  print(name)
+}
+```
+
+### Strings and arrays
+
+Say that you need to access each individual character in a string. The easiest way is to **convert the string into an array of characters**, and you can then loop over that array (using the methods above) to get each individual character.
+
+```swift
+let string = "Hello"
+let charArray = Array(string)
+```
+
+This will result in `charArray` being `["h", "e", "l", "l", "o"]`.
+
+You could then loop through `charArray` to access each individual character:
+
+```swift
+for char in charArray {
+  print(char)
+}
+```
+
+## Dictionaries
+
+JavaScript objects are actually not *really* objects - they are dictionaries. In Swift, objects are quite different. We'll cover that later - for the moment we will just look at dictionaries.
+
+### Creating an empty dictionary
+
+Creating an empty dictionary in **JavaScript**:
+
+```javascript
+var studentDictionary = { };
+```
+
+The equivalent in **Swift**:
+
+```swift
+var studentDictionary = [String: Int]()
+```
+
+or
+
+```swift
+var studentDictionary = Dictionary<String, Int>()
+```
+
+Whichever you use is personal preference, they do the same thing.
+
+Remember, Swift is a strongly-typed language so you need to specify the data type being used for the key (the first `String`) and the value (the second `Int`). Unlike JavaScript, where the key was always a string, you can define the type of the key in Swift. 
+
+### Creating a dictionary with data
+
+Creating a dictionary with data in **JavaScript**:
+
+```javascript
+var pizzaCountDictionary = {
+  hawaiian: 4,
+  meatlovers: 10,
+  supreme: 5
+};
+```
+Creating a dictionary with data in **Swift**:
+
+```swift
+var pizzaCountDictionary = [
+  "hawaiian": 4,
+  "meatlovers": 10,
+  "supreme": 5
+]
+```
+
+### Common dictionary operations in Swift
+
+To **add** a key and value to a dictionary:
+
+```swift
+// will add a new key to the dictionary "cheese" with the value 4
+pizzaCountDictionary["cheese"] = 4
+```
+
+To **remove** a key and value to a dictionary:
+
+```swift
+// will remove the key "cheese" and associated value from the dictionary
+pizzaCountDictionary["supreme"] = nil
+```
+
+or
+
+```swift
+// will remove the key "cheese" and associated value from the dictionary
+pizzaCountDictionary.removeValue(forKey: supreme)
+```
+
+To **loop or iterate** through every item in an array:
+
+```swift
+for (key, value) in pizzaCountDictionary {
+  print("\(key): \(value)")
+}
+```
+
+There are no insertion methods as dictionaries do not have any order - only arrays have order.
