@@ -36,26 +36,29 @@ Here are declarations for some variables in **JavaScript**:
 var myInt = 1;
 var myString = "Hello";
 var myBool = true;
-var myArray = ["Hello", "World"]
+var myArray = ["Hello", "World"];
+var myObject = { foo: "bar" };
 var aMystery;
 ```
 
 Here are the declarations for the same variables in **Swift**:
 
 ```swift
-var myInt: Int = 1;
+var myInt: Int = 1
 var myString: String = "Hello"
-var myBool: Bool = true;
+var myBool: Bool = true
 var myArray: Array<String> = ["Hello", "World"]
+var myDict: Dictionary<String, String> = [ "foo": "bar" ]
 ```
 
 In fact, similar to JavaScript, you don't need to declare the data type:
 
 ```swift
-var myInt = 1;
+var myInt = 1
 var myString = "Hello"
-var myBool = true;
+var myBool = true
 var myArray = ["Hello", "World"]
+var myDict = [ "foo": "bar" ]
 ```
 
 Swift has a *type inference* engine which can determine the data type based upon the inital value assigned to the variable.
@@ -175,7 +178,7 @@ for (var i = 0; i < myInteger; i++) {
 The equivalent in **Swift**:
 
 ```swift
-var myInteger = 5;
+var myInteger = 5
 
 for i in 0..<myInteger {
   print(i)
@@ -197,7 +200,7 @@ for (var i = 0; i <= myInteger; i++) {
 The equivalent in **Swift**:
 
 ```swift
-var myInteger = 5;
+var myInteger = 5
 
 for i in 0...myInteger {
   print(i)
@@ -209,10 +212,10 @@ for i in 0...myInteger {
 `while` loop in **JavaScript**:
 
 ```javascript
-var myInteger = 5;
+var i = 5;
 
 while (i <= 5) {
-  print(i)
+  console.log(i);
   i++;
 }
 ```
@@ -237,18 +240,18 @@ Things to note:
 `do while` loop in **JavaScript**:
 
 ```javascript
-var myInteger = 5;
+var i = 5;
 
 do {
-  print(i)
-  i = i + 1
+  console.log(i);
+  i++;
 } while (i <= 5)
 ```
 
 The equivalent in **Swift**:
 
 ```swift
-var myInteger = 5;
+var i = 5
         
 repeat {
   print(i)
@@ -266,7 +269,7 @@ String concatenation is the act of joining strings together.
 An example of string concatenation in **JavaScript**:
 
 ```javascript
-var name = "Lauren"
+var name = "Lauren";
 var age = 14;
 var newString = "Hello, my name is " + name + " and my age is " + age;
 ```
@@ -275,9 +278,27 @@ The equivalent in **Swift**:
 
 ```swift
 let name = "Lauren"
-let age = 14;
-let newString = "Hello, my name is " + name + " and my age is " + age;
+let age = 14
+let newString = "Hello, my name is " + name + " and my age is " + String(age)
 ```
+
+Notice how we're using `String(age)` to concatenate `age`, which is a number, into the string. This is because to combine different values and variables, they need to be all of the same type. Since `age` is an `Int`, it needs to be explicitly converted to a string to be used in concatenation, unlike JavaScript where it's implicitly converted and you don't have to worry about it.
+
+### String concatenation within a function
+
+You can pass multiple arguments to `print`, separated by a comma, and they will be joined into one string and printed, but the comma also inserts a space. That's why this:
+
+```swift
+print("Hello, my name is", name, "and my age is", String(age))
+```
+
+Successfully prints:
+
+```swift
+"Hello, my name is Lauren and my age is 14"
+```
+
+To the console.
 
 ### String interpolation
 
@@ -288,17 +309,17 @@ String interpolation is a much better alternative to using string concatanation 
 An example of string interpolation in **JavaScript**:
 
 ```javascript
-var name = "Lauren"
+var name = "Lauren";
 var age = 14;
-var newString = "Hello, my name is ${name} and my age is ${age}";
+var newString = `Hello, my name is ${name} and my age is ${age}`;
 ```
 
 The equivalent in **Swift**:
 
 ```swift
 let name = "Lauren"
-let age = 14;
-let newString = "Hello, my name is \(name) and my age is \(age)";
+let age = 14
+let newString = "Hello, my name is \(name) and my age is \(age)"
 ```
 
 ## Functions
@@ -323,7 +344,7 @@ func myFunction() {
 }
 ```
 
-To call the function: `myFunction()`
+To call the function, simply do `myFunction()`.
 
 ### Custom functions - parameters no return
 
@@ -387,6 +408,15 @@ To call the function:
 let result = myFunction(name: "James", age: 14, house: "Edwards", boarder: false)
 ```
 
+Note how when declaring a function in Swift, you need to specify a type for the return value using `->`. In the above example, we're returning `"Hello"` which is a string, so it's `-> String`. If the function may return different types, it's quite tricky to set it up, so it's easiest to use `Any`:
+
+```swift
+func myFunction() -> Any {
+  // Do stuff
+  return "A random variable type"
+}
+```
+
 ## Arrays
 
 ### Creating an empty array
@@ -408,7 +438,7 @@ Remember, Swift is a strongly-typed language so you need to specify the data typ
 There are also two other ways you can declare an empty array of a particular data type in Swift:
 ```swift
 var namesArray: Array<String> = [] // Longhand
-var namesArray: [String] = [] //Shorthand
+var namesArray: [String] = []      // Shorthand
 ```
 
 The way you choose to define an empty array is purely down to personal choice - they all have the exact same result.
@@ -456,7 +486,7 @@ To **remove** an item from an array, when you don't know the index:
 
 ```swift
 // this will find the location of "Jack" in namesArray
-if let indexValue = namesArray.indexOf("Jack") {
+if let indexValue = namesArray.firstIndex(of: "Jack") {
 
   // this will only run if "Jack" is found in namesArray, to avoid an error if it's not found
   namesArray.remove(at: indexValue)
