@@ -30,6 +30,12 @@
       * [Creating an empty dictionary](#creating-an-empty-dictionary)
       * [Creating a dictionary with data](#creating-a-dictionary-with-data)
       * [Common dictionary operations in Swift](#common-dictionary-operations-in-swift)
+   * [Structures](#structures)
+      * [Defining a structure](#defining-a-structure)
+      * [Accessing properties of a structure instance](#accessing-properties-of-a-structure-instance)
+      * [Computed properties](#computed-properties)
+      * [Computed properties vs. functions](#computed-properties-vs-functions)
+
 
 ## Variables
 
@@ -627,7 +633,7 @@ As we discussed in class, an object in JavaScript is actually a dictionary. This
 
 So, to represent an object in Swift you can use a "structure". This is pretty much what it sounds like - a structure to represent a single entity of some kind, consisting of multiple properties. The classic example is representing a person (the entity) which has multiple properties (first name, last name, year of birth).
 
-### Defining the structure
+### Defining a structure
 
 To **define** a structure in **Swift**:
 
