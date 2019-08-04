@@ -620,3 +620,130 @@ for (key, value) in pizzaCountDictionary {
 ```
 
 There are no insertion methods as dictionaries do not have any order - only arrays have order.
+
+## Structures
+
+As we discussed in class, an object in JavaScript is actually a dictionary. This works because JavaScript is weakly-typed and you can mix different data types within a single dictionary. However, as Swift is strongly-typed you cannot do that (all data types in the dictionary must be the same) so it makes the utility of representing objects using a Swift dictionary far more difficult.
+
+So, to represent an object in Swift you can use a "structure". This is pretty much what it sounds like - a structure to represent a single entity of some kind, consisting of multiple properties. The classic example is representing a person (the entity) which has multiple properties (first name, last name, year of birth).
+
+### Defining the structure
+
+To **define** a structure in **Swift**:
+
+```swift
+struct Person {
+  var firstName: String
+  var lastName: String
+  var yearOfBirth: Int
+}
+```
+
+The above is akin to a object constructor in JavaScript:
+
+```javascript
+function Person(firstName, lastName, yearOfBirth) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.yearOfBirth = yearOfBirth;
+}
+```
+
+Then, to **create an instance** of `Person` in Swift we would do the following:
+
+```swift
+let aPerson = Person(firstName: "Bart", lastName: "Simpson", yearOfBirth: 2004)
+```
+
+### Accessing properties of a structure instance
+
+To **access** the properties of the struct instance, use dot notation (just like in JavaScript):
+
+```swift
+print(aPerson.firstName) // this will print "Bart"
+```
+
+### Computed properties
+
+Swift allows you to define two types of properties in a structure. A *stored property* is one which saves a value for later use. In our example, `firstName`, `lastName`, and `yearOfBirth` are all stored properties. You can also define a *computed property* which computes/calculates its value based upon the value of other properties.
+
+For example, using our example here is a computed property which returns the person's age - using their `yearOfBirth` (which is a stored property) and the current year (from the system's calendar object):
+
+```swift
+struct Person {
+  var firstName: String
+  var lastName: String
+  var yearOfBirth: Int
+
+  var age: Int {
+    let currentYear = Calendar.current.component(.year, from: Date())
+    return currentYear - yearOfBirth
+  }
+}
+```
+
+...which you can access just like any other property, using dot notation:
+
+```swift
+print(aPerson.age) // this will print 15
+```
+
+Here's another example, which returns the full name of the person:
+
+```swift
+struct Person {
+  var firstName: String
+  var lastName: String
+  var yearOfBirth: Int
+
+  var age: Int {
+    let currentYear = Calendar.current.component(.year, from: Date())
+    return currentYear - yearOfBirth
+  }
+
+  var fullName: String {
+    return "\(firstName) \(lastName)"
+  }
+}
+```
+
+...and to access:
+
+```swift
+print(aPerson.fullName) // this will print "Bart Simpson"
+```
+
+### Computed properties vs. functions
+
+You might think that computed properties look a lot like functions...and you are correct. In fact, you can actually define functions inside structures as well - just like in JavaScript objects!
+
+So, we could re-implement the computed properties above using functions instead:
+
+```swift
+struct Person {
+  var firstName: String
+  var lastName: String
+  var yearOfBirth: Int
+
+  func age() -> Int {
+    let currentYear = Calendar.current.component(.year, from: Date())
+    return currentYear - yearOfBirth
+  }
+
+  func fullName() -> String {
+    return "\(firstName) \(lastName)"
+  }
+}
+```
+
+...and to access:
+
+```swift
+print(aPerson.age()) // this will print 15
+print(aPerson.fullName()) // this will print "Bart Simpson"
+```
+
+So, what should you use? Should you use computed properties or functions, since they appear to do the same thing? It's really down to your programming style, but here's a guideline:
+
+> use **properties** for just that: properties; meaning simple values that you can get and/or set. Use **functions** when actual work is being done. Maybe something has to be computed or read from disk or from a database: In this case use a function, even when only a simple value is returned. That way you can easily see whether a call is cheap (properties) or possibly expensive (functions).
+> - https://stackoverflow.com/a/24047002/257314
