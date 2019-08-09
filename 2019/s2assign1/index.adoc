@@ -1,0 +1,113 @@
+:page-layout: standard_toc
+:page-title: Year 9 IST - Assignment Two
+:icons: font
+
+= Year 9 IST - Assignment One
+
+*Weight:* 40% +
+*Due:* Friday 6 September 2019 (Week 7) by 8:45am
+
+== Changelog
+
+This assignment was last updated on *Monday 5 August 2019*.
+
+If any further changes are made to the assignment they will be itemised here for ease of identification.
+
+== Task Context
+
+This assignment will provide you with the opportunity to develop an app using the Swift programming language and the brand-new SwiftUI framework.
+
+=== Marking guidelines
+
+Make sure that you consult the <<_marking_guidelines, marking guidelines>> at the end of this document to ensure that your submission meets all the requirements. This specifically specifies what you need to do in order to gain every mark for this task.
+
+=== Outcomes/Assessment Criteria
+
+* Demonstrating a good understanding of core programming concepts and their implementation in Swift
+* Demonstrating a good working knowledge of iOS application development and the use of SwiftUI
+* Correctly using object-oriented programming practices
+* Writing neat and well-formatted code, with whitespace and indentation as appropriate
+
+== Task Requirements
+
+For this task you will be building a to-do list app, similar to your assignment completed in Node.js last semester. However, don't panic - this assignment is far less involved in terms of functionality! We instead want you to focus on designing and developing a robust application in SwiftUI, so we have cut-down the functionality requirements to allow you to focus on this core goal.
+
+
+
+
+
+
+For this task you will be creating an implementation of a Node.js application.
+
+This will involve three major components:
+
+*Node.js Request/Response:* Develop a simple API to interact with a JSON file using routes and controllers.
+
+*Node.js Form:* Create a GUI to request data from the API and format the display using HTML and JavaScript.
+
+*Node.js & MongoDB:* Configure Node.js and MongoDB to facilitate storage, retrieval, modification and removal of JSON objects.
+
+There are also a number of marks allocated to enhancement and extension activities (see: <<_marking_guidelines, marking guidelines>>).
+
+You are not permitted to use any external libraries such as jQuery or Axios on the client side - only Vanilla JavaScript is allowed on the client side. The client side in this case refers to your HTML/Pug pages that the user is interacting with and/or viewing. (This does not include Express, MongoDB, Mongoose etc. on the server side, only libraries used on the client side).
+
+=== URLs to implement ===
+
+You need to ensure that each of the below URLs meet the required functionality (see the below video and
+link:test-urls-and-hints.pdf[Test URLs and Hints] for specific details):
+
+*Node.js Request/Response:* /welcome, /example, /add?id=...&desc=..., /delete.
+
+*Node.js Form:* /form.
+
+*Node.js & MongoDB:* /tasks (GET, POST & DELETE). The Postman application may be used to test this functionality.
+
+
+=== Example output ===
+
+The videos below show what your output needs to look like, when accessing the test URLs:
+
+*Node.js Request/Response*
+
+video::sample-api.mp4[width=380]
+
+*Node.js Form*
+
+video::sample-form.mp4[width=380]
+
+*Node.js & MongoDB*
+
+video::sample-mongodb.mp4[width=380]
+
+== Submission Instructions ==
+
+This assignment is worth 40% of your Semester One assessment for this subject.
+
+To submit your assignment, you will need to deploy your Node.js files to your Amazon EC2 Linux server. Details on how to do this will be provided at the beginning of Term 2.
+
+You should also ensure that your Node.js application is running on your EC2 server and test that it works remotely, using the IP address provided to you in your email.
+
+For example, the Node.js example application for showing houses and their colours is running and can be tested by going to the URL http://54.163.34.1:3000/houses[http://54.163.34.1:3000/houses].
+
+Be sure not to modify the files after the due date/time - we will be actively checking and any modifications made after will be disregarded.
+
+*Late submissions will incur penalties as per the school assessment policy:* For assignments and non-test events a late work penalty of 10% of the total possible mark will be incurred for each day late if work is not submitted on the due date.  A loss of 30% is incurred if work due on a Friday is not submitted until the following Monday. After one week (7 days) the item will be awarded a mark of zero.
+
+=== Draft submissions ===
+
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Tuesday 13 May 2019). To submit a draft email your teacher and let them know your files are ready to be reviewed.
+
+You are also welcome to ask your teacher as you are working on the assignment whether it's on the right track with the correct level of detail.
+
+[#_marking_guidelines]
+=== Marking Guidelines ===
+
+link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
+
+
+
+=== All My Own Work
+
+Please note that any submitted work is to be your own. There are serious consequences for submitting work which is taken from another person, even if they give it to you voluntarily. To decide if you have written the material, we may need to question you about your understanding of the topic. Please be careful when presenting ideas which are not entirely your own; reference such material thoroughly.
+
+For more specific examples, see the <<course_overview/course_overview.adoc#academic-honesty, Academic Honesty>> section of the Course Outline.
