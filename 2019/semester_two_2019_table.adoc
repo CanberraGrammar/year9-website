@@ -7,8 +7,8 @@
 ^|*Weight*
 
 {set:cellbgcolor:white}
-.^|*Assignment: SwiftUI*
-.^|Monday 5 August 2019 (Week 3)
+.^|*<<s2assign1/index.adoc#, Assignment: SwiftUI>>*
+.^|Saturday 10 August 2019 (Week 3)
 .^|Friday 6 September 2019 (Week 7) by 8:45am
 ^.^|40%
 

@@ -9,7 +9,7 @@
 
 == Changelog
 
-This assignment was last updated on *Monday 5 August 2019*.
+This assignment was last updated on *Saturday 10 August 2019*.
 
 If any further changes are made to the assignment they will be itemised here for ease of identification.
 
@@ -32,82 +32,70 @@ Make sure that you consult the <<_marking_guidelines, marking guidelines>> at th
 
 For this task you will be building a to-do list app, similar to your assignment completed in Node.js last semester. However, don't panic - this assignment is far less involved in terms of functionality! We instead want you to focus on designing and developing a robust application in SwiftUI, so we have cut-down the functionality requirements to allow you to focus on this core goal.
 
+Below you can see an example of the app working. The following list outlines the core features of the app:
 
+* Show a list of to do items on the main screen. The title of each item should be displayed in a list, together with an indicator of whether the task has been completed or not completed.
+* Tapping the row of a to do list item will show a detail view, with more information about that item.
+* If the user would like to view completed tasks, they can toggle the switch to show completed items.
+* To add a new to do list item, the user taps "Add" in the top right-hand corner.
+* Tasks can be deleted by swiping on the row and tapping the "Delete" button.
 
+*Note:* The data does not need to persist between executions of the app. If you add/remove items and then restart the app no changes are saved.
 
+video::app-demo.mp4[width=500]
 
+There are a few things to note:
 
-For this task you will be creating an implementation of a Node.js application.
+* Due to a bug in SwiftUI, dismissing the Add New Task modal sheet does not work when the "Save" button is tapped. You should tap the "Save" button to save the task, and then swipe down to dismiss the modal sheet. If this is fixed in a future Xcode and SwiftUI beta then this assignment will be updated accordingly.
+* You should pre-load your app with three or four to do list items, with some being completed and some being incomplete - as this will make it easier for your teacher to test and mark.
 
-This will involve three major components:
+=== Extension
 
-*Node.js Request/Response:* Develop a simple API to interact with a JSON file using routes and controllers.
+There are two extension tasks, which will earn you 1 additional mark each:
 
-*Node.js Form:* Create a GUI to request data from the API and format the display using HTML and JavaScript.
+* Allow the user to tap the indicator of whether the task has been completed (green) or not completed (red) on the main list to toggle the item between a completed and incomplete state
+* Make the data persist between executions of the app. You may wish to use a json or plist file for this purpose.
 
-*Node.js & MongoDB:* Configure Node.js and MongoDB to facilitate storage, retrieval, modification and removal of JSON objects.
+=== Assets
 
-There are also a number of marks allocated to enhancement and extension activities (see: <<_marking_guidelines, marking guidelines>>).
+* link:blue-wallpaper.png[Detail view top image]
 
-You are not permitted to use any external libraries such as jQuery or Axios on the client side - only Vanilla JavaScript is allowed on the client side. The client side in this case refers to your HTML/Pug pages that the user is interacting with and/or viewing. (This does not include Express, MongoDB, Mongoose etc. on the server side, only libraries used on the client side).
+* Green tick:
++
+```
+Image(systemName: "checkmark.rectangle.fill")
+	.imageScale(.large)
+	.foregroundColor(.green)
+```
 
-=== URLs to implement ===
-
-You need to ensure that each of the below URLs meet the required functionality (see the below video and
-link:test-urls-and-hints.pdf[Test URLs and Hints] for specific details):
-
-*Node.js Request/Response:* /welcome, /example, /add?id=...&desc=..., /delete.
-
-*Node.js Form:* /form.
-
-*Node.js & MongoDB:* /tasks (GET, POST & DELETE). The Postman application may be used to test this functionality.
-
-
-=== Example output ===
-
-The videos below show what your output needs to look like, when accessing the test URLs:
-
-*Node.js Request/Response*
-
-video::sample-api.mp4[width=380]
-
-*Node.js Form*
-
-video::sample-form.mp4[width=380]
-
-*Node.js & MongoDB*
-
-video::sample-mongodb.mp4[width=380]
+* Red cross:
++
+```
+Image(systemName: "xmark.rectangle.fill")
+	.imageScale(.large)
+	.foregroundColor(.green)
+```
 
 == Submission Instructions ==
 
 This assignment is worth 40% of your Semester One assessment for this subject.
 
-To submit your assignment, you will need to deploy your Node.js files to your Amazon EC2 Linux server. Details on how to do this will be provided at the beginning of Term 2.
-
-You should also ensure that your Node.js application is running on your EC2 server and test that it works remotely, using the IP address provided to you in your email.
-
-For example, the Node.js example application for showing houses and their colours is running and can be tested by going to the URL http://54.163.34.1:3000/houses[http://54.163.34.1:3000/houses].
-
-Be sure not to modify the files after the due date/time - we will be actively checking and any modifications made after will be disregarded.
+To submit, ZIP your *entire Xcode project folder* and upload the file to http://submit.cgscomputing.com/it09-s2assign1. Make sure to correctly enter your name and school email address, so that your submission can be located.
 
 *Late submissions will incur penalties as per the school assessment policy:* For assignments and non-test events a late work penalty of 10% of the total possible mark will be incurred for each day late if work is not submitted on the due date.  A loss of 30% is incurred if work due on a Friday is not submitted until the following Monday. After one week (7 days) the item will be awarded a mark of zero.
 
 === Draft submissions ===
 
-You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Tuesday 13 May 2019). To submit a draft email your teacher and let them know your files are ready to be reviewed.
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Friday 30 August 2019). To submit a draft email your teacher.
 
-You are also welcome to ask your teacher as you are working on the assignment whether it's on the right track with the correct level of detail.
 
 [#_marking_guidelines]
 === Marking Guidelines ===
 
 link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
 
-
-
 === All My Own Work
 
 Please note that any submitted work is to be your own. There are serious consequences for submitting work which is taken from another person, even if they give it to you voluntarily. To decide if you have written the material, we may need to question you about your understanding of the topic. Please be careful when presenting ideas which are not entirely your own; reference such material thoroughly.
 
-For more specific examples, see the <<course_overview/course_overview.adoc#academic-honesty, Academic Honesty>> section of the Course Outline.
+For more specific examples, see the <<../course_overview/course_overview.adoc#academic-honesty, Academic Honesty>> section of the Course Outline.
