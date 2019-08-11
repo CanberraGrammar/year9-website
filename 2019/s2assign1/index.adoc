@@ -44,6 +44,8 @@ Below you can see an example of the app working. The following list outlines the
 
 video::https://github.com/CanberraGrammar/year9-website/blob/master/2019/s2assign1/app-demo.mp4?raw=true[width=500]
 
+link:https://github.com/CanberraGrammar/year9-website/raw/master/2019/s2assign1/app-demo.mp4[If the video above does not play you can download a copy by clicking here].
+
 There are a few things to note:
 
 * Due to a bug in SwiftUI, dismissing the Add New Task modal sheet does not work when the "Save" button is tapped. You should tap the "Save" button to save the task, and then swipe down to dismiss the modal sheet. If this is fixed in a future Xcode and SwiftUI beta then this assignment will be updated accordingly.
