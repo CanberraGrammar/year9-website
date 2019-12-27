@@ -31,15 +31,16 @@ Make sure you always bring the correct materials to class - in particular, your 
 
 .Semester One:
 * Introduction to the Linux CLI
-* Introduction to Vim
-* JavaScript ES6 Syntax
-* Introduction to Node.JS
-* Writing Node.JS Web Apps
+* Getting setup with Node.js
+* Getting started with Node.js
+* Using Express with Node.js
+* Using MongoDB with Node.js
+* Building models with Node.js
 
 .Semester Two:
 * Introduction to Swift
-* SwiftUI App Development
-* SpriteKit Game Development
+* Introduction to SpriteKit
+* Physics and collision detection in SpriteKit
 * App Projects
 
 === Sequencing
@@ -60,19 +61,21 @@ Make sure you always bring the correct materials to class - in particular, your 
 
 {set:cellbgcolor:white}
 ^.^| *Term 1*
-2+^.^|
-*Topic 1: Introduction to the Linux CLI* +
-2+^.^|
-*Topic 2: Introduction to Vim* +
 1+^.^|
-*Topic 3: ES6* +
-5+^.^|
-*Topic 4: Introduction to Node.JS* +
+*Topic 1: Linux CLI* +
+1+^.^|
+*Topic 2: Getting setup* +
+4+^.^|
+*Topic 3: Getting started with Node.js* +
+4+^.^|
+*Topic 4: Using Express with Node.js* +
 
 {set:cellbgcolor:white}
 ^.^| *Term 2*
-9+^.^|
-*Topic 5: Writing Node.JS Web Apps* +
+4+^.^|
+*Topic 5: Using MongoDB with Node.js* +
+5+^.^|
+*Topic 6: Building models with Node.js* +
 |
 {set:cellbgcolor:grey}
 
@@ -81,9 +84,9 @@ Make sure you always bring the correct materials to class - in particular, your 
 2+^.^|
 *Topic 6: Introduction to Swift* +
 5+^.^|
-*Topic 7: SwiftUI App Development* +
+*Topic 7: Introduction to SpriteKit* +
 3+^.^|
-*Topic 8: SpriteKit Game Development* +
+*Topic 8: Physics and collision detection in SpriteKit* +
 
 {set:cellbgcolor:white}
 ^.^| *Term 4*
@@ -108,9 +111,9 @@ Make sure you always bring the correct materials to class - in particular, your 
 
 To develop students' knowledge and understanding, confidence and creativity in analysing, designing, developing and evaluating information technology solutions by:
 
-. developing an understanding of how to use the Linux command line together with common text editing tools, particularly Vim, found on all systems
+. developing an understanding of how to use the Linux command line
 
-. learning how to write server-side application code in Node.JS to develop full client-server web-based applications
+. learning how to write server-side application code in Node.js to develop full client-server web-based applications
 
 . learning how to develop native mobile applications for iOS using Swift and the Xcode IDE
 
@@ -139,8 +142,10 @@ This course will use the following materials and resources:
 * MacBook laptop computer
 
 * *Semester One:*
+** *Textbook:* Get Programming with Node.JS by Jonathan Wexler. https://www.manning.com/books/get-programming-with-node-js[Please purchase the eBook edition for US$39.99 via this link^].
 ** Google Chrome
 ** ED STEM IDE
+** Node.js, Express.js, MongoDB (all freely downloadable)
 
 * *Semester Two:*
 ** Xcode
@@ -149,7 +154,7 @@ This course will use the following materials and resources:
 
 == Final Project
 
-The climax of this course is the final project. The final project is your opportunity to take your newfound savvy with app development out for a spin and develop an app using either SwiftUI or SpriteKit for iOS. So long as your project draws upon the course’s lessons, the nature of your project is entirely up to you, albeit subject to your teacher's approval.
+The climax of this course is the final project. The final project is your opportunity to take your newfound savvy with app development out for a spin and develop a game using SpriteKit for iOS. So long as your project draws upon the course’s lessons, the nature of your project is entirely up to you, albeit subject to your teacher's approval.
 
 == Expectations
 
@@ -201,7 +206,7 @@ The same penalties as homework non-completion apply towards not bringing the cor
 
 Given the technical nature of this course you may sometimes have difficulty understanding concepts or completing the set work. There are several ways you can seek assistance should you need help.
 
-* *ED STEM Online Forum (https://edstem.org/courses/XXXX/discussion).* This is your first point of call for assistance if you are having difficulty. All Year 9 IT students have access to the forum, along with the teachers and also senior student mentors (who have done this course in the past). Posting on the forum is a much faster way to get help than emailing your teacher, as more people monitor the forum so if you post a question then it will likely be answered by either another student or your teacher. However, you need to make a substantive attempt yourself before posting — if you are posting just to get an easy answer (because you can't be bothered figuring out something yourself) that will be pretty obvious to everyone, so don’t expect much help in that situation!
+* *ED STEM Online Forum (https://edstem.org/courses/3877/discussion).* This is your first point of call for assistance if you are having difficulty. All Year 9 IT students have access to the forum, along with the teachers and also senior student mentors (who have done this course in the past). Posting on the forum is a much faster way to get help than emailing your teacher, as more people monitor the forum so if you post a question then it will likely be answered by either another student or your teacher. However, you need to make a substantive attempt yourself before posting — if you are posting just to get an easy answer (because you can't be bothered figuring out something yourself) that will be pretty obvious to everyone, so don’t expect much help in that situation!
 
 * *Email the Teacher.* If you have posted on the forum, but not received a satisfactory response, then you are welcome to email the teacher to follow-up. Of course, you can also email you teacher if you want to talk to them about something privately.
 

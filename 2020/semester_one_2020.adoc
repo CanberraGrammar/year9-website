@@ -8,10 +8,10 @@
 === Report Criteria / Areas of Learning
 
 * Demonstrating a good understanding of Linux-based command line interfaces
-* Understanding and effectively using the Vim text editor
-* Understanding and writing ES6-compliant JavaScript code
-* Demonstrating a good knowledge of the core Node.JS concepts including routing, templating, and model-view-controller
-* Demonstrating sufficient overall knowledge of Node.JS to effectively write an entire working program
+* Demonstrating a good knowledge of the core Node.js concepts including routing and templating using frameworks such as Express
+* Demonstrating sufficient overall knowledge of Node.js to effectively write an entirely working program from scratch
+* Understanding how to use MongoDB within a Node.js application
+* Demonstrates good modelling of data within programs using the principles of CRUD
 * Including sufficient comments and other intrinsic documentation, such as appropriate variable naming, to explain the purpose of the code
 
 === Assessment Schedule
@@ -21,10 +21,11 @@ include::semester_one_2020_table.adoc[]
 === Course Detail
 
 * Introduction to the Linux CLI
-* Introduction to Vim
-* JavaScript ES6 Syntax
-* Introduction to Node.JS
-* Writing Node.JS Web Apps
+* Getting setup with Node.js
+* Getting started with Node.js
+* Using Express with Node.js
+* Using MongoDB with Node.js
+* Building models with Node.js
 
 === Grade Allocation
 
