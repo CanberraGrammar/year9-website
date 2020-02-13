@@ -83,7 +83,7 @@ Use of `Express` is expressly forbidden for this assignment. If there are any re
 
 *Implement the `/guess/` routes (5 marks).*
 
-* Create a route for `/guess/0` up to `guess/10`
+* Create a route for `/guess/0` up to `/guess/10`, with each route making use of the same function
 * For each route, if the answer was correctly guessed, display the text `Correct!`
 * For each route, if the answer is higher than the number guessed, display the text `Higher...`
 * For each route, if the answer is lower than the number guessed, display the text `Lower...`
