@@ -78,13 +78,12 @@ Use of `Express` is expressly forbidden for this assignment. If there are any re
 
 *Implement the `/random/` and `/start` routes (2 marks).*
 
-* `/random/10` should display a random number `between 0 and 10`
-* `/random/100` should display a random number `between 0 and 100`
-* `/start/10` should store a random number `between 0 and 10` (without displaying the answer)
+* `/random` should display a random number `between 0 and 10`
+* `/start` should store a random number `between 0 and 10` (without displaying the answer)
 
 *Implement the `/guess/` routes (5 marks).*
 
-* Using a for loop, create a route for `/guess/0` up to `guess/10`
+* Create a route for `/guess/0` up to `guess/10`
 * For each route, if the answer was correctly guessed, display the text `Correct!`
 * For each route, if the answer is higher than the number guessed, display the text `Higher...`
 * For each route, if the answer is lower than the number guessed, display the text `Lower...`
