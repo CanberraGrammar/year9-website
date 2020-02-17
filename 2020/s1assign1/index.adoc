@@ -35,7 +35,7 @@ image::logo2.jpg[Guess My Number!, 320, 240]
 
 You have been re-employed by the same major US cable television network from last year, to create a *Node.js* version of *Extreme Rock Paper Scissors*. They are also introducing a new show called *Guess My Number*.
 
-Fortunately, an engineer (who has mysteriously disappeared) uploaded some partially complete games in ED STEM called *Assignment 1 (Semester One) - Template* which you can fork. This contains some starting Node.js files for your game. Your job is to finish the JavaScript code to make the game function.
+Fortunately, an engineer (who has mysteriously disappeared) uploaded some partially complete games in ED STEM called *Assignment 1 (Semester 1)* which you can fork. *DO NOT* rename this workspace, otherwise we might not be able to find your work later for marking. This contains some starting Node.js files for your game. Your job is to finish the JavaScript code to make the game function.
 
 === Your Task
 
