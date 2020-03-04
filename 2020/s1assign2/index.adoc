@@ -81,7 +81,9 @@ Although the choice of how your To Do List Application works is up to you, below
 ==== Model
 
 * *Essential data*: Task names or descriptions, and a way to view complete and incomplete tasks
-* *Customisations (optional attributes)*: Subjects/categories, priority, sub-tasks, percentage of task done, etc.
+* *Custom attributes (optional)*: Subjects/categories, priority, sub-tasks, percentage of task done, etc.
+* *Validations (optional)*: Appropriate data types and properties, such as the format of an email address.
+* *Instance methods (optional)*: Functions that relate directly to the data model. For example, combining a first name and last name, to return a full name. Although you could get away with writing this code elsewhere, including this with your data model is better because it makes it easy to reuse anywhere (e.g. if you created a mobile app to interact with your database). 
 
 ==== View
 
