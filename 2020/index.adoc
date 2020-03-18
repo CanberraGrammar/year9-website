@@ -34,6 +34,7 @@ matthew.pham@cgs.act.edu.au
 * https://drive.google.com/open?id=1n32oq5Xs_4zTAQeYs1DWynNoQGizVCZEb6GiC9IzlsA[Textbook Notes - Get Programming with Node (Unit 1: Intro)^]
 * https://drive.google.com/open?id=1PA0ClHl4nAtfM6gm_gG2c7ISVh6TkDkIjNSY8Sn0mEg[Textbook Notes - Get Programming with Node (Unit 2: Express)^]
 * https://drive.google.com/open?id=1XWc9uYg1PscCJCiFVrIneJdqfB_wi0hw24cnX4Q2yeQ[Textbook Notes - Get Programming with Node (Unit 3: MongoDB)^]
+* https://drive.google.com/open?id=1ndao4CCG8LwYm3QSC3QC57yvZB5Oi044[Node.js Video Lessons]
 
 ==== Assessment Schedule (Semester One)
 
