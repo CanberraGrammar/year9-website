@@ -38,6 +38,14 @@ image::to_do_list.png[To Do List, 200]
 
 This will require you to apply your newly learned skills in writing Node.js, in addition to general skills in HTML, CSS and JavaScript.
 
+=== Working in Pairs (Optional)
+
+We have provided an opportunity for you to work collaboratively in pairs, but you must negotiate this with your teacher before the end of Term 1.
+
+You should be aware, however, that the requirements are significantly greater. It is expected that each group member contributes equally to the assignment and as such, each member will receive the same mark. By choosing to work in pairs, you are acknowledging the risk that your partner may not make a fair contribution.
+
+The requirement for working in pairs is to complete a *Calendar and Study Planner*, in addition to meeting the requirements of the *To Do List Application*. Here are the *<<_group_requirements, group requirements>>*.
+
 === Marking guidelines
 
 Make sure that you consult the <<_marking_guidelines, marking guidelines>> at the end of this document to ensure that your submission meets all the requirements.
@@ -83,7 +91,7 @@ Although the choice of how your To Do List Application works is up to you, below
 * *Essential data*: Task names or descriptions, and a way to view complete and incomplete tasks
 * *Custom attributes (optional)*: Subjects/categories, priority, sub-tasks, percentage of task done, etc.
 * *Validations (optional)*: Appropriate data types and properties, such as the format of an email address.
-* *Instance methods (optional)*: Functions that relate directly to the data model. For example, combining a first name and last name, to return a full name. Although you could get away with writing this code elsewhere, including this with your data model is better because it makes it easy to reuse anywhere (e.g. if you created a mobile app to interact with your database). 
+* *Instance methods (optional)*: Functions that relate directly to the data model. For example, combining a first name and last name, to return a full name. Although you could get away with writing this code elsewhere, including this with your data model is better because it makes it easy to reuse anywhere (e.g. if you created a mobile app to interact with your database).
 
 ==== View
 
@@ -98,6 +106,32 @@ Although the choice of how your To Do List Application works is up to you, below
 * *Routes*: URIs should be logically named and make use of the principles of CRUD. This would typically be configured in your *main.js* file, making use of *Express*.
 * *Actions*: You are expected to use *Mongoose* to connect your requests to the data stored in *MongoDB*. This would typically be configured within your *controllers* folder.
 * *Render views and layouts*: You are expected to use views and layouts to display a combination of static and dynamic data, with a consistent, aesthetic style. This would typically be configured within your *views* folder.
+
+[#_group_requirements]
+== Group Task Requirements
+
+=== Designing your application
+
+In addition to answering the questions about the *To Do List Application*, you will expand upon this to describe the functionality of the *Calendar and Study Planner*.
+
+=== Implementing your application
+
+In addition to meeting the requirements of the *To Do List Application*, below are the requirements for the *Calendar and Study Planner*.
+
+==== Model
+
+* *Calendar*: Model(s) that enable tasks to be scheduled and displayed within some form of calendar (e.g. daily, weekly, monthly, Term 1 Week 1)
+* *Study Planner*: Model(s) that enable you to display a weekly and/or fortnightly schedule, where time can be allocated to a task, subtask and/or a group/category of tasks. This could be a repeated time allocation (i.e. every week or fortnight) or a once off allocation (e.g. this week but not next week)
+* *Enhancements (optional)*: Attributes, validations and instance methods for the any of your models
+
+==== View
+
+* *Calendar*: Page(s) where you can view (and optionally, edit) your tasks within some form of calendar
+* *Study Planner*: Page(s) where you can view and edit your study planner, allocating time to different tasks within a weekly and/or fortnightly schedule
+
+==== Controller
+
+* Additional routes, actions and rendered views for your Calendar and Study Planner
 
 == Submission Instructions ==
 
