@@ -12,7 +12,7 @@
 .^|Thursday 19 March 2020 (Week 7) by 8:45am
 ^.^|25%
 
-.^|*Assignment: Node.js and Express App Development*
+.^|*<<s1assign2/index.adoc#, Assignment: Node.js and Express App Development>>*
 .^|Monday 30 March 2020 (Week 9)
 .^|Thursday 28 May 2020 (Week 15) by 8:45am
 ^.^|40%
