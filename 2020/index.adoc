@@ -36,6 +36,7 @@ matthew.pham@cgs.act.edu.au
 * https://drive.google.com/open?id=1XWc9uYg1PscCJCiFVrIneJdqfB_wi0hw24cnX4Q2yeQ[Textbook Notes - Get Programming with Node (Unit 3: MongoDB)^]
 * https://drive.google.com/open?id=1-qSvU9Ha5hcWAtFqjR4jd7RnDtUB7VZlZ_mjeYB4UwI[Textbook Notes - Get Programming with Node (Unit 4: CRUD)^]
 * https://drive.google.com/open?id=1ndao4CCG8LwYm3QSC3QC57yvZB5Oi044[Node.js Video Lessons^]
+* https://drive.google.com/open?id=1mvn-mPMWFvg47AhILCBkvYVWG4bWTGyliFqfr4fcoD4[Simple To Do List Code Snippets^]
 * https://drive.google.com/open?id=15IGuUkARF_Mwht0rxsEK4TtfmfgfHo6lSYbJ897kRlg[Houses Calendar Code Snippets^]
 
 ==== Assessment Schedule (Semester One)
