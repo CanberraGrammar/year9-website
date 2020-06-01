@@ -24,6 +24,12 @@ If any changes are made to the task they will be itemised here for ease of ident
 * The test is completely open-resource. Any resources (including the internet, textbooks, handwritten or electronic notes) may be used. However, email and any other form of real-time (or near real-time) communication must not be used - while students can use resources to research how to solve the questions they may not communicate with anyone else during the test.
 * Keep in mind that even though this test is open-resource, it is essential that all students undertake sufficient revision. Referring to other resources is only useful if you need to quickly reference or look-up something. If you do not already have a firm grasp of Node.js development then you cannot expect to research and understand completely new concepts, then answer the questions, in order to complete this task within the time frame.
 
+== Past Tests ==
+
+For revision purposes, below are copies of past tests from 2020. Note that the solution will not be provided for these tests.
+
+* link:2020s1commontest/requirements.mp4[2020 Practice Test Requirements Video^] | link:2020s1commontest/marking-guidelines.pdf[Marking Guidelines^]
+
 === Reporting Criteria
 
 * Demonstrating a good knowledge of the core Node.js concepts including routing and templating using frameworks such as Express
