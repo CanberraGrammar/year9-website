@@ -29,7 +29,14 @@ matthew.pham@cgs.act.edu.au
 * http://cgs.ist/0901[IT0901 Google Doc^]
 * http://cgs.ist/0902[IT0902 Google Doc^]
 
-==== Resources
+==== Resources (Semester Two)
+
+* http://year9.cgscomputing.com/2020/swift-cheatsheet[JavaScript to Swift Cheatsheet^]
+* https://docs.google.com/document/d/1vXAW8Sw2TkOJakshkCIA7gbI_csYCL01siA6qaVw_aA/edit?usp=sharing[Introductory Swift Activities^]
+* https://www.weheartswift.com/online-exercises/[We &hearts; Swift: Online Exercises^]
+* https://www.hackingwithswift.com/sixty/10/1/handling-missing-data[Hacking with Swift: Handling Missing Data (Optionals)^]
+
+==== Resources (Semester One)
 
 * https://drive.google.com/open?id=1n32oq5Xs_4zTAQeYs1DWynNoQGizVCZEb6GiC9IzlsA[Textbook Notes - Get Programming with Node (Unit 1: Intro)^]
 * https://drive.google.com/open?id=1PA0ClHl4nAtfM6gm_gG2c7ISVh6TkDkIjNSY8Sn0mEg[Textbook Notes - Get Programming with Node (Unit 2: Express)^]
