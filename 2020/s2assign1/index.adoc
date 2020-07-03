@@ -5,7 +5,7 @@
 = Year 9 IST - Assignment One (Semester Two) =
 
 *Weight:* 30% +
-*Due:* Thursday 3 September 2020 (Week 7) by 8:45am
+*Due:* Tuesday 1 September 2020 (Week 7) by 8:45am
 
 == Changelog ==
 
@@ -73,11 +73,9 @@ There are five enhancement tasks, designed to reward students who are able to co
 
 5. Animate the player and enemies/obstacles using multi-frame textures.
 
-You can attempt any (or all) of the above extension tasks in any order (you do not need to complete the first task to complete the second, etc. &mdash; each task is designed to be standalone).
+You can attempt any (or all) of the above enhancement tasks in any order (you do not need to complete the first task to complete the second, etc. &mdash; each task is designed to be standalone).
 
-*For each task you successfully complete you will receive 1 bonus mark*. This kind of thing also reflects favourably on your effort report for the subject, particularly _Independent Approach to Learning_).
-
-IMPORTANT: *If you attempt any of the extension tasks then please put a comment at the top of your GameScene.swift file telling us which extension task(s) you attempted.* If you do not then it is difficult for us to tell what you have done and you will not receive any bonus marks!
+IMPORTANT: *If you attempt any of the enhancement tasks then please put a comment at the top of your GameScene.swift file telling us which enhancement task(s) you attempted.* If you do not then it is difficult for us to tell what you have done and you may not receive marks for this section!
 
 === Credits ===
 
@@ -116,7 +114,7 @@ To submit, ZIP your *entire Xcode project folder* and upload the file to http://
 
 === Draft submissions ===
 
-You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Tuesday 28 August 2018). To submit a draft email your teacher with a ZIP copy of your project.
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Tuesday 26 August 2020). To submit a draft email your teacher with a ZIP copy of your project.
 
 [#_marking_guidelines]
 === Marking Guidelines ===
