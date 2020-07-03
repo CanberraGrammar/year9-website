@@ -39,7 +39,7 @@ There is also no template, you will need to create your Xcode project from scrat
 
 _Why are we doing this? I want a sample app!_ The reason is that, now you have experience in game development through examples completed during class, we want you to make decisions about how the gameplay should work so that you can produce a playable game. It also means that when marking we are looking at your game as a whole, rather than specifically looking to see whether you exactly replicated a sample app we gave you &mdash; making it much easier to award you marks!
 
-=== Game Description and Minimum Requirements (20 marks) ===
+=== Game Description and Minimum Requirements (15 marks) ===
 
 The game should following this general workflow:
 
