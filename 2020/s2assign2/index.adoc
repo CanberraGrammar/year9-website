@@ -1,0 +1,94 @@
+:page-layout: standard_toc
+:page-title: Year 9 IST - Assignment Two
+:icons: font
+
+
+= Year 9 IST - Assignment Two (Semester Two) =
+
+*Weight:* 30% +
+*Due:* Tuesday 22 September 2020 (Week 10) by 8:45am
+
+== Changelog ==
+
+This assignment was last updated on *Friday 10 July 2020*.
+
+== Project Overview ==
+
+The major project requires you to design a game for the iPad that tells a story in order to raise awareness of historical or modern culture (with appropriate respect and sensitivity). Note that this is primarily a design project and you are not expected to implement all of it. You will be required, however, to plan a minigame prototype which you will implement for your final assignment.
+
+=== Cultural Story Selection ===
+
+Your story may be based on one of the following themes:
+
+* Telling the story of influential historical events or people such as the story of Pemulwuy, an influential Aboriginal person known for his resistance to the European settlement of Australia which began with the arrival of the First Fleet in January 1788
+* Describing the ideas and traditions of a cultural group, such as the hunter-gatherer lifestyle of the Ngunnawal people, who have been living in this land for at least 20,000 years
+* Explaining the cultural significance of a festival or customs such as the Chinese Lunar New Year or Ramadan
+* Exploring religious beliefs and practices such as contrasting different ideas about the afterlife, gods and/or religious ceremonies
+* Other ideas that you may negotiate with the teacher
+
+=== Minigame Designs ===
+
+You will need to design and integrate 3-5 minigames into the story. These all need to be appropriately designed for use on an iPad. The expected format is:
+
+* An interactive story, where players progress through a variety of SpriteKit Game Scenes
+* Challenges in the form of minigames as you progress through the story
+* Animations and/or text based story sequences in between minigames
+
+=== Minigame Prototype Plan ===
+
+You are required to create a detailed minigame prototype plan to describe the code you would need to write for one minigame that you will develop and include in your next assignment.
+
+== Game Design Tips ==
+
+According to this video about https://www.youtube.com/watch?v=G8AT01tuyrk[The Basic Principles of Game Design^], all good game designs rest upon a solid foundation with 3 pillars:
+
+* *Direction* - The player's role and purpose
+* *Communication* - How the role and purpose is communicated to the player
+* *Appeal* - How the game is designed to appeal to players, without relying on the use of stunning graphics
+
+The video then discusses a number of game design principles that help you to strengthen the pillars.
+
+The video is loosely structured and based upon the ideas of this site: https://www.gamasutra.com/view/feature/132341/the_13_basic_principles_of_.php?page=2[The 13 Basic Principles of Game Design^]
+
+== Deliverables ==
+
+You are required to share a Google Doc with your teacher that includes 3 sections:
+
+=== 1. Game Proposal ===
+
+This should include:
+
+* An appropriate story to tell and justification of why it's important to raise awareness
+* Research for the story with appropriate sources referenced correctly
+* A summary of how you will tell your story and raise awareness using an iPad game as the medium
+* A description of a completed sequence of story events that include minigames, animations and/or text-based descriptions
+
+=== 2. Minigame Designs ===
+
+For each of your minigames, you should include details about:
+
+* Game mechanics
+* Context and purpose within the story
+* How the minigame is designed to direct, communicate and appeal to players, referencing at least one game design principle
+* Steps a programmer would need to take to implement the minigame
+
+=== 3. Minigame Prototype Plan ===
+
+Your final assignment will involve you creating a version of your minigame prototype, so plan carefully!
+
+Select the minigame that is most appropriate for you to develop based on your skill level. Then list and describe:
+
+* The main functions that you need to consider when designing a SpriteKit Game Scene
+* What variables you need to create and how they will be utilised for the minigame to function as designed
+* What is meant to happen within each of the functions
+
+== Marking Guidelines ==
+
+link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
+
+*Note:* These marking guidelines are subject to change/update &mdash; particularly if something is brought to our attention we didn't consider when writing the assignment. Any such updates will be highlighted in the changelog.
+
+[#_academic_honesty]
+== Academic Honesty
+
+include::../common/academic_honesty.adoc[]

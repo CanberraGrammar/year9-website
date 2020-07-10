@@ -1,5 +1,5 @@
 :page-layout: standard_toc
-:page-title: Year 9 IST - Assignment Two
+:page-title: Year 9 IST - Assignment One
 :icons: font
 
 = Year 9 IST - Assignment One (Semester Two) =
