@@ -1,0 +1,79 @@
+:page-layout: standard_toc
+:page-title: Year 9 IST - Assignment Three
+:icons: font
+
+= Year 9 IST - Assignment Three =
+
+*Weight:* 40%
+*Due:* Tuesday 3 November 2020 (Week 14) by 8:45am
+
+== Changelog ==
+
+This assignment was last updated on *Friday 17 July 2020*.
+
+== Task Overview ==
+
+This assignment requires you to implement the minigame prototype you planned within your last assignment (with some restrictions/guidelines) in SpriteKit using Swift.
+
+== Task Description ==
+
+You are to follow the steps listed in your minigame design and minigame prototype plan to implement your game designed to promote cultural awareness.
+
+The completed SpriteKit project needs to include:
+
+* a menu screen so that the player can choose to navigate to a story scene or minigame scene
+* at least one story scene based on one of the scenes listed in your game design
+* a minigame scene based on one of the scenes listed in your game design
+
+There are certain minimum requirements which the minigame must satisfy:
+
+* be able to display the player's score.
+* keep track of the player's score.
+* involve physics (e.g. character moving, hitting obstacles, ball bouncing, etc.).
+* be developed in SpriteKit using Swift. You must primarily use first-party (i.e. Apple provided) frameworks. However, you may use third-party libraries if you need particular functionality (e.g. network access, to access an API for some reason) but you must seek teacher approval.
+
+This is an individual project. You are welcome to collaborate and help each other, but all work must be your own. If any of your work is copied (either from another member of the class, or from a third party such as a book or the internet) then make sure you reference the source of the material, otherwise it will be considered plagiarism and you will receive zero.
+
+Most games you can think of will already have been developed in Swift and/or SpriteKit with solutions available online. *You must write your own implementation of the game, and all work must be your own* (with the exception of little bits and pieces which you may use from elsewhere, if needed, with references - but these must only be relatively very small and non-important parts of your total assignment, as you won't receive marks for code you didn't write yourself). *We will be actively checking the originality of your submitted code.* It is very obvious if you submit code which you haven't written yourself.
+
+
+== Submission Instructions ==
+
+This assignment is worth 40% of your Semester One assessment for this subject.
+
+You must place the following declaration (in the form of a comment) at the top of your main view controller file:
+
+....
+//
+// I am committed to being a person of integrity.
+// This project is submitted as part of the assessment for Year 9 IST.
+// This is all my own work. I have referenced any work used from other
+// sources and have not plagiarised the work of others.
+// (signed) Name here
+//
+....
+
+Make sure you understand the implications of this declaration which you are including and digitally signing (see the <<_academic_honesty, Academic Honesty>> section of this document for more information).
+
+*If you do not include the student declaration at the top of your main view controller file your assignment will not be marked and you will receive zero.*
+
+To submit, ZIP your *entire Xcode project folder* and upload the file to http://submit.cgscomputing.com/year10-s2assign3[http://submit.cgscomputing.com/year10-s2assign3^]. Make sure to correctly enter your name and school email address, so that your submission can be located.
+
+*Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof. 
+
+=== Draft Submissions ===
+
+Given the custom nature of this project we will not have formal draft submissions. However, you are encouraged to ask your teacher to review your assignment during the allocated project lessons for feedback. You are also welcome to get feedback during the after school or lunchtime IT tutorial sessions.
+
+
+[#_marking_guidelines]
+=== Marking Guidelines ===
+
+link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
+
+*Note:* These marking guidelines are subject to change/update &mdash; particularly if something is brought to our attention we didn't consider when writing the assignment. Any such updates will be highlighted in the changelog.
+
+[#_academic_honesty]
+== Academic Honesty
+
+include::../common/academic_honesty.adoc[]

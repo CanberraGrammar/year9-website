@@ -26,6 +26,18 @@ Your story may be based on one of the following themes:
 * Exploring religious beliefs and practices such as contrasting different ideas about the afterlife, gods and/or religious ceremonies
 * Other ideas that you may negotiate with the teacher
 
+=== Appropriate respect and sensitivity ===
+
+Please be aware that some topics may not be appropriate for your project if they are not approached with appropriate caution, respect and sensitivity.
+
+For example, creating a game that teaches players how to speak the Ngunnawal language is very different from teaching players how to speak Chinese. This is because, "Ngunnawal, like many of the languages spoken across Australia for millennia, has been eroded by time, and by government policies that sought to disconnect its speakers from their country and their shared identity." (https://www.abc.net.au/news/2019-07-14/indigenous-language-needs-to-be-fostered-and-protected/11305682[Source: ABC Radio Canberra^])
+
+Imagine if your entire culture and language were taken from you, and then the people responsible decided to teach about your culture and language as if it was their own. They could easily misrepresent things and unintentionally cause offence. You may like to read this article about https://au.reachout.com/articles/why-cultural-appropriation-isnt-cool[why cultural appropriation isn't cool^].
+
+An appropriate first step for a project of this nature would be to seek the advice of a respected authority on the subject such as an Aboriginal elder or community representative.
+
+If you are unsure about cultural respect and sensitivity, you should always ask your teacher for advice.
+
 === Minigame Designs ===
 
 You will need to design and integrate 3-5 minigames into the story. These all need to be appropriately designed for use on an iPad. The expected format is:
@@ -81,6 +93,16 @@ Select the minigame that is most appropriate for you to develop based on your sk
 * The main functions that you need to consider when designing a SpriteKit Game Scene
 * What variables you need to create and how they will be utilised for the minigame to function as designed
 * What is meant to happen within each of the functions
+
+== Submission Instructions ==
+
+This assignment is worth 30% of your Semester One assessment for this subject.
+
+*Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof.
+
+=== Draft submissions ===
+
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date. To submit a draft email your teacher with a link to your Google Doc.
 
 == Marking Guidelines ==
 

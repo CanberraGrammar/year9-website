@@ -97,7 +97,7 @@ You must place the following declaration (in the form of a comment) at the top o
 ....
 //
 // I am committed to being a person of integrity.
-// This project is submitted as part of the assessment for Year 10 IST.
+// This project is submitted as part of the assessment for Year 9 IST.
 // This is all my own work. I have referenced any work used from other
 // sources and have not plagiarised the work of others.
 // (signed) Name here
@@ -110,7 +110,7 @@ Make sure you understand the implications of this declaration which you are incl
 
 To submit, ZIP your *entire Xcode project folder* and upload the file to http://submit.cgscomputing.com/year10-s2assign1[http://submit.cgscomputing.com/year10-s2assign1^]. Make sure to correctly enter your name and school email address, so that your submission can be located.
 
-*Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof. *Be aware, if you do not submit your assignment by 8:45am on Tuesday 4 September 2018 that is counted as a day late and will attract the 10% penalty.* Weekends equate to 2 days. On the second day of non submission parents will be informed. A student may be directed to study support to complete an overdue assessment task. After 4 days, a student who has not submitted an assessment task will receive an academic detention. Work completed during academic detention or submitted more than 4 days late will have 50% of the total value of the assessment deducted from the student's score. If the work remains incomplete despite the academic detention, the student will receive zero marks for the task.
+*Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof. 
 
 === Draft submissions ===
 
