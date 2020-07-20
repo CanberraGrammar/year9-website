@@ -46,6 +46,12 @@ matthew.pham@cgs.act.edu.au
 * https://drive.google.com/open?id=1mvn-mPMWFvg47AhILCBkvYVWG4bWTGyliFqfr4fcoD4[Simple To Do List Code Snippets^]
 * https://drive.google.com/open?id=15IGuUkARF_Mwht0rxsEK4TtfmfgfHo6lSYbJ897kRlg[Houses Calendar Code Snippets^]
 
+==== Assessment Schedule (Semester Two)
+
+include::semester_two_2020_table.adoc[]
+
+<<semester_two_2020.adoc#, Semester Two &mdash; Full Unit Information and Assessment Schedule>>
+
 ==== Assessment Schedule (Semester One)
 
 include::semester_one_2020_table.adoc[]
