@@ -7,12 +7,7 @@
 
 === Report Criteria / Areas of Learning
 
-* Demonstrating a good understanding of core programming concepts and their implementation in Swift
-* Shows a good understanding of SpriteKit to develop 2D games with physics
-* Shows a good understanding of game design processes and principles
-* Correctly using object-oriented programming practices
-* Writing neat and well-formatted code, with whitespace and indentation as appropriate
-* Demonstrating project management skills and the ability to successfully take an app from idea to implementation
+TBC
 
 === Assessment Schedule
 
@@ -27,23 +22,25 @@ include::semester_two_2019_table.adoc[]
 
 === Grade Allocation
 
+TBC
+
 [cols="1,20"]
 |===
 
 ^.^|*A*
-.^|The student demonstrates an extensive knowledge of core programming concepts and their implementation in the Swift programming language. They are able to develop apps using the SwiftUI framework, effectively implementing user interface related classes to create appropriately designed and structured apps. They have mastered the use of other Apple frameworks, particularly SpriteKit to develop 2D games with full physics capabilities. The student has demonstrated that they are able to design and develop a complex iOS app from scratch, along with having the requisite project management skills to ensure that the task is completed within the given timeframe and constraints.
+.^|
 
 ^.^|*B*
-.^|The student demonstrates a thorough knowledge of core programming concepts and their implementation in the Swift programming language. They are able to develop apps using the SwiftUI framework, effectively implementing user interface related classes to create appropriately designed and structured apps. They have a very good working knowledge of other Apple frameworks, particularly SpriteKit to develop 2D games with physics capabilities. The student has demonstrated that they are able to design and develop a reasonably complex iOS app from scratch, along with having the requisite project management skills to ensure that the task is completed within the given timeframe and constraints. To improve, the student should further develop their knowledge of using advanced Apple-provided classes, and also effective user interface design principles.
+.^|
 
 ^.^|*C*
-.^|The student demonstrates a sound knowledge of core programming concepts and their implementation in the Swift programming language. With guidance, they are able to develop apps using the SwiftUI framework, implementing user interface related classes to create appropriately designed and structured apps. They also have satisfactory knowledge to implement other Apple frameworks, particularly SpriteKit to develop 2D games with some physics capabilities. The student has also demonstrated that they are able to develop an iOS app from scratch. To improve, the student should further develop their knowledge of using the Apple-provided classes and how these can be used in custom-designed apps. They should also practise project management skills in terms of developing apps and programs from scratch.
+.^|
 
 ^.^|*D*
-.^|The student demonstrates a limited knowledge of core programming concepts and their implementation in the Swift programming language. They can develop apps using the SwiftUI framework, but need substantial guidance and structured steps. The student has some knowledge of Apple frameworks, such as SpriteKit, but encounters difficulties when implementing and using this technology in apps. To improve, they should further develop their knowledge of using the Apple-provided classes in their own apps where step-by-step instructions for building the program are not provided. They should also practise project management skills in terms of developing apps and programs from scratch.
+.^|
 
 ^.^|*E*
-.^|The student demonstrates a very limited knowledge of core programming concepts and their implementation in the Swift programming language. They have some understanding of SwiftUI, but require substantial guidance and step-by-step instruction. Their knowledge of Apple frameworks is very basic, and they are unable to implement this technology correctly within their own apps. To improve, the student should further develop their knowledge of using the Apple-provided classes, particularly the user interface related classes covered throughout the semester.
+.^|
 
 ^.^|*S*
 .^|Awarded to students who have been unable to complete sufficient work due to an extended period of illness or other approved absence (status).
