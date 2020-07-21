@@ -11,7 +11,7 @@ TBC
 
 === Assessment Schedule
 
-include::semester_two_2019_table.adoc[]
+include::semester_two_2020_table.adoc[]
 
 === Course Detail
 
