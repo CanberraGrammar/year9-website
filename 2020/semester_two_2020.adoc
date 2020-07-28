@@ -7,7 +7,12 @@
 
 === Report Criteria / Areas of Learning
 
-TBC
+* Demonstrating a good understanding of core programming concepts and their implementation in Swift
+* Demonstrating a good understanding of SpriteKit to develop 2D games with physics
+* Applying game design principles and a conceptual understanding of programming requirements to produce a complete game design
+* Presenting ideas comprehensively and professionally, demonstrating creativity and ingenuity through the design of appropriate game mechanics and story sequences
+* Correctly using object-oriented programming practices
+* Demonstrating project management skills and the ability to successfully take a game from idea to implementation
 
 === Assessment Schedule
 
@@ -28,19 +33,19 @@ TBC
 |===
 
 ^.^|*A*
-.^|
+.^|The student demonstrates an extensive knowledge of core programming concepts and their implementation in the Swift programming language. They have mastered the use of SpriteKit to develop 2D games with full physics capabilities. The student displays exceptional creativity and ingenuity to design a purposeful series of minigames and story sequences. The student has demonstrated that they are able to design and develop a complex SpriteKit game from scratch, along with having the requisite project management skills to ensure that the task is completed within the given timeframe and constraints.
 
 ^.^|*B*
-.^|
+.^|The student demonstrates a thorough knowledge of core programming concepts and their implementation in the Swift programming language. They have a very good working knowledge of SpriteKit to develop 2D games with physics capabilities. The student displays very good creativity and ingenuity to design a series of minigames and story sequences. The student has demonstrated that they are able to design and develop a reasonably complex SpriteKit game from scratch, along with having the requisite project management skills to ensure that the task is completed within the given timeframe and constraints. To improve, the student should further develop their knowledge of using advanced SpriteKit features, and their understanding of game design principles.
 
 ^.^|*C*
-.^|
+.^|The student demonstrates a sound knowledge of core programming concepts and their implementation in the Swift programming language. With guidance, they are able to use SpriteKit to develop 2D games with some physics capabilities. The student displays creativity and ingenuity to design a series of minigames and story sequences. The student has demonstrated that they are able to design and develop a SpriteKit game from scratch. To improve, the student should further develop their knowledge of using advanced SpriteKit features, and their understanding of game design principles. They should also practise project management skills in terms of developing a more complex game from scratch.
 
 ^.^|*D*
-.^|
+.^|The student demonstrates a limited knowledge of core programming concepts and their implementation in the Swift programming language. They are able to use SpriteKit to develop 2D games with some physics capabilities, but need substantial guidance and structured steps. The student displays limited creativity and their design of minigames and story sequences lack detail. The student has some knowledge of SpriteKit, but encounters difficulties when implementing and using this technology. To improve, the student should further develop their knowledge of using advanced SpriteKit features, and their understanding of game design principles. They should also practise project management skills in terms of developing a more complex game from scratch.
 
 ^.^|*E*
-.^|
+.^|The student demonstrates a very limited knowledge of core programming concepts and their implementation in the Swift programming language. They have some understanding of SpriteKit, but require substantial guidance and step-by-step instruction. Their design of minigames and story sequences were incomplete and did not demonstrate creativity. To improve, the student should further develop their knowledge of using SpriteKit features, and their understanding of game design principles.
 
 ^.^|*S*
 .^|Awarded to students who have been unable to complete sufficient work due to an extended period of illness or other approved absence (status).
