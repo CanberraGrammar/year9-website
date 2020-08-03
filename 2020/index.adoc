@@ -35,6 +35,8 @@ matthew.pham@cgs.act.edu.au
 * https://docs.google.com/document/d/1vXAW8Sw2TkOJakshkCIA7gbI_csYCL01siA6qaVw_aA/edit?usp=sharing[Introductory Swift Activities^]
 * https://www.weheartswift.com/online-exercises/[We &hearts; Swift: Online Exercises^]
 * https://www.hackingwithswift.com/sixty/10/1/handling-missing-data[Hacking with Swift: Handling Missing Data (Optionals)^]
+* https://www.udemy.com/course/dive-into-spritekit/[Udemy: Dive Into Spritekit Course^]
+* https://docs.google.com/document/d/1nSH05H5lD_b3jpTM0PPlngAGjGe6Z-0_eWflJBYYW4E/edit?usp=sharing[SpriteKit: Known Issues^]
 
 ==== Resources (Semester One)
 
