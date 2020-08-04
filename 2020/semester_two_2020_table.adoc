@@ -7,8 +7,8 @@
 ^|*Weight*
 
 {set:cellbgcolor:white}
-.^|*Assignment 1: SpriteKit Game*
-.^|Monday 10 August 2020 (Week 4)
+.^|*<<s2assign1/index.adoc#, Assignment 1: SpriteKit Game>>*
+.^|Tuesday 4 August 2020 (Week 3)
 .^|Tuesday 1 September 2020 (Week 7) by 8:45am
 ^.^|30%
 
