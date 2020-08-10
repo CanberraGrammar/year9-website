@@ -37,6 +37,7 @@ matthew.pham@cgs.act.edu.au
 * https://www.hackingwithswift.com/sixty/10/1/handling-missing-data[Hacking with Swift: Handling Missing Data (Optionals)^]
 * https://www.udemy.com/course/dive-into-spritekit/[Udemy: Dive Into Spritekit Course^]
 * https://docs.google.com/document/d/1nSH05H5lD_b3jpTM0PPlngAGjGe6Z-0_eWflJBYYW4E/edit?usp=sharing[SpriteKit: Known Issues^]
+* https://docs.google.com/document/d/1WyQGWkpy4l2Yg7-1nV8g7k9SFrmVN2NUteanBafOa-o/edit?usp=sharing[Interatice Storybook Tutorial^]
 
 ==== Resources (Semester One)
 
