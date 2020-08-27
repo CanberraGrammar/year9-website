@@ -9,8 +9,9 @@
 
 == Changelog ==
 
-This assignment was last updated on *Wednesday 19 August 2020*.
+This assignment was last updated on *Thursday 27 August 2020*.
 
+* *UPDATE THURSDAY 27 AUGUST*: Updated marking guidelines with more explicit requirements for enhancements
 * *UPDATE WEDNESDAY 19 AUGUST*: Updated marking guidelines to clarify expectations and make the requirements more flexible to suit customised games
 
 == Task Description ==
