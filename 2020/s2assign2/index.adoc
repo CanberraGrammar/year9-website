@@ -10,11 +10,11 @@
 
 == Changelog ==
 
-This assignment was last updated on *Friday 10 July 2020*.
+This assignment was last updated on *Wednesday 2 September 2020*.
 
 == Project Overview ==
 
-The major project requires you to design a game for the iPad that tells a story in order to raise awareness of historical or modern culture (with appropriate respect and sensitivity). Note that this is primarily a design project and you are not expected to implement all of it. You will be required, however, to plan a minigame prototype which you will implement for your final assignment.
+The major project requires you to design a game for the iPad that tells a story in order to raise awareness of historical, modern and/or fictional culture (with appropriate respect and sensitivity). This may include a range of social and ethical issues. Note that this is primarily a design project and you are not expected to implement all of it. You will be required, however, to plan a minigame prototype which you will implement for your final assignment.
 
 === Cultural Story Selection ===
 

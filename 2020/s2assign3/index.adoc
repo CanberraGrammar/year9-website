@@ -9,7 +9,7 @@
 
 == Changelog ==
 
-This assignment was last updated on *Friday 17 July 2020*.
+This assignment was last updated on *Wednesday 2 September 2020*.
 
 == Task Overview ==
 
@@ -59,7 +59,7 @@ Make sure you understand the implications of this declaration which you are incl
 
 To submit, ZIP your *entire Xcode project folder* and upload the file to http://submit.cgscomputing.com/year10-s2assign3[http://submit.cgscomputing.com/year10-s2assign3^]. Make sure to correctly enter your name and school email address, so that your submission can be located.
 
-*Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof. 
+*Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof.
 
 === Draft Submissions ===
 
