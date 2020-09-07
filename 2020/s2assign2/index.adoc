@@ -66,7 +66,7 @@ The video is loosely structured and based upon the ideas of this site: https://w
 
 You are required to share a Google Doc with your teacher that includes 3 sections:
 
-=== 1. Game Proposal (250-1000 words)===
+=== 1. Game Proposal (250-1000 words) ===
 
 This should include:
 
@@ -75,7 +75,7 @@ This should include:
 * A summary of how you will tell your story and raise awareness using an iPad game as the medium
 * A description of a completed sequence of story events that include minigames, animations and/or text-based descriptions
 
-=== 2. Minigame Designs (250-1000 words)===
+=== 2. Minigame Designs (250-1000 words) ===
 
 For each of your minigames, you should include details about:
 
@@ -84,7 +84,7 @@ For each of your minigames, you should include details about:
 * How the minigame is designed to direct, communicate and appeal to players, referencing at least one game design principle
 * Steps a programmer would need to take to implement the minigame
 
-=== 3. Minigame Prototype Plan (250-1000 words)===
+=== 3. Minigame Prototype Plan (250-1000 words) ===
 
 Your final assignment will involve you creating a version of your minigame prototype, so plan carefully!
 
