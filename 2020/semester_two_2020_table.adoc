@@ -17,7 +17,7 @@
 .^|Tuesday 22 September 2020 (Week 10) by 8:45am
 ^.^|30%
 
-.^|*<<s2assign2/index.adoc#, Assignment 3: Game Development>>*
+.^|*<<s2assign3/index.adoc#, Assignment 3: Game Development>>*
 .^|Wednesday 2 September 2020 (Week 7)
 .^|Tuesday 3 November 2020 (Week 14) by 8:45am
 ^.^|40%
