@@ -12,7 +12,7 @@
 
 This assignment was last updated on *Thursday 10 September 2020*.
 
-* *UPDATE 10 September 2020:* Added more explicit guidelines for each deliberable 
+* *UPDATE 10 September 2020:* Added more explicit guidelines for each deliberable
 
 == Project Overview ==
 
@@ -73,7 +73,7 @@ You are required to share a Google Doc with your teacher that includes 3 section
 This should include:
 
 * An appropriate story to tell and justification of why it's important to raise awareness *(short paragraph)*
-* Research for the story with appropriate sources referenced correctly *(short paragraph with references)*
+* Research for the story with appropriate sources referenced correctly. This is to ensure that the details you include in your story are thorough, informed, relevant to your story and accurate. *(short paragraph with references)*
 * A summary of how you will tell your story and raise awareness using an iPad game as the medium *(short paragraph)*
 * A description of a completed sequence of story events that include minigames, animations and/or text-based descriptions *(short paragraph or bullet points)*
 
