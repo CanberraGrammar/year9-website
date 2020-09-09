@@ -10,7 +10,9 @@
 
 == Changelog ==
 
-This assignment was last updated on *Wednesday 2 September 2020*.
+This assignment was last updated on *Thursday 10 September 2020*.
+
+* *UPDATE 10 September 2020:* Added more explicit guidelines for each deliberable 
 
 == Project Overview ==
 
