@@ -70,19 +70,19 @@ You are required to share a Google Doc with your teacher that includes 3 section
 
 This should include:
 
-* An appropriate story to tell and justification of why it's important to raise awareness
-* Research for the story with appropriate sources referenced correctly
-* A summary of how you will tell your story and raise awareness using an iPad game as the medium
-* A description of a completed sequence of story events that include minigames, animations and/or text-based descriptions
+* An appropriate story to tell and justification of why it's important to raise awareness *(short paragraph)*
+* Research for the story with appropriate sources referenced correctly *(short paragraph with references)*
+* A summary of how you will tell your story and raise awareness using an iPad game as the medium *(short paragraph)*
+* A description of a completed sequence of story events that include minigames, animations and/or text-based descriptions *(short paragraph or bullet points)*
 
 === 2. Minigame Designs (250-1000 words) ===
 
 For each of your minigames, you should include details about:
 
-* Game mechanics
-* Context and purpose within the story
-* How the minigame is designed to direct, communicate and appeal to players, referencing at least one game design principle
-* Steps a programmer would need to take to implement the minigame
+* Game mechanics *(bullet points)*
+* Context and purpose within the story *(short paragraph)*
+* How the minigame is designed to direct, communicate and appeal to players, referencing at least one game design principle *(short paragraph)*
+* Steps a programmer would need to take to implement the minigame *(bullet/numbered points)*. For example, (1) Create a background (2) Create a player that moves using an onscreen D-Pad, etc.
 
 === 3. Minigame Prototype Plan (250-1000 words) ===
 
@@ -90,9 +90,9 @@ Your final assignment will involve you creating a version of your minigame proto
 
 Select the minigame that is most appropriate for you to develop based on your skill level. Then list and describe:
 
-* The main functions that you need to consider when designing a SpriteKit Game Scene
-* What variables you need to create and how they will be utilised for the minigame to function as designed
-* What is meant to happen within each of the functions
+* The main functions that you need to consider when designing a SpriteKit Game Scene *(Headings plus one sentence description)*
+* What variables you need to create and how they will be utilised for the minigame to function as designed *(bullet points)*
+* What is meant to happen within each of the functions *(description of code / code comments)*
 
 == Submission Instructions ==
 
