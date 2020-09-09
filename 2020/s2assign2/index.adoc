@@ -90,7 +90,7 @@ Your final assignment will involve you creating a version of your minigame proto
 
 Select the minigame that is most appropriate for you to develop based on your skill level. Then list and describe:
 
-* The main functions that you need to consider when designing a SpriteKit Game Scene *(Headings plus one sentence description)*
+* The main functions that you need to consider when designing a SpriteKit Game Scene *(headings plus one sentence description)*
 * What variables you need to create and how they will be utilised for the minigame to function as designed *(bullet points)*
 * What is meant to happen within each of the functions *(description of code / code comments)*
 
