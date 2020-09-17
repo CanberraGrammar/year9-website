@@ -12,7 +12,8 @@
 
 This assignment was last updated on *Thursday 10 September 2020*.
 
-* *UPDATE 10 September 2020:* Added more explicit guidelines for each deliberable
+* *UPDATE 17 September 2020:* Set the maximum length of submissions (4000 words)
+* *UPDATE 10 September 2020:* Added more explicit guidelines for each deliverable
 
 == Project Overview ==
 
@@ -99,6 +100,8 @@ Select the minigame that is most appropriate for you to develop based on your sk
 == Submission Instructions ==
 
 This assignment is worth 30% of your Semester One assessment for this subject.
+
+*The maximum length of submission is 4000 words.*  Headings, images and references are not included as part of this word count.
 
 *Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof.
 
