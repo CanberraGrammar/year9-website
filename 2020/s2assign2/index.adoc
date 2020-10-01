@@ -10,7 +10,7 @@
 
 == Changelog ==
 
-This assignment was last updated on *Thursday 10 September 2020*.
+This assignment was last updated on *Thursday 17 September 2020*.
 
 * *UPDATE 17 September 2020:* Set the maximum length of submissions (4000 words)
 * *UPDATE 10 September 2020:* Added more explicit guidelines for each deliverable
@@ -33,7 +33,11 @@ Your story may be based on one of the following themes:
 
 Please be aware that some topics may not be appropriate for your project if they are not approached with appropriate caution, respect and sensitivity.
 
-For example, creating a game that teaches players how to speak the Ngunnawal language is very different from teaching players how to speak Chinese. This is because, "Ngunnawal, like many of the languages spoken across Australia for millennia, has been eroded by time, and by government policies that sought to disconnect its speakers from their country and their shared identity." (https://www.abc.net.au/news/2019-07-14/indigenous-language-needs-to-be-fostered-and-protected/11305682[Source: ABC Radio Canberra^])
+For example, creating a game that teaches players how to speak the Ngunnawal language is very different from teaching players how to speak Chinese. This is because:
+_______
+Ngunnawal, like many of the languages spoken across Australia for millennia, has been eroded by time, and by government policies that sought to disconnect its speakers from their country and their shared identity. 
+_______
+(https://www.abc.net.au/news/2019-07-14/indigenous-language-needs-to-be-fostered-and-protected/11305682[Source: ABC Radio Canberra^])
 
 Imagine if your entire culture and language were taken from you, and then the people responsible decided to teach about your culture and language as if it was their own. They could easily misrepresent things and unintentionally cause offence. You may like to read this article about https://au.reachout.com/articles/why-cultural-appropriation-isnt-cool[why cultural appropriation isn't cool^].
 
