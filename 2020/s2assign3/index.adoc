@@ -9,7 +9,9 @@
 
 == Changelog ==
 
-This assignment was last updated on *Wednesday 2 September 2020*.
+This assignment was last updated on *Monday 12 October 2020*.
+
+* *UPDATE 12 October 2020:* The marking criteria relating to the menu has been revised so that only buttons are required. There is no expectation to include text inputs or dropdown boxes.
 
 == Task Overview ==
 
