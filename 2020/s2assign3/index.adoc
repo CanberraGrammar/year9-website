@@ -12,6 +12,7 @@
 This assignment was last updated on *Monday 12 October 2020*.
 
 * *UPDATE 12 October 2020:* The marking criteria relating to the menu has been revised so that only buttons are required. There is no expectation to include text inputs or dropdown boxes.
+* *UPDATE 12 October 2020:* The marking criteria relating to overall programming quality has been updated with the expectation that the game mechanics and game logic are significantly customized above and beyond tutorials covered in class.
 
 == Task Overview ==
 
