@@ -44,6 +44,7 @@ matthew.pham@cgs.act.edu.au
 * https://stackoverflow.com/questions/61564102/how-do-i-present-an-alertbox-in-spritekit[Stack Overflow Question - Alert Box in SpriteKit (alternative that looks nicer)^]
 * https://www.loom.com/share/a1a15525699946a39d8a490b354379de[Video Example - S2 Assignment One^]
 * https://www.hackingwithswift.com/read[Hacking with Swift - Project Tutorials including Whack-a-Penguin, Space Race, Fireworks Night, Swifty Ninja and Exploding Monkeys^]
+* https://codewithchris.com/xcode-errors/[The Guide to Fixing Xcode Errors and Crashes^]
 
 ===== Resources for Mobile Game Design
 
