@@ -60,7 +60,7 @@ Make sure you understand the implications of this declaration which you are incl
 
 *If you do not include the student declaration at the top of your main view controller file your assignment will not be marked and you will receive zero.*
 
-To submit, ZIP your *entire Xcode project folder* and upload the file to http://submit.cgscomputing.com/year10-s2assign3[http://submit.cgscomputing.com/year10-s2assign3^]. Make sure to correctly enter your name and school email address, so that your submission can be located.
+To submit, ZIP your *entire Xcode project folder* and upload the file to https://www.dropbox.com/request/pD53fFXwMG6Tlp6mbLXh[http://submit.cgscomputing.com/year9-s2assign3^]. Make sure to correctly enter your name and school email address, so that your submission can be located.
 
 *Late submissions will incur penalties as per the school assessment policy:* Students will lose 10% of the total value of the assessment per day late, or part thereof.
 
