@@ -29,6 +29,12 @@ matthew.pham@cgs.act.edu.au
 * http://cgs.ist/0901[IT0901 Google Doc^]
 * http://cgs.ist/0902[IT0902 Google Doc^]
 
+==== Unity Resources
+
+* https://docs.google.com/document/d/1B8v88iFUqh6rxIBBMsH8DZO16arSyzeHyNFn2ZxsW6I/edit?usp=sharing[CGS Tutorial - Dive into Unity^]
+* https://learn.unity.com/project/2d-game-kit?courseId=5c5c1e08edbc2a5465c7ec01[Unity Learn - 2D Game Kit^]
+* https://www.raywenderlich.com/unity/paths/learn[Ray Wenderlich - Unity Learning Path^]
+
 ==== Resources (Semester Two)
 
 * http://year9.cgscomputing.com/2020/swift-cheatsheet[JavaScript to Swift Cheatsheet^]
