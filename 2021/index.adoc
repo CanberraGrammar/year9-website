@@ -1,0 +1,40 @@
+:page-layout: standard_fork
+:page-title: Year 9 IT - Web & Games Development 2021
+:icons: font
+
+= Year 9 IT - Web & Games Development 2021
+
+==== Canberra Grammar School
+
+Mr Arnold Choi +
+arnold.choi@cgs.act.edu.au
+
+Mr Matthew Pham +
+matthew.pham@cgs.act.edu.au
+
+==== Course Documents
+
+- Need help? Visit the https://edstem.org/courses/3877/discussion[class forum^] on ED STEM.
+
+- You can also attend any of the IT tutorial sessions listed below.
+
+- <<course_overview/course_overview.adoc#,Course Outline>>
+
+==== Tutorial Sessions
+
+* Wednesday afternoons from 3:30pm - 5:00pm in SC304
+
+==== Lesson Summaries
+
+* http://cgs.ist/0901[IT0901 Google Doc^]
+* http://cgs.ist/0902[IT0902 Google Doc^]
+
+==== Unity Resources (Semester One)
+
+* https://learn.unity.com[Learn Unity Platform^]
+
+==== Assessment Schedule (Semester One)
+
+include::semester_one_2021_table.adoc[]
+
+<<semester_one_2021.adoc#, Semester One &mdash; Full Unit Information and Assessment Schedule>>

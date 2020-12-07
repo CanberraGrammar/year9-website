@@ -1,0 +1,25 @@
+[cols="5,4,5,1"]
+|===
+
+^|*Task*
+^|*Published*
+^|*Due*
+^|*Weight*
+
+{set:cellbgcolor:white}
+.^|*C# Common Test*
+.^|Monday 15 February 2021 (Week 3)
+.^|Wednesday 10 March 2021 (Week 6)
+^.^|30%
+
+.^|*Unity Game Replica*
+.^|Monday 1 March 2021 (Week 5)
+.^|Monday 29 March 2021 (Week 9) by 8:45am
+^.^|30%
+
+.^|*Unity Game Development*
+.^|Monday 29 March 2021 (Week 9)
+.^|Thursday 20 May 2021  (Week 15) by 8:45am
+^.^|40%
+
+|===
