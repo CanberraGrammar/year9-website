@@ -90,24 +90,24 @@ Make sure you always bring the correct materials to class - in particular, your 
 *Topic 3: Styling with Vue* +
 3+^.^|
 *Topic 4: Render Functions* +
-4+^.^|
-*Topic 5: Client-Side Routing* +
-
-{set:cellbgcolor:white}
-^.^| *Term 4*
 3+^.^|
+*Topic 5: Client-Side Routing* +
+^.^|
+{set:cellbgcolor:grey}
+
+^.^| *Term 4*
+{set:cellbgcolor:white}
+^.^| *Camp*
+{set:cellbgcolor:grey}
+5+^.^|
 *Topic 6: Dynamic Website Development* +
+{set:cellbgcolor:white}
 ^.^| *Assessment Week*
 {set:cellbgcolor:grey}
-^.^|
-*Finish Advanced Topics* +
-{set:cellbgcolor:white}
-2+^.^| *Camp*
-{set:cellbgcolor:grey}
-^.^|
+2+^.^|
 *Prepare for 2020 Courses* +
 {set:cellbgcolor:white}
-2+|
+^.^|
 {set:cellbgcolor:grey}
 
 |===
