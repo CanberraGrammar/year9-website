@@ -1,8 +1,8 @@
 :page-layout: standard_fork
-:page-title: Year 9 IT - Web & Games Development 2021
+:page-title: Year 9 IT - Web & Game Development 2021
 :icons: font
 
-= Year 9 IT - Web & Games Development 2021
+= Year 9 IT - Web & Game Development 2021
 
 ==== Canberra Grammar School
 
