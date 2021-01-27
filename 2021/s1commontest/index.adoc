@@ -15,7 +15,7 @@ If any changes are made to the task they will be itemised here for ease of ident
 
 == Task Context ==
 
-The focus of this task is to allow students to demonstrate their level of coding skill in C# and Unity, and mastery of coding aspects in a range of C# programs, and scripting concepts in a range of Unity scenes.
+The focus of this task is to allow students to demonstrate their level of coding skill in C# and Unity.
 
 == Task Description ==
 
@@ -39,10 +39,6 @@ For revision purposes, below are copies of past tests from 2021. Note that the s
 
 * Demonstrating a good understanding of core programming concepts and their implementation in C#
 * Demonstrating a good understanding of Unity to develop 2D games with physics
-
-== Context for the Task ==
-
-The focus of this task is to allow students to demonstrate their level of skill in C# and Unity.
 
 == Hints and Pro Tips ==
 
