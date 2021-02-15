@@ -9,7 +9,7 @@
 
 == Changelog ==
 
-This task was last updated on *Monday 8 Feb 2021*.
+This task was last updated on *Monday 15 Feb 2021*.
 
 If any changes are made to the task they will be itemised here for ease of identification.
 
@@ -33,7 +33,7 @@ The focus of this task is to allow students to demonstrate their level of coding
 
 For revision purposes, below are copies of past tests from 2021. Note that the solution will not be provided for these tests.
 
-* TBC
+* To be advised
 
 === Reporting Criteria
 

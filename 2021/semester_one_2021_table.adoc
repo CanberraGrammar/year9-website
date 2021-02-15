@@ -7,7 +7,7 @@
 ^|*Weight*
 
 {set:cellbgcolor:white}
-.^|*C# Common Test*
+.^|*<<s1commontest/index.adoc#, C# Common Test>>*
 .^|Monday 15 February 2021 (Week 3)
 .^|Wednesday 10 March 2021 (Week 6)
 ^.^|30%
