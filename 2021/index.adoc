@@ -32,6 +32,7 @@ matthew.pham@cgs.act.edu.au
 ==== Unity Resources (Semester One)
 
 * https://learn.unity.com[Learn Unity Platform^]
+* https://docs.google.com/document/d/1guZ4CwAet4Qmdjy0qzKFuoe2GOIqioTNIDZ-zlZe-JQ/edit?usp=sharing[Unity Beginner Scripting Activities^]
 
 ==== Assessment Schedule (Semester One)
 
