@@ -12,14 +12,14 @@
 .^|Wednesday 10 March 2021 (Week 6)
 ^.^|30%
 
-.^|*Unity Game Replica*
-.^|Monday 1 March 2021 (Week 5)
+.^|*<<s1assign1/index.adoc#, Unity Game Replica>>*
+.^|Friday 12 March 2021 (Week 6)
 .^|Monday 29 March 2021 (Week 9) by 8:45am
-^.^|30%
+^.^|20%
 
 .^|*Unity Game Development*
 .^|Monday 29 March 2021 (Week 9)
 .^|Thursday 20 May 2021  (Week 15) by 8:45am
-^.^|40%
+^.^|50%
 
 |===
