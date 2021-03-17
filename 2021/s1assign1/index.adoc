@@ -2,14 +2,16 @@
 :page-title: Year 9 IST - Assignment One
 :icons: font
 
-= Year 9 IST - Assignment One (Semester Two) =
+= Year 9 IST - Assignment One (Semester One) =
 
-*Weight:* 30% +
+*Weight:* 20% +
 *Due:* Monday 29 March 2021 (Week 9) by 8:45am
 
 == Changelog ==
 
-This assignment was last updated on *Friday 12 March 2021*.
+This assignment was last updated on *Wednesday 17 March 2021*.
+
+* *UPDATE WEDNESDAY 17 MARCH*: Updated weight to 20% to match the assessment table, updated the heading to Semester One and updated submission instructions.
 
 == Task Description ==
 
@@ -64,7 +66,7 @@ The texture packs (zombies and ninja) were sourced from https://www.gameart2d.co
 
 This assignment is worth 20% of your Semester One assessment for this subject.
 
-You must place the following declaration (in the form of a comment) at the top of your main view controller file:
+You must place the following declaration (in the form of a comment) at the top of your main player behaviour script file:
 
 ....
 //
@@ -78,9 +80,9 @@ You must place the following declaration (in the form of a comment) at the top o
 
 Make sure you understand the implications of this declaration which you are including and digitally signing (see the <<_academic_honesty, Academic Honesty>> section of this document for more information).
 
-*If you do not include the student declaration at the top of your main view controller file your assignment will not be marked and you will receive zero.*
+*If you do not include the student declaration at the top of your main player behaviour script file your assignment will not be marked and you will receive zero.*
 
-To submit, ZIP your *entire project folder* and upload the file to https://www.dropbox.com/request/[http://submit.cgscomputing.com/year9-s1assign1^]. Make sure to correctly enter your name and school email address, so that your submission can be located.
+To submit, *ZIP your entire project folder* and upload the file to https://www.dropbox.com/request/dg7q2NZ1QScckgXsUvRF[http://submit.cgscomputing.com/year9-s1assign1^]. Make sure to correctly enter your name and school email address, so that your submission can be located.
 
 *Late submissions will incur penalties as per the school assessment policy:*
 
