@@ -39,11 +39,11 @@ The game should following this general workflow:
 
 * When the app starts it should present the player with a splash screen which they tap to start the game. This avoids the situation where the app loads and the game immediately starts, but the player might not be ready (or expecting) the game to start. See the _Example splash screen_ above for an idea about what is expected.
 
-* When the game first launches the player's character (e.g. ninja) should start in the middle of the bottom section of the screen. Enemies or obstacles (e.g. zombies), of different sizes and different images, should then spawn and drop from the top of the screen. To make the game achievable, new enemies or obstacles (e.g. zombies) should spawn and drop around every 3 - 4 seconds. You will need to make your own judgment about how fast they should fall. Remember, the game should be challenging but achievable.
+* When the game first launches the player's character (e.g. ninja) should start in the middle of the bottom section of the screen. Enemies or obstacles (e.g. zombies), with varying sizes and speed, should then spawn and drop from the top of the screen. To make the game achievable, new enemies or obstacles (e.g. zombies) should spawn and drop every 2 seconds. You will need to make your own judgment about how fast they should fall. Remember, the game should be challenging but achievable.
 
 * The player's character movement can be controlled by using the left and right arrow keys.
 
-* We will provide a folder with assets that you are encouraged to use. You are allowed to source your own assets if you would like to further customise your game.
+* You are encouraged to source your own assets to enable customisation of your game.
 
 * The player gets 1 point for every second they are "alive", so each second that goes past should increment the score by 1.
 
