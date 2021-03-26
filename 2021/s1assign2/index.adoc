@@ -45,16 +45,16 @@ An appropriate first step for a project of this nature would be to seek the advi
 
 If you are unsure about cultural respect and sensitivity, you should always ask your teacher for advice.
 
-=== Interactive Story & Menu Scenes ===
+=== Menu & Story Scenes ===
 
 You will need to implement 3-5 story scenes to help you narrate your story. The expected format is:
 
 * An interactive story, where players progress through a variety of Unity Game Scenes
 * Animations and/or text based story sequences
 * A menu scene, so that the player can easily navigate between story and game scenes. Optionally, you may choose to include a menu navigation prefab within every scene.
-* The menu scene needs to include an appropriate title and image for your game, and optional animations.
+* The menu scene needs to include an appropriate title and image for your game, with optional animations.
 
-=== Interactive Game Scene ===
+=== Game Scene ===
 
 You will need to implement at least one game scene, that the user can play. It needs to fit into the overall narrative of your project. You need to meet the following minimum requirements:
 
@@ -72,7 +72,7 @@ This can be in the form of a Google Doc and/or Video.
 The first section should cover details of *Game Design*, including:
 
 * *Game Proposal:* An appropriate story to tell and justification of why it's important
-* *Interactive Story Scenes:* A description of the interactive story scenes you have included, with screenshots and a brief explanation of the story narrative and themes
+* *Menu & Story Scenes:* A description of the menu and story scenes you have included, with screenshots and a brief explanation of the story narrative and themes
 * *Interactive Game Scene*: A description of the game scene(s) that the user can play, with screenshots and a brief explanation of game mechanics, features and challenges
 * *Research:* Research for the story with appropriate sources referenced correctly. This is to ensure that the details you include in your story are thorough, informed, relevant to your story and accurate.
 
