@@ -1,0 +1,123 @@
+:page-layout: standard_toc
+:page-title: Year 9 IST - Assignment Two
+:icons: font
+
+
+= Year 9 IST - Assignment Two (Semester One) =
+
+*Weight:* 50% +
+*Due:* Thursday 20 May 2021 (Term 2 Week 6) by 8:45am
+
+== Changelog ==
+
+This assignment was last updated on *Monday 29 March 2021*.
+
+== Project Overview ==
+
+This is a team assignment which you need to complete in *pairs* (i.e. two students per team). Please make sure you read the advice on selecting an appropriate partner for this assignment.
+
+This assignment requires you to design and implement a game that tells a story in order to raise awareness of historical, modern and/or fictional culture (with appropriate respect and sensitivity). This may include a range of social and ethical issues.
+
+=== Cultural Story Selection ===
+
+Your story may be based on one of the following themes:
+
+* Telling the story of influential historical events or people such as the story of Pemulwuy, an influential Aboriginal person known for his resistance to the European settlement of Australia which began with the arrival of the First Fleet in January 1788
+* Describing the ideas and traditions of a cultural group, such as the hunter-gatherer lifestyle of the Ngunnawal people, who have been living in this land for at least 20,000 years
+* Explaining the cultural significance of a festival or customs such as the Chinese Lunar New Year or Ramadan
+* Exploring religious beliefs and practices such as contrasting different ideas about the afterlife, gods and/or religious ceremonies
+* Describing the plot and character themes in the Harry Potter series and/or movies
+* Other ideas that you may negotiate with the teacher
+
+=== Appropriate respect and sensitivity ===
+
+Please be aware that some topics may not be appropriate for your project if they are not approached with appropriate caution, respect and sensitivity.
+
+For example, creating a game that teaches players how to speak the Ngunnawal language is very different from teaching players how to speak Chinese. This is because:
+_______
+Ngunnawal, like many of the languages spoken across Australia for millennia, has been eroded by time, and by government policies that sought to disconnect its speakers from their country and their shared identity.
+_______
+(https://www.abc.net.au/news/2019-07-14/indigenous-language-needs-to-be-fostered-and-protected/11305682[Source: ABC Radio Canberra^])
+
+Imagine if your entire culture and language were taken from you, and then the people responsible decided to teach about your culture and language as if it was their own. They could easily misrepresent things and unintentionally cause offence. You may like to read this article about https://au.reachout.com/articles/why-cultural-appropriation-isnt-cool[why cultural appropriation isn't cool^].
+
+An appropriate first step for a project of this nature would be to seek the advice of a respected authority on the subject such as an Aboriginal elder or community representative.
+
+If you are unsure about cultural respect and sensitivity, you should always ask your teacher for advice.
+
+=== Interactive Story & Menu Scenes ===
+
+You will need to implement 3-5 story scenes to help you narrate your story. The expected format is:
+
+* An interactive story, where players progress through a variety of Unity Game Scenes
+* Animations and/or text based story sequences
+* A menu scene, so that the player can easily navigate between story and game scenes. Optionally, you may choose to include a menu navigation prefab within every scene.
+* The menu scene needs to include an appropriate title and image for your game, and optional animations.
+
+=== Interactive Game Scene ===
+
+You will need to implement at least one game scene, that the user can play. It needs to fit into the overall narrative of your project. You need to meet the following minimum requirements:
+
+* be able to display the player's score.
+* keep track of the player's score.
+* involve physics (e.g. character moving, hitting obstacles, ball bouncing, etc.).
+* be developed in Unity using C#. You must primarily use first-party (i.e. provided with Unity) frameworks. However, you may use third-party libraries if you need particular functionality (e.g. network access, to access an API for some reason) but you must seek teacher approval.
+
+=== Game Documentation ===
+
+You will need to maintain some documentation to track your planning and progress, and evaluate your final submission.
+
+This can be in the form of a Google Doc and/or Video.
+
+The first section should cover details of *Game Design*, including:
+
+* *Game Proposal:* An appropriate story to tell and justification of why it's important
+* *Interactive Story Scenes:* A description of the interactive story scenes you have included, with screenshots and a brief explanation of the story narrative and themes
+* *Interactive Game Scene*: A description of the game scene(s) that the user can play, with screenshots and a brief explanation of game mechanics, features and challenges
+* *Research:* Research for the story with appropriate sources referenced correctly. This is to ensure that the details you include in your story are thorough, informed, relevant to your story and accurate.
+
+The second section should cover details of *Evaluation*, including an evaluation of:
+
+* *Game Design Principles*: The Direction, Communication and Appeal evident in your game
+* *Programming Techniques*: A summary of the scripts you have developed and  programming techniques you have demonstrated
+* *Use of Unity*: A summary of your use of assets, components, folders, prefabs, etc.
+
+== Game Design Tips ==
+
+According to this video about https://www.youtube.com/watch?v=G8AT01tuyrk[The Basic Principles of Game Design^], all good game designs rest upon a solid foundation with 3 pillars:
+
+* *Direction* - The player's role and purpose
+* *Communication* - How the role and purpose is communicated to the player
+* *Appeal* - How the game is designed to appeal to players, without relying on the use of stunning graphics
+
+The video then discusses a number of game design principles that help you to strengthen the pillars.
+
+The video is loosely structured and based upon the ideas of this site: https://www.gamasutra.com/view/feature/132341/the_13_basic_principles_of_.php?page=2[The 13 Basic Principles of Game Design^]
+
+== Submission Instructions ==
+
+This assignment is worth 50% of your Semester One assessment for this subject.
+
+You are required to submit via DropBox:
+
+* *Unity Project:* A ZIP folder containing your entire project folder and executable application file
+* *Game Documentation:* A document and/or video covering the game documentation requirements listed above
+
+*The maximum length of submission is 2000 words for the document and 5 minutes for the video.*  Headings, images and references are not included as part of this word count.
+
+*Late submissions will incur penalties as per the school assessment policy:*
+
+=== Draft submissions ===
+
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date. To submit a draft, simply use the DropBox link for submissions (you can submit multiple times);
+
+== Marking Guidelines ==
+
+link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
+
+*Note:* These marking guidelines are subject to change/update &mdash; particularly if something is brought to our attention we didn't consider when writing the assignment. Any such updates will be highlighted in the changelog.
+
+[#_academic_honesty]
+== Academic Honesty
+
+include::../common/academic_honesty.adoc[]
