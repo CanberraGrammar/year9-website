@@ -6,7 +6,7 @@
 = Year 9 IST - Assignment Two (Semester One) =
 
 *Weight:* 50% +
-*Due:* Thursday 20 May 2021 (Term 2 Week 6) by 8:45am
+*Due:* Thursday 20 May 2021 (Term 2 Week 2) by 8:45am
 
 == Changelog ==
 
