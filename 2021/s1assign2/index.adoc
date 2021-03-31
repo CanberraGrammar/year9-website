@@ -10,11 +10,11 @@
 
 == Changelog ==
 
-This assignment was last updated on *Monday 29 March 2021*.
+This assignment was last updated on *Wednesday 31 March 2021*.
 
 == Project Overview ==
 
-This is a team assignment which you need to complete in *pairs* (i.e. two students per team). Please make sure you read the advice on selecting an appropriate partner for this assignment.
+This is an assignment which you are able to complete individually or in *pairs* (i.e. two students per team). Due to the significant amount of work required, we highly recommend that you work in pairs. Please make sure you read the advice on <<_selecting_partner, selecting an appropriate partner for this assignment>>.
 
 This assignment requires you to design and implement a game that tells a story in order to raise awareness of historical, modern and/or fictional culture (with appropriate respect and sensitivity). This may include a range of social and ethical issues.
 
@@ -116,6 +116,19 @@ You may optionally (but strongly encouraged) submit one draft of your assignment
 link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
 
 *Note:* These marking guidelines are subject to change/update &mdash; particularly if something is brought to our attention we didn't consider when writing the assignment. Any such updates will be highlighted in the changelog.
+
+[#_selecting_partner]
+=== Selecting an appropriate partner ===
+
+When selecting a partner for this assignment you need to ensure that you will be comfortable working with them. This task is worth 50% of your assessment for Semester One, and only one mark will be issued for the task which both team members will receive (there is no individual mark for this task, only a group mark). Therefore, it's expected that both team members will contribute an equal amount to the project. Remember, as a professional software engineer you will almost always be working in a team with others.
+
+Hopefully you will find that by working in a team you create better quality work than if you worked individually. Communication is key, so make sure that you communicate effectively and frequently with your team mate to ensure that there is a consistent understanding of the work which needs to be completed and division of labour.
+
+You may select a partner from a different Year 9 IT class. This is not recommended, however, due to having classes on different lines.
+
+If you have strong reservations about working in a team, or are unable to find a suitable partner to work with, you are allowed to complete the assignment on your own.
+
+Once you have decided on a team, please inform your teacher as soon as possible.
 
 [#_academic_honesty]
 == Academic Honesty

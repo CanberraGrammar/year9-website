@@ -17,8 +17,8 @@
 .^|Monday 29 March 2021 (Week 9) by 8:45am
 ^.^|20%
 
-.^|*Unity Game Development*
-.^|Monday 29 March 2021 (Week 9)
+.^|*<<s1assign2/index.adoc#, Unity Game Development>>*
+.^|Wednesday 31 March 2021 (Week 9)
 .^|Thursday 20 May 2021  (Week 15) by 8:45am
 ^.^|50%
 
