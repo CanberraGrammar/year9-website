@@ -34,6 +34,7 @@ matthew.pham@cgs.act.edu.au
 * https://learn.unity.com[Learn Unity Platform^]
 * https://docs.google.com/document/d/1guZ4CwAet4Qmdjy0qzKFuoe2GOIqioTNIDZ-zlZe-JQ/edit?usp=sharing[Unity Beginner Scripting Activities^ek]
 * https://docs.google.com/document/d/1L4z3NZNzlyLs6Fy7bxKTQkG_LFiH8fehGkIm8zC7fc4/edit?usp=sharing[How to create and share a project on Unity^]
+* https://docs.google.com/document/d/1v1og20XOBlVTh7Y7p8zrerHrEebcQJwsGGrvh67beak/edit?usp=sharing[Unity Game Development Activities^]
 
 ==== Assessment Schedule (Semester One)
 
