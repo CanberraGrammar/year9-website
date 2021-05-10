@@ -10,7 +10,9 @@
 
 == Changelog ==
 
-This assignment was last updated on *Wednesday 31 March 2021*.
+This assignment was last updated on *Monday 10 May 2021*.
+
+* *UPDATE 10 May 2021:* The submission instructions and draft submissions sections were updated with the requirement to upload files and/or links using CGS Connect.
 
 == Project Overview ==
 
@@ -98,10 +100,13 @@ The video is loosely structured and based upon the ideas of this site: https://w
 
 This assignment is worth 50% of your Semester One assessment for this subject.
 
-You are required to submit via DropBox:
+You (or your partner) are required to submit via CGS Connect (Task 3 - Unity Game Development):
 
-* *Unity Project:* A ZIP folder containing your entire project folder and executable application file
-* *Game Documentation:* A document and/or video covering the game documentation requirements listed above
+* *Executable application files:* A .dmg file (Mac users, preferred option) or .zip file (Windows users) containing an .exe file along with the application data folder.
+* *Game documentation:* A video and/or .pdf file covering the game documentation requirements listed above.
+* *Project folder:* Your project should be automatically shared with your teacher using Unity Collaborate. Optionally, you can also submit a .zip file containing your project folder within CGS Connect.
+
+*If a file is too large for CGS Connect (>100MB)*, you can share a link to the file using the online text submission section.
 
 *The maximum length of submission is 2000 words for the document and 5 minutes for the video.*  Headings, images and references are not included as part of this word count.
 
@@ -109,7 +114,7 @@ You are required to submit via DropBox:
 
 === Draft submissions ===
 
-You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date. To submit a draft, simply use the DropBox link for submissions (you can submit multiple times);
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date. To submit a draft, simply follow the submission instructions above (you can edit your submission multiple times);
 
 == Marking Guidelines ==
 
