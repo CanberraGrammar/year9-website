@@ -10,7 +10,9 @@
 
 == Changelog ==
 
-This assignment was last updated on *Monday 10 May 2021*.
+This assignment was last updated on *Wednesday 19 May 2021*.
+
+* *UPDATE 19 May 2021:* The submission instructions were updated with a higher maximum word count and video length.
 
 * *UPDATE 10 May 2021:* The submission instructions and draft submissions sections were updated with the requirement to upload files and/or links using CGS Connect.
 
@@ -108,7 +110,13 @@ You (or your partner) are required to submit via CGS Connect (Task 3 - Unity Gam
 
 *If a file is too large for CGS Connect (>100MB)*, you can share a link to the file using the online text submission section.
 
-*The maximum length of submission is 2000 words for the document and 5 minutes for the video.*  Headings, images and references are not included as part of this word count.
+The maximum length of submission is one of the following options:
+
+* 4000 words for a design document without any video
+* 10 minutes for a video without a design document
+* A combination of 2000 words for the design document and 5 minutes for the video
+
+Headings, images and references are not included as part of the word count.
 
 *Late submissions will incur penalties as per the school assessment policy:*
 
