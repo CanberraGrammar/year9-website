@@ -104,7 +104,7 @@ This assignment is worth 50% of your Semester One assessment for this subject.
 
 You (or your partner) are required to submit via CGS Connect (Task 3 - Unity Game Development):
 
-* *Executable application files:* A .dmg file (Mac users, preferred option) or .zip file (Windows users) containing an .exe file along with the application data folder.
+* *Executable application files:* A .app file (Mac users, preferred option) or .zip file (Windows users) containing an .exe file along with the application data folder.
 * *Game documentation:* A video and/or .pdf file covering the game documentation requirements listed above.
 * *Project folder:* Your project should be automatically shared with your teacher using Unity Collaborate. Optionally, you can also submit a .zip file containing your project folder within CGS Connect.
 
