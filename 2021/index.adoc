@@ -29,10 +29,14 @@ matthew.pham@cgs.act.edu.au
 * http://cgs.ist/0901[IT0901 Google Doc^]
 * http://cgs.ist/0902[IT0902 Google Doc^]
 
+==== Extension Activities
+
+* https://docs.google.com/document/d/1pagT-wfqr_a5vyNiA_BJGPWYu4C3-q5DJCk9T1vD1cI/edit?usp=sharing[Dive into Node.js^]
+
 ==== Unity Resources (Semester One)
 
 * https://learn.unity.com[Learn Unity Platform^]
-* https://docs.google.com/document/d/1guZ4CwAet4Qmdjy0qzKFuoe2GOIqioTNIDZ-zlZe-JQ/edit?usp=sharing[Unity Beginner Scripting Activities^ek]
+* https://docs.google.com/document/d/1guZ4CwAet4Qmdjy0qzKFuoe2GOIqioTNIDZ-zlZe-JQ/edit?usp=sharing[Unity Beginner Scripting Activities^]
 * https://docs.google.com/document/d/1L4z3NZNzlyLs6Fy7bxKTQkG_LFiH8fehGkIm8zC7fc4/edit?usp=sharing[How to create and share a project on Unity^]
 * https://docs.google.com/document/d/1v1og20XOBlVTh7Y7p8zrerHrEebcQJwsGGrvh67beak/edit?usp=sharing[Unity Game Development Activities^]
 
