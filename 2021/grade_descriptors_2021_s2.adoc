@@ -1,0 +1,24 @@
+=== Grade Descriptors
+
+[cols="1,20"]
+|===
+
+^.^|*A*
+.^|
+The student demonstrates an extensive knowledge of Vue.js development, particularly core concepts such as the Vue instance, data variables and methods, binding HTML elements, component based architecture and retrieving JSON data from APIs. They also have a exemplary knowledge of using HTML, CSS and JavaScript. They have mastered the required skills to design web-based applications to address particular use-cases. Furthermore, they can translate this design into working JavaScript source code to be run on a client web browser. When faced with a challenging task, they can conduct highly advanced and independent research to find effective solutions to the problem through using documentation, online sources, and/or tutorial resources.
+^.^|*B*
+.^|
+The student demonstrates a thorough knowledge of Vue.js development, particularly core concepts such as the Vue instance, data variables and methods, binding HTML elements, component based architecture and retrieving JSON data from APIs. They also have a highly competent knowledge of using HTML, CSS and JavaScript. They have mastered the required skills to design web-based applications to address particular use-cases. Furthermore, they can translate this design into working JavaScript source code to be run on a client web browser. When faced with a challenging task, they can conduct independent research to find effective solutions to the problem through using documentation, online sources, and/or tutorial resources. To improve, they must ensure that their programs are fully tested and produce the correct results under a range of inputs. If not already, they should also consider attempting extension and enhancement programming tasks in class and in assessment tasks.
+^.^|*C*
+.^|
+The student demonstrates a sound knowledge of Vue.js development, particularly core concepts such as the Vue instance, data variables and methods, binding HTML elements, component based architecture and retrieving JSON data from APIs. They also have a competent knowledge of using HTML, CSS and JavaScript. They have a satisfactory level of skill to design web-based applications to address particular use-cases and can generally translate this design into working JavaScript source code, with some issues. To improve, they should further develop their knowledge of complex programming concepts. They should also practise translating algorithms into working source code along with more effectively conducting independent research when faced with a challenging programming task.
+^.^|*D*
+.^|
+The student demonstrates a limited knowledge of Vue.js development, particularly core concepts such as the Vue instance, data variables and methods, binding HTML elements, component based architecture and retrieving JSON data from APIs. They only have a basic knowledge of using HTML, CSS and JavaScript. They have some skill in designing web-based applications to address particular use-cases – but encounter issues when translating this into working JavaScript source code. To improve, they should further develop their knowledge of complex programming concepts. They should also practise translating algorithms into working source code along with more effectively conducting independent research when faced with a programming task.
+^.^|*E*
+.^|
+The student demonstrates a very limited knowledge of Vue.js development, particularly core concepts such as the Vue instance, data variables and methods, binding HTML elements, component based architecture and retrieving JSON data from APIs. They only have a basic knowledge of using HTML, CSS and JavaScript. They have some skill in designing web-based applications to address particular use-cases – but are unable translating this into working JavaScript source code. To improve, they should further develop review basic programming concepts to get the required foundational knowledge. They should also practise translating algorithms into working source code along with more effectively conducting independent research when faced with a programming task.
+^.^|*S*
+.^|Awarded to students who have been unable to complete sufficient work due to an extended period of illness or other approved absence (status).
+
+|===

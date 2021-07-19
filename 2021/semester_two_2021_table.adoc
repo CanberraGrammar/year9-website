@@ -7,19 +7,21 @@
 ^|*Weight*
 
 {set:cellbgcolor:white}
-.^|*<<s2assign1/index.adoc#, Assignment 1: SpriteKit Game>>*
-.^|Tuesday 4 August 2020 (Week 3)
-.^|Tuesday 1 September 2020 (Week 7) by 8:45am
+.^|*Common Test: Vue.js*
+.^|Monday 26 July 2021 (Week 2)
+.^|Wednesday 11 August (Week 7) +
+*Period 4:* IT0902 +
+*Period 5:* IT0901
 ^.^|30%
 
-.^|*<<s2assign2/index.adoc#, Assignment 2: Game Design>>*
-.^|Wednesday 2 September 2020 (Week 7)
-.^|Tuesday 22 September 2020 (Week 10) by 8:45am
+.^|*Dynamic Website Replica*
+.^|Monday 9 August March 2021 (Week 4)
+.^|Monday 6 September 2021 (Week 8) by 8:45am
 ^.^|30%
 
-.^|*<<s2assign3/index.adoc#, Assignment 3: Game Development>>*
-.^|Wednesday 2 September 2020 (Week 7)
-.^|Tuesday 3 November 2020 (Week 14) by 8:45am
+.^|*Dynamic Website Development*
+.^|Monday 6 September 2021 (Week 8)
+.^|Thursday 4 November 2021 (Term 4 Week 5) by 8:45am
 ^.^|40%
 
 |===

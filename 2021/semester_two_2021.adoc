@@ -7,47 +7,26 @@
 
 === Report Criteria / Areas of Learning
 
-* Demonstrating a good understanding of Linux-based command line interfaces
-* Demonstrating a good knowledge of the core Node.js concepts including routing and templating using frameworks such as Express
-* Demonstrating sufficient overall knowledge of Node.js to effectively write an entirely working program from scratch
-* Understanding how to use MongoDB within a Node.js application
-* Demonstrates good modelling of data within programs using the principles of CRUD
-* Including sufficient comments and other intrinsic documentation, such as appropriate variable naming, to explain the purpose of the code
+* Demonstrating a good understanding of HTML, CSS and JavaScript
+* Demonstrating a good knowledge of the core Vue.js concepts including the Vue instance and template binding
+* Demonstrating sufficient overall knowledge of Vue.js to effectively write an entirely working program from scratch
+* Understanding how to use an API and component based architecture within a Vue.js application
+* Researching independently to customise both the data retrieved from an API and the frontend user interface to interact with it
+* Demonstrating project management skills and the ability to successfully take a dynamic website from idea to implementation
 
 === Assessment Schedule
 
-include::semester_two_2020_table.adoc[]
+include::semester_two_2021_table.adoc[]
 
 === Course Detail
 
-* Introduction to Swift
-* SpriteKit Game Development
-* Game Design Project
-* Game Development Project
+* Introduction to Vue.js
+* Dynamic Website Development
+* Dynamic Website Project
 
 === Grade Allocation
 
-[cols="1,20"]
-|===
-
-^.^|*A*
-.^|The student demonstrates an extensive knowledge of core programming concepts and their implementation in the Swift programming language. They have mastered the use of SpriteKit to develop 2D games with full physics capabilities. The student displays exceptional creativity and ingenuity to design a purposeful series of minigames and story sequences. The student has demonstrated that they are able to design and develop a complex SpriteKit game from scratch, along with having the requisite project management skills to ensure that the task is completed within the given timeframe and constraints.
-
-^.^|*B*
-.^|The student demonstrates a thorough knowledge of core programming concepts and their implementation in the Swift programming language. They have a very good working knowledge of SpriteKit to develop 2D games with physics capabilities. The student displays very good creativity and ingenuity to design a series of minigames and story sequences. The student has demonstrated that they are able to design and develop a reasonably complex SpriteKit game from scratch, along with having the requisite project management skills to ensure that the task is completed within the given timeframe and constraints. To improve, the student should further develop their knowledge of using advanced SpriteKit features, and their understanding of game design principles.
-
-^.^|*C*
-.^|The student demonstrates a sound knowledge of core programming concepts and their implementation in the Swift programming language. With guidance, they are able to use SpriteKit to develop 2D games with some physics capabilities. The student displays creativity and ingenuity to design a series of minigames and story sequences. The student has demonstrated that they are able to design and develop a SpriteKit game from scratch. To improve, the student should further develop their knowledge of using advanced SpriteKit features, and their understanding of game design principles. They should also practise project management skills in terms of developing a more complex game from scratch.
-
-^.^|*D*
-.^|The student demonstrates a limited knowledge of core programming concepts and their implementation in the Swift programming language. They are able to use SpriteKit to develop 2D games with some physics capabilities, but need substantial guidance and structured steps. The student displays limited creativity and their design of minigames and story sequences lack detail. The student has some knowledge of SpriteKit, but encounters difficulties when implementing and using this technology. To improve, the student should further develop their knowledge of using advanced SpriteKit features, and their understanding of game design principles. They should also practise project management skills in terms of developing a more complex game from scratch.
-
-^.^|*E*
-.^|The student demonstrates a very limited knowledge of core programming concepts and their implementation in the Swift programming language. They have some understanding of SpriteKit, but require substantial guidance and step-by-step instruction. Their design of minigames and story sequences were incomplete and did not demonstrate creativity. To improve, the student should further develop their knowledge of using SpriteKit features, and their understanding of game design principles.
-
-^.^|*S*
-.^|Awarded to students who have been unable to complete sufficient work due to an extended period of illness or other approved absence (status).
-
+include::grade_descriptors_2021_s2.adoc[]
 |===
 
 === Absence from Class
