@@ -9,7 +9,7 @@
 {set:cellbgcolor:white}
 .^|*Common Test: Vue.js*
 .^|Monday 26 July 2021 (Week 2)
-.^|Wednesday 11 August (Week 7) +
+.^|Wednesday 11 August (Week 4) +
 *Period 4:* IT0902 +
 *Period 5:* IT0901
 ^.^|30%
