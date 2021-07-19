@@ -27,6 +27,7 @@ include::semester_two_2021_table.adoc[]
 === Grade Allocation
 
 include::grade_descriptors_2021_s2.adoc[]
+
 |===
 
 === Absence from Class
