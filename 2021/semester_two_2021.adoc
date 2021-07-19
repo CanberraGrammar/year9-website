@@ -1,7 +1,7 @@
 :page-layout: standard_toc
 :page-title: Unit Outline and Assessment Schedule
 
-= Year 9 IT &mdash; Semester Two 2020
+= Year 9 IT &mdash; Semester Two 2021
 
 == Unit Outline and Assessment Schedule
 
@@ -27,8 +27,6 @@ include::semester_two_2021_table.adoc[]
 === Grade Allocation
 
 include::grade_descriptors_2021_s2.adoc[]
-
-|===
 
 === Absence from Class
 
