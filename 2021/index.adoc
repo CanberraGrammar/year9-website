@@ -31,6 +31,10 @@ matthew.pham@cgs.act.edu.au
 
 == Semester Two
 
+==== Resources (Semester Two)
+
+* https://drive.google.com/drive/folders/1AG1HpMzHTuYVYWevp7aCYX21hhPdmkYi?usp=sharing[Vue 3 Video Lessons^]
+
 ==== Assessment Schedule (Semester Two)
 
 include::semester_two_2021_table.adoc[]
