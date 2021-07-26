@@ -7,7 +7,7 @@
 ^|*Weight*
 
 {set:cellbgcolor:white}
-.^|*Common Test: Vue.js*
+.^|*<<s2commontest/index.adoc#, Common Test: Vue.js>>*
 .^|Monday 26 July 2021 (Week 2)
 .^|Wednesday 11 August (Week 4) +
 *Period 4:* IT0902 +
