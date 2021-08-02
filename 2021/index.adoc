@@ -34,6 +34,7 @@ matthew.pham@cgs.act.edu.au
 ==== Resources (Semester Two)
 
 * https://drive.google.com/drive/folders/1AG1HpMzHTuYVYWevp7aCYX21hhPdmkYi?usp=sharing[Vue 3 Video Lessons^]
+* https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf[Vue Essentials Cheat Sheet^]
 
 ==== Assessment Schedule (Semester Two)
 
