@@ -1,0 +1,123 @@
+:page-layout: standard_toc
+:page-title: Year 9 IST - Assignment One
+:icons: font
+
+= Year 9 IST - Assignment One (Semester Two) =
+
+*Weight:* 30% +
+*Due:* Monday 6 September 2021 (Week 8) by 8:45am
+
+== Changelog ==
+
+This assignment was last updated on *Monday 26 July 2021*.
+
+== Task Description ==
+
+This assignment requires you to code a multipage website making use of Vue.js.
+
+=== Your task ===
+
+Below are the tasks you need to complete.
+
+==== Navbar component ====
+
+You will need to create a navbar component, which includes:
+
+* A data property (e.g. navlinks) containing an array of objects (one for each of the pages: Home, Game and API)
+* Each object needs to contain the display text and path to its corresponding page
+* The template HTML should render an unordered list, with one item per navigation link
+* CSS should be applied so that the unordered list is displayed as a navigation bar
+
+In addition:
+
+* There should be a data property (e.g. selectedPage) to store the currently selected page
+* A class attribute and associated CSS should be applied so that the currently selected page is highlighted in the navigation bar
+
+==== Home page ====
+
+You will need to create a page with the following elements:
+
+* A title
+* A navigation bar component with the correct selected page
+* A brief description of the website
+
+==== Game page ====
+
+You will need to create a page with the following elements:
+
+* A title
+* A navigation bar component with the correct selected page
+* A button to display a new question
+* A paragraph to display a question
+* A button to toggle displaying an optional hint
+* A paragraph to display an optional hint
+* An input to enter a guess
+* A button to check the guess
+* A paragraph to display the result
+
+Then you need to setup a Vue instance, and interact with it within your HTML to create a simple trivia game. You may need:
+
+* A list of question objects. Each object should include question text and an answer
+* A range of data variables to bind with your HTML input and output elements
+
+==== API page ====
+
+You will need to create a page that is similar to your game page. There are some differences, however:
+
+* Instead of an input to enter a guess, there should be a set of radio buttons to select from four possible multiple choice answers
+
+You will also need to make use of a Trivia API, and interact with it to create a simple multiple choice trivia game.
+
+* The URL is https://opentdb.com/api_config.php
+* By default, when the page loads, you should retrieve a list of 10 random question objects using the following URL: https://opentdb.com/api.php?amount=10&type=multiple
+
+==== API options ====
+
+You will need additional functionality to configure your trivia game with the following elements:
+
+* A label, dropdown box and button to get a random question within a specified category
+* A label, dropdown box and button to get a random question within a specified difficulty
+* A button that combines both options to get a random question within a specified category and difficulty
+
+==== Enhancements ====
+
+Below are a list of enhancements that you can complete, once you have fully functional quiz and multiple choice trivia games.
+
+* Display a debugging console
+* Show all the previous questions that have been answered correctly
+* Ensure that any previous questions cannot be shown again
+
+
+
+
+
+
+
+=== Outcomes/Assessment Criteria ===
+
+* 5.1.1 select and justify the application of appropriate software programs to a range of tasks
+* 5.2.1 describe and apply problem-solving processes when creating solutions
+* 5.2.2 design, produce and evaluate appropriate solutions to a range of challenging problems
+* 5.2.3 critically analyse decision making processes in a range of information and software solutions
+
+== Submission Instructions ==
+
+This assignment is worth 30% of your Semester One assessment for this subject.
+
+*Late submissions will incur penalties as per the school assessment policy:*
+
+=== Draft submissions ===
+
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Monday 22 March 2021). To submit a draft email your teacher with a ZIP copy of your project.
+
+[#_marking_guidelines]
+=== Marking Guidelines ===
+
+link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
+
+*Note:* These marking guidelines are subject to change/update &mdash; particularly if something is brought to our attention we didn't consider when writing the assignment. Any such updates will be highlighted in the changelog.
+
+[#_academic_honesty]
+== Academic Honesty
+
+include::../common/academic_honesty.adoc[]
