@@ -91,8 +91,6 @@ Below are a list of enhancements that you can complete, once you have fully func
 
 
 
-
-
 === Outcomes/Assessment Criteria ===
 
 * 5.1.1 select and justify the application of appropriate software programs to a range of tasks
@@ -104,11 +102,11 @@ Below are a list of enhancements that you can complete, once you have fully func
 
 This assignment is worth 30% of your Semester One assessment for this subject.
 
-*Late submissions will incur penalties as per the school assessment policy:*
+*Late submissions will incur penalties as per the school assessment policy.*
 
 === Draft submissions ===
 
-You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Monday 22 March 2021). To submit a draft email your teacher with a ZIP copy of your project.
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Monday 30 August 2021). To submit a draft email your teacher, stating that your work in EDSTEM is ready to be reviewed.
 
 [#_marking_guidelines]
 === Marking Guidelines ===
