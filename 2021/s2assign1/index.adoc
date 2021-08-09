@@ -9,7 +9,7 @@
 
 == Changelog ==
 
-This assignment was last updated on *Monday 26 July 2021*.
+This assignment was last updated on *Monday 9 August 2021*.
 
 == Task Description ==
 
@@ -21,7 +21,7 @@ Below are the tasks you need to complete.
 
 ==== Navbar component ====
 
-You will need to create a navbar component, which includes:
+You will need to create a navbar component using the composition API, which includes:
 
 * A data property (e.g. navlinks) containing an array of objects (one for each of the pages: Home, Game and API)
 * Each object needs to contain the display text and path to its corresponding page
@@ -40,6 +40,12 @@ You will need to create a page with the following elements:
 * A title
 * A navigation bar component with the correct selected page
 * A brief description of the website
+* A label and input for the user to type in their name
+
+In addition:
+
+* There should be a data property (e.g. name) to store the user's name
+* You will need to make use of local storage, so that the name can be stored in the browser and displayed in other pages
 
 ==== Game page ====
 
@@ -81,15 +87,20 @@ You will need additional functionality to configure your trivia game with the fo
 
 ==== Enhancements ====
 
-Below are a list of enhancements that you can complete, once you have fully functional quiz and multiple choice trivia games.
+Below are a list of enhancements that you can complete, once you have completed the quiz and multiple choice trivia games.
 
-* Display a debugging console
-* Show all the previous questions that have been answered correctly
-* Ensure that any previous questions cannot be shown again
+For the multiple choice trivia, you should:
 
-
-
-
+* Display a debugging section displaying the answer and expected result before
+clicking the button
+* Show all the previous questions that have been answered correctly in a table 2
+* Show the number of attempts that it took for each question to be answered
+correctly, as well as the answers submitted
+* Ensure that any previous questions answered correctly cannot be shown
+again, when selecting a new question
+* Create a new quiz or trivia page, where the user to create and display their
+own set of questions using local storage (towards the end of the term, we may
+cover cloud database storage)
 
 === Outcomes/Assessment Criteria ===
 
