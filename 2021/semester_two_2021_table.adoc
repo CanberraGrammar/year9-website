@@ -14,7 +14,7 @@
 *Period 5:* IT0901
 ^.^|30%
 
-.^|*Dynamic Website Replica*
+.^|*<<s2assign1/index.adoc#, Dynamic Website Replica>>*
 .^|Monday 9 August 2021 (Week 4)
 .^|Monday 6 September 2021 (Week 8) by 8:45am
 ^.^|30%
