@@ -9,7 +9,9 @@
 
 == Changelog ==
 
-This assignment was last updated on *Monday 9 August 2021*.
+This assignment was last updated on *Monday 23 August 2021*.
+
+* *UPDATE MONDAY 23 AUGUST*: Included videos to demonstrate functionality of the complicated website to replicate. Requirements and marking guidelines were revamped, reducing the overall scope and complexity of the website. Marks were also removed from the extension task component. These changes are a response to the impact of a short term and fast approaching deadlines, particularly during lockdown.
 
 == Task Description ==
 
@@ -19,88 +21,73 @@ This assignment requires you to code a multipage website making use of Vue.js.
 
 Below are the tasks you need to complete.
 
-==== Navbar component ====
+==== Navbar component & home page ====
 
 You will need to create a navbar component using the composition API, which includes:
 
-* A data property (e.g. navlinks) containing an array of objects (one for each of the pages: Home, Game and API)
-* Each object needs to contain the display text and path to its corresponding page
-* The template HTML should render an unordered list, with one item per navigation link
-* CSS should be applied so that the unordered list is displayed as a navigation bar
+* Functional links which navigate to 3 pages: Home, Game & API
+* Tha navigation bar should be styled as a horizontal menu using Bootstrap
+* The currently selected page should be visible using conditional styling
 
-In addition:
-
-* There should be a data property (e.g. selectedPage) to store the currently selected page
-* A class attribute and associated CSS should be applied so that the currently selected page is highlighted in the navigation bar
-
-==== Home page ====
-
-You will need to create a page with the following elements:
+You will also need to create a home page component, which includes:
 
 * A title
-* A navigation bar component with the correct selected page
-* A brief description of the website
 * A label and input for the user to type in their name
+* A button to save their name permanently
+* The name should be stored permanently using local storage, and displayed permanently under the navbar until it is overwritten
 
-In addition:
+A video is provided below showing you the functionality which you need to replicate:
 
-* There should be a data property (e.g. name) to store the user's name
-* You will need to make use of local storage, so that the name can be stored in the browser and displayed in other pages
+video::navbar_home.mp4[width=882]
 
 ==== Game page ====
 
-You will need to create a page with the following elements:
+You will need to create a game component which includes:
 
 * A title
-* A navigation bar component with the correct selected page
-* A button to display a new question
-* A paragraph to display a question
-* A button to toggle displaying an optional hint
-* A paragraph to display an optional hint
-* An input to enter a guess
+* A paragraph to display a "How many...?" question
+* A button to display an optional hint
+* A paragraph to display the optional hint when the above button is clicked
+* A heading and input to enter a guess
 * A button to check the guess
-* A paragraph to display the result
+* A heading and paragraph to display the result
+* A heading and paragraph to display debugging details
 
-Then you need to setup a Vue instance, and interact with it within your HTML to create a simple trivia game. You may need:
+The game needs to work by:
 
-* A list of question objects. Each object should include question text and an answer
-* A range of data variables to bind with your HTML input and output elements
+* Initialising a list of objects (e.g. bodies with bones) to be used for storing questions and answers. This should include 3 properties: name, answer and hint
+* Displaying one of the objects randomly (using it's name) as part of the question (e.g. How many bones does an average *human* have?)
+* An optional hint belonging to the random object should be displayed when the *Show hint* button is clicked
+* The answer should be checked with the random object's answer, when the *Make a guess* button is clicked, displaying the result *Correct!* or *Incorrect!*
+* Previous guesses should display a result of *You have already guessed [number]*
+* A debugging section which should show the correct answer and previous guesses to make it easy to verify that it is functioning correctly
+
+A video is provided below showing you the functionality which you need to replicate:
+
+video::game.mp4[width=882]
 
 ==== API page ====
 
-You will need to create a page that is similar to your game page. There are some differences, however:
+You will need to create an api component, which includes:
 
-* Instead of an input to enter a guess, there should be a set of radio buttons to select from four possible multiple choice answers
+* A title
+* A button to select a new random true/false question
+* A paragraph to display the true/false question
+* Two buttons to answer *true* or *false*
+* A heading and paragraph to display the result
+* Two paragraphs to display the tally of correct and incorrect answers
+* A debugging section which should show the correct answer to make it easy to verify that it is functioning correctly
 
-You will also need to make use of a Trivia API, and interact with it to create a simple multiple choice trivia game.
+The api game needs to work by:
 
-* The URL is https://opentdb.com/api_config.php
-* By default, when the page loads, you should retrieve a list of 10 random question objects using the following URL: https://opentdb.com/api.php?amount=10&type=multiple
+* Displaying a default true/false question with appropriate binding
+* Calling a function with a 'true' or 'false' argument, to check the answer when either the *True* or *False* buttons are clicked
+* The result of *Correct!* or *Incorrect!* needs to be displayed
+* The correct and incorrect answers should increment whenever a correct or incorrect answer is guessed
+* Whenever the *Get a new question* button is clicked, you update the question data by fetching a URL made up of an api of "https://opentdb.com/api.php" and a query of "?amount=1&type=boolean"
+* All of the above functionality should work with any fetched questions
 
-==== API options ====
-
-You will need additional functionality to configure your trivia game with the following elements:
-
-* A label, dropdown box and button to get a random question within a specified category
-* A label, dropdown box and button to get a random question within a specified difficulty
-* A button that combines both options to get a random question within a specified category and difficulty
-
-==== Enhancements ====
-
-Below are a list of enhancements that you can complete, once you have completed the quiz and multiple choice trivia games.
-
-For the multiple choice trivia, you should:
-
-* Display a debugging section displaying the answer and expected result before
-clicking the button
-* Show all the previous questions that have been answered correctly in a table 2
-* Show the number of attempts that it took for each question to be answered
-correctly, as well as the answers submitted
-* Ensure that any previous questions answered correctly cannot be shown
-again, when selecting a new question
-* Create a new quiz or trivia page, where the user to create and display their
-own set of questions using local storage (towards the end of the term, we may
-cover cloud database storage)
+video::api.mp4[width=882]
 
 === Outcomes/Assessment Criteria ===
 
@@ -112,6 +99,8 @@ cover cloud database storage)
 == Submission Instructions ==
 
 This assignment is worth 30% of your Semester One assessment for this subject.
+
+You will be provided with a template within the *Assessments* tab in EDSTEM called *Dynamic Website Replica*. All you need to do is complete the requirements using this workspace.
 
 *Late submissions will incur penalties as per the school assessment policy.*
 
