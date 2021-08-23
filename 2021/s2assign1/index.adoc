@@ -11,7 +11,7 @@
 
 This assignment was last updated on *Monday 23 August 2021*.
 
-* *UPDATE MONDAY 23 AUGUST*: Included videos to demonstrate functionality of the complicated website to replicate. Requirements and marking guidelines were revamped, reducing the overall scope and complexity of the website. Marks were also removed from the extension task component. These changes are a response to the impact of a short term and fast approaching deadlines, particularly during lockdown.
+* *UPDATE MONDAY 23 AUGUST*: Included videos to demonstrate functionality of the website to replicate. Requirements and marking guidelines were revamped, reducing the overall scope and complexity of the website. Marks were also removed from the extension task component. These changes are a response to the impact of a short term and fast approaching deadlines, particularly during lockdown.
 
 == Task Description ==
 
