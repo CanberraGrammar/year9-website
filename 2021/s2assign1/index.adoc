@@ -5,12 +5,13 @@
 = Year 9 IST - Assignment One (Semester Two) =
 
 *Weight:* 30% +
-*Due:* Monday 6 September 2021 (Week 8) by 8:45am
+*Due:* Monday 13 September 2021 (Week 9) by 8:45am
 
 == Changelog ==
 
 This assignment was last updated on *Monday 23 August 2021*.
 
+* *UPDATE WEDNESDAY 25 AUGUST*: Due date was postponed to Monday 13 September 2021 (Week 9)
 * *UPDATE MONDAY 23 AUGUST*: Included videos to demonstrate functionality of the website to replicate. Requirements and marking guidelines were revamped, reducing the overall scope and complexity of the website. Marks were also removed from the extension task component. These changes are a response to the impact of a short term and fast approaching deadlines, particularly during lockdown.
 
 == Task Description ==
@@ -26,7 +27,7 @@ Below are the tasks you need to complete.
 You will need to create a navbar component using the composition API, which includes:
 
 * Functional links which navigate to 3 pages: Home, Game & API
-* Tha navigation bar should be styled as a horizontal menu using Bootstrap
+* The navigation bar should be styled as a horizontal menu using Bootstrap
 * The currently selected page should be visible using conditional styling
 
 You will also need to create a home page component, which includes:
@@ -106,7 +107,7 @@ You will be provided with a template within the *Assessments* tab in EDSTEM call
 
 === Draft submissions ===
 
-You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Monday 30 August 2021). To submit a draft email your teacher, stating that your work in EDSTEM is ready to be reviewed.
+You may optionally (but strongly encouraged) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Monday 6 September 2021). To submit a draft email your teacher, stating that your work in EDSTEM is ready to be reviewed.
 
 [#_marking_guidelines]
 === Marking Guidelines ===
