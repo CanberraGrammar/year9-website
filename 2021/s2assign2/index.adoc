@@ -3,3 +3,101 @@
 :icons: font
 
 = Year 9 IST - Assignment Two (Semester Two) =
+
+*Weight:* 40% +
+*Due:* Thursday 4 November 2021 (Term 4 Week 5) by 8:45am
+
+== Changelog ==
+
+This assignment was last updated on *Monday 6 September 2021*.
+
+== Task Description ==
+
+For this assignment you are going to apply your knowledge of Vue.js in order to code a multipage website, which interacts with one or more APIs of your own choice.
+
+=== Your task ===
+
+Below are the tasks you need to complete.
+
+==== About page ====
+
+You will need to create a page that includes the following content:
+
+* An introduction to the purpose of the website and what API is being used
+* Description of endpoints that are available to be used
+* Description about the JSON data returned by the endpoints
+* Summary of how the endpoints, queries and JSON data is being used
+* A guide on the user interface, and how to use the website including any enhanced functionality, such as use of local storage, databases and/or Node.js
+
+==== Navbar component, home page & style ====
+
+Similar to the previous assignment, you will need to create a navbar component using the composition API, which includes:
+
+* Functional links which navigate to at least 2 different pages: Home, About & API
+* The navigation bar should be styled as a horizontal menu using Bootstrap or alternative CSS
+* The currently selected page should be visible using conditional styling
+
+Within your home page, you should *include a video demonstrating use of the API page*. You can host a video, then embed it within your HTML by using a platform such as YouTube or Google Drive.
+
+You will also need to make effective use of CSS to achieve a consistent and aesthetic layout across all pages and components.
+
+==== API page ====
+
+You will need to create an api component, which needs to:
+
+* Include and setup HTML elements required for user interaction with the API
+* Setup variables, methods and computed properties to fetch and store the required JSON data
+* Binding to display the fetched JSON data
+* Input fields and events (such as click or hover) to enable appropriate user interactiong and customisation
+* Include a user friendly and intuitive interface
+
+==== Vue.js / Programming techniques ====
+
+Due to the open ended nature of this task, we have simply included a requirement to demonstrate effective design and competence within the following areas:
+
+* One way and two way binding
+* Loop and/or conditional binding
+* Vue components and the composition API
+* Vue variables, methods and computed properties
+* A range of data structures (e.g. arrays and objects) and control structures (i.e. IFs and loops)
+
+==== Code formatting, structure and quality ====
+
+Your project should include:
+
+* Code comments which demonstrate your understanding and comprehensively explain the purpose of the code
+* Code formatting such as indentation, whitespace and be free of syntax errors such as missing brackets or semicolons
+* A folder and file structure that is organised and appropriately named
+
+The website should also run flawlessly without any errors or typos.
+
+=== Outcomes/Assessment Criteria ===
+
+* 5.1.1 select and justify the application of appropriate software programs to a range of tasks
+* 5.2.1 describe and apply problem-solving processes when creating solutions
+* 5.2.2 design, produce and evaluate appropriate solutions to a range of challenging problems
+* 5.2.3 critically analyse decision making processes in a range of information and software solutions
+
+== Submission Instructions ==
+
+This assignment is worth 40% of your Semester One assessment for this subject.
+
+You will be provided with a template within the *Assessments* tab in EDSTEM called *Dynamic Website Replica*. All you need to do is complete the requirements using this workspace.
+
+*Late submissions will incur penalties as per the school assessment policy.*
+
+=== Draft submissions ===
+
+You may optionally (but are strongly encouraged to) submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, drafts are due by 8:45am on Thursday 28 October 2021). To submit a draft email your teacher, stating that your work in EDSTEM is ready to be reviewed.
+
+[#_marking_guidelines]
+=== Marking Guidelines ===
+
+link:marking-guidelines.pdf[Your assignment will be marked following the criteria in this PDF file.^]
+
+*Note:* These marking guidelines are subject to change/update &mdash; particularly if something is brought to our attention we didn't consider when writing the assignment. Any such updates will be highlighted in the changelog.
+
+[#_academic_honesty]
+== Academic Honesty
+
+include::../common/academic_honesty.adoc[]
