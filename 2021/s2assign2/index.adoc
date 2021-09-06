@@ -82,7 +82,7 @@ The website should also run flawlessly without any errors or typos.
 
 This assignment is worth 40% of your Semester One assessment for this subject.
 
-You will be provided with a template within the *Assessments* tab in EDSTEM called *Dynamic Website Replica*. All you need to do is complete the requirements using this workspace.
+You will be provided with a template within the *Assessments* tab in EDSTEM called *Dynamic Website Development*. All you need to do is complete the requirements using this workspace.
 
 *Late submissions will incur penalties as per the school assessment policy.*
 

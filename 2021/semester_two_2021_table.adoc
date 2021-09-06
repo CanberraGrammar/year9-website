@@ -19,7 +19,7 @@
 .^|Monday 13 September 2021 (Week 9) by 8:45am
 ^.^|30%
 
-.^|*Dynamic Website Development*
+.^|*<<s2assign2/index.adoc#, Dynamic Website Development>>*
 .^|Monday 6 September 2021 (Week 8)
 .^|Thursday 4 November 2021 (Term 4 Week 5) by 8:45am
 ^.^|40%
